@@ -4,8 +4,7 @@ import Section, { SectionHeader } from '../components/shared/Section'
 import Button from '../components/shared/Button'
 import ProductImagePlaceholder from '../components/shared/ProductImagePlaceholder'
 import { formatPrice } from '../lib/format'
-
-const FREE_SHIPPING_THRESHOLD = 199
+import { FREE_SHIPPING_THRESHOLD } from '../lib/config'
 
 export default function Cart() {
   const { items, subtotal, updateQuantity, removeItem } = useCart()

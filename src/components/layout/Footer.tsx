@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import Logo from '../shared/Logo'
+import { whatsappLink, WHATSAPP_DISPLAY, CONTACT_EMAIL } from '../../lib/config'
 
 const CATEGORY_LINKS = [
   { label: 'Bem-Estar', path: '/categoria/bem-estar' },
@@ -63,13 +64,13 @@ export default function Footer() {
           <h3 className="mb-3 text-xs font-semibold uppercase tracking-wide text-gold-400">Atendimento</h3>
           <ul className="flex flex-col gap-2 text-sm text-cream-200/80">
             <li>
-              <a href="https://wa.me/5500000000000" target="_blank" rel="noreferrer" className="hover:text-cream-50">
-                WhatsApp: (00) 00000-0000
+              <a href={whatsappLink()} target="_blank" rel="noreferrer" className="hover:text-cream-50">
+                WhatsApp: {WHATSAPP_DISPLAY}
               </a>
             </li>
             <li>
-              <a href="mailto:contato@levato.com.br" className="hover:text-cream-50">
-                contato@levato.com.br
+              <a href={`mailto:${CONTACT_EMAIL}`} className="hover:text-cream-50">
+                {CONTACT_EMAIL}
               </a>
             </li>
             <li>Seg. a sex., 9h às 18h</li>

@@ -1,9 +1,10 @@
 import { motion } from 'framer-motion'
+import { whatsappLink } from '../../lib/config'
 
 export default function WhatsAppButton() {
   return (
     <motion.a
-      href="https://wa.me/5500000000000?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20produtos%20Levato"
+      href={whatsappLink('Olá, quero saber mais sobre os produtos Levato')}
       target="_blank"
       rel="noreferrer"
       aria-label="Fale conosco no WhatsApp"
