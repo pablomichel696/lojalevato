@@ -25,7 +25,7 @@ export default function ProductCover({ product, src, className = '' }: Props) {
         alt={product.name}
         loading="lazy"
         onError={() => setBroken(true)}
-        className={`object-cover ${className}`}
+        className={`bg-white object-contain ${className}`}
       />
     )
   }

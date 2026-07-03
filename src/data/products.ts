@@ -170,7 +170,7 @@ export const products: Product[] = [
       "Complementa dieta e exercícios"
     ],
     "composition": [
-      "Magri Sbelt"
+      "Ingredientes naturais selecionados"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -296,7 +296,7 @@ export const products: Product[] = [
       "Complementa dieta e exercícios"
     ],
     "composition": [
-      "Desinchar Dia & Noite"
+      "Ingredientes naturais selecionados"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -738,8 +738,7 @@ export const products: Product[] = [
       "Complementa dieta e exercícios"
     ],
     "composition": [
-      "Calmante",
-      "Desinchar"
+      "Ingredientes naturais selecionados"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -803,11 +802,7 @@ export const products: Product[] = [
       "Fórmula natural"
     ],
     "composition": [
-      "Copaíba",
-      "Romã",
-      "Eucalipto",
-      "Menta",
-      "Buchinha"
+      "Ingredientes naturais selecionados"
     ],
     "howToUse": "Use conforme a orientação do rótulo. Agite antes de usar.",
     "reviews": [
@@ -1483,7 +1478,7 @@ export const products: Product[] = [
       "Complementa dieta e exercícios"
     ],
     "composition": [
-      "Black Monster"
+      "Ingredientes naturais selecionados"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -1798,7 +1793,7 @@ export const products: Product[] = [
       "Fórmula natural"
     ],
     "composition": [
-      "Saúde da mulher"
+      "Ingredientes naturais selecionados"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -1862,7 +1857,7 @@ export const products: Product[] = [
       "Complementa dieta e exercícios"
     ],
     "composition": [
-      "Ozem nutri"
+      "Ingredientes naturais selecionados"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -1922,7 +1917,7 @@ export const products: Product[] = [
       "Fórmula tradicional"
     ],
     "composition": [
-      "Desejus sexy"
+      "Ingredientes naturais selecionados"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -2175,7 +2170,7 @@ export const products: Product[] = [
       "Complementa dieta e exercícios"
     ],
     "composition": [
-      "Detox"
+      "Ingredientes naturais selecionados"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -2495,7 +2490,7 @@ export const products: Product[] = [
       "Ajuda em momentos de rotina agitada"
     ],
     "composition": [
-      "Calmante"
+      "Ingredientes naturais selecionados"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -3077,7 +3072,7 @@ export const products: Product[] = [
       "Fórmula natural"
     ],
     "composition": [
-      "Mulher 30"
+      "Ingredientes naturais selecionados"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -3658,7 +3653,7 @@ export const products: Product[] = [
       "Fórmula tradicional"
     ],
     "composition": [
-      "Viagron"
+      "Ingredientes naturais selecionados"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -3854,7 +3849,7 @@ export const products: Product[] = [
       "Complementa dieta e exercícios"
     ],
     "composition": [
-      "Mounjaro Natural Max Life 120 Cápsulas 500mg"
+      "Ingredientes naturais selecionados"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [

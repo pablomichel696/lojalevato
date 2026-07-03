@@ -218,7 +218,8 @@ async function main() {
     const images = []
     for (let i = 0; i < Math.min(4, mediaIds.length); i++) {
       const ext = mediaIds[i].toLowerCase().endsWith('.png') ? 'png' : 'jpg'
-      const dlUrl = `https://static.wixstatic.com/media/${mediaIds[i]}/v1/fill/w_1000,h_1000,q_85/file.${ext}`
+      // 'fit' preserva a proporção original (não corta o produto); 'fill' cortaria em quadrado.
+      const dlUrl = `https://static.wixstatic.com/media/${mediaIds[i]}/v1/fit/w_1200,h_1200,q_90/file.${ext}`
       const file = `${slug}-${i + 1}.webp`
       const dest = path.join(IMG_DIR, file)
       if (fs.existsSync(dest)) { images.push(`/products/${file}`); continue }
