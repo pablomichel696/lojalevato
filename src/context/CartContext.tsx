@@ -1,4 +1,4 @@
-import { createContext, useEffect, useMemo, useReducer, type ReactNode } from 'react'
+import { createContext, useEffect, useMemo, useReducer, useState, type ReactNode } from 'react'
 import type { Product } from '../types/product'
 import { trackAddToCart } from '../lib/analytics'
 
@@ -71,6 +71,7 @@ export const CartContext = createContext<CartContextValue | null>(null)
 
 export function CartProvider({ children }: { children: ReactNode }) {
   const [state, dispatch] = useReducer(reducer, { items: [], isOpen: false })
+  const [hydrated, setHydrated] = useState(false)
 
   useEffect(() => {
     try {
@@ -79,11 +80,15 @@ export function CartProvider({ children }: { children: ReactNode }) {
     } catch {
       // ignore corrupted local storage
     }
+    setHydrated(true)
   }, [])
 
   useEffect(() => {
+    // Só persiste após a hidratação — senão o estado inicial vazio
+    // sobrescreveria um carrinho já salvo no localStorage.
+    if (!hydrated) return
     localStorage.setItem(STORAGE_KEY, JSON.stringify(state.items))
-  }, [state.items])
+  }, [state.items, hydrated])
 
   const subtotal = useMemo(
     () => state.items.reduce((sum, i) => sum + i.unitPrice * i.quantity, 0),

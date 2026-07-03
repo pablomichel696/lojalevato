@@ -4,6 +4,7 @@ import { Navigate, Link } from 'react-router-dom'
 import { useCart } from '../context/useCart'
 import { trackBeginCheckout, trackPurchase } from '../lib/analytics'
 import { formatPrice } from '../lib/format'
+import { createCheckoutPreference } from '../lib/payments'
 import Section, { SectionHeader } from '../components/shared/Section'
 import Button from '../components/shared/Button'
 
@@ -14,20 +15,34 @@ export default function Checkout() {
   const [step, setStep] = useState(0)
   const [payment, setPayment] = useState<'pix' | 'cartao'>('pix')
   const [orderId, setOrderId] = useState<string | null>(null)
+  const [processing, setProcessing] = useState(false)
 
-  function next(e: FormEvent) {
+  async function next(e: FormEvent) {
     e.preventDefault()
     if (step === 0) trackBeginCheckout(subtotal)
     if (step < STEPS.length - 1) {
       setStep(step + 1)
       return
     }
-    // Prototype only: no real payment gateway wired up here.
-    // Plug Mercado Pago / Pagar.me (Pix + cartão) in this handler.
-    const id = `LEV-${Math.floor(100000 + Math.random() * 900000)}`
-    trackPurchase(subtotal, id)
-    setOrderId(id)
-    clearCart()
+
+    // Passo final: tenta o pagamento real via função serverless /api/create-payment.
+    // Quando MERCADO_PAGO_ACCESS_TOKEN estiver configurado no Vercel, isto
+    // redireciona o cliente para o Mercado Pago. Sem token (ou no dev local,
+    // onde não existe /api), cai no fluxo mock de confirmação abaixo.
+    setProcessing(true)
+    try {
+      const { init_point } = await createCheckoutPreference(items)
+      window.location.href = init_point
+      return
+    } catch {
+      // Fallback mock — mantém a demo funcionando sem gateway configurado.
+      const id = `LEV-${Math.floor(100000 + Math.random() * 900000)}`
+      trackPurchase(subtotal, id)
+      setOrderId(id)
+      clearCart()
+    } finally {
+      setProcessing(false)
+    }
   }
 
   if (orderId) {
@@ -148,8 +163,12 @@ export default function Checkout() {
                     Voltar
                   </Button>
                 )}
-                <Button type="submit" variant="cta" fullWidth>
-                  {step === STEPS.length - 1 ? 'Confirmar pedido' : 'Continuar'}
+                <Button type="submit" variant="cta" fullWidth disabled={processing}>
+                  {step === STEPS.length - 1
+                    ? processing
+                      ? 'Processando...'
+                      : 'Confirmar pedido'
+                    : 'Continuar'}
                 </Button>
               </div>
             </motion.form>
