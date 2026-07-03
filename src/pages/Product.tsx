@@ -67,7 +67,10 @@ export default function Product() {
               ))}
             </div>
             <h1 className="font-serif text-2xl text-primary-900 sm:text-3xl">
-              {product.name} — {product.capsules} cápsulas {product.mg}mg
+              {product.name}
+              {product.unitLabel
+                ? ` — ${product.unitLabel}`
+                : ` — ${product.capsules} cápsulas ${product.mg}mg`}
             </h1>
             <div className="mt-2 flex items-center gap-1 text-sm text-gold-500">
               <span aria-hidden>★★★★★</span>
@@ -86,7 +89,7 @@ export default function Product() {
             <p className="mt-4 text-sm leading-relaxed text-primary-600">{product.shortDescription}</p>
 
             <div className="mt-6">
-              <KitSelector options={kitOptions} selected={activeKit} onSelect={setSelectedKit} />
+              <KitSelector options={kitOptions} selected={activeKit} onSelect={setSelectedKit} unitNoun={product.unitNoun} />
             </div>
 
             <div className="mt-6 hidden md:block">

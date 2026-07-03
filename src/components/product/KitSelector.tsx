@@ -5,9 +5,11 @@ type Props = {
   options: KitOption[]
   selected: KitOption
   onSelect: (option: KitOption) => void
+  /** substantivo da unidade (default "pote"), ex.: "pacote" para chá */
+  unitNoun?: string
 }
 
-export default function KitSelector({ options, selected, onSelect }: Props) {
+export default function KitSelector({ options, selected, onSelect, unitNoun = 'pote' }: Props) {
   return (
     <div>
       <p className="mb-2 text-sm font-medium text-primary-800">Escolha a duração do seu kit:</p>
@@ -24,7 +26,7 @@ export default function KitSelector({ options, selected, onSelect }: Props) {
             >
               <div>
                 <p className="text-sm font-semibold text-primary-800">{opt.days} dias</p>
-                <p className="text-xs text-primary-500">{opt.units} pote{opt.units > 1 ? 's' : ''}</p>
+                <p className="text-xs text-primary-500">{opt.units} {unitNoun}{opt.units > 1 ? 's' : ''}</p>
               </div>
               <div className="text-right">
                 <p className="text-sm font-semibold text-primary-800">{formatPrice(opt.totalPrice)}</p>

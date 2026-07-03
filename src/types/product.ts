@@ -20,8 +20,18 @@ export type Product = {
   id: string
   slug: string
   name: string
-  capsules: number
-  mg: number
+  /** cápsulas por pote — omitir em produtos que não são cápsulas (ex.: chá) */
+  capsules?: number
+  /** mg por cápsula — omitir em produtos que não são cápsulas */
+  mg?: number
+  /** rótulo curto que substitui "X cápsulas · Ymg" (ex.: "Blend 11 ervas · 100g") */
+  unitLabel?: string
+  /** substantivo da unidade do kit (default "pote"), ex.: "pacote" para chá */
+  unitNoun?: string
+  /** ilustração de fallback: frasco (default) ou sachê/pouch */
+  kind?: 'capsule' | 'pouch'
+  /** fotos reais do produto em public/ (a 1ª é a capa). Sem isto, usa ilustração. */
+  images?: string[]
   /** category slugs this product appears under (can be multiple) */
   categorySlugs: string[]
   price: number

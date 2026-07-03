@@ -34,6 +34,39 @@ function buildReviews(seed: number): Review[] {
   ]
 }
 
+const monjaroReviews: Review[] = [
+  {
+    id: 'monjaro-1', author: 'Patrícia G.', rating: 5,
+    comment: 'Comecei a tomar de manhã e à tarde e senti bastante diferença na retenção de líquidos. Desinchei e me sinto bem mais leve no dia a dia.',
+    date: '2026-06-18',
+  },
+  {
+    id: 'monjaro-2', author: 'Sandra M.', rating: 5,
+    comment: 'O sabor é bem suave, fácil de tomar. Logo na primeira semana meu intestino passou a funcionar bem melhor. Recomendo!',
+    date: '2026-06-10',
+  },
+  {
+    id: 'monjaro-3', author: 'Luciana F.', rating: 5,
+    comment: 'Já é a segunda embalagem que compro. Substituí o café da tarde pelo chá e adorei a sensação de leveza. Chegou rapidinho.',
+    date: '2026-05-29',
+  },
+  {
+    id: 'monjaro-4', author: 'Rosana T.', rating: 5,
+    comment: 'Produto natural de verdade e bem embalado. Dá pra sentir o aroma das ervas. Estou usando junto com mais água ao longo do dia.',
+    date: '2026-05-21',
+  },
+  {
+    id: 'monjaro-5', author: 'Marcos V.', rating: 4,
+    comment: 'Bom chá, me ajudou bastante com o inchaço da barriga. Só achei o pacote de 100g pouco, da próxima já vou de 250g.',
+    date: '2026-05-12',
+  },
+  {
+    id: 'monjaro-6', author: 'Aline C.', rating: 5,
+    comment: 'Cheiroso, gostoso e faz parte da minha rotina agora. Combinado com alimentação leve e caminhada, me sinto muito melhor.',
+    date: '2026-04-30',
+  },
+]
+
 export const products: Product[] = [
   {
     id: '1', slug: 'alivio-gastrite-refluxo', name: 'Alívio Gastrite & Refluxo', capsules: 60, mg: 500,
@@ -294,6 +327,35 @@ export const products: Product[] = [
     composition: ['Passiflora', 'Própolis verde', 'Probióticos'],
     howToUse: 'Tomar conforme instrução de cada produto do kit, incluída na embalagem.',
     reviews: buildReviews(26), crossSellSlugs: ['calmante-passiflora', 'imuno-defense-propolis-zinco'],
+  },
+  {
+    id: '27', slug: 'super-cha-monjaro', name: 'Super Chá Monjaro',
+    kind: 'pouch', unitLabel: 'Blend 11 ervas · 100g', unitNoun: 'pacote',
+    // Fotos reais em public/products/ (baixadas da loja levato.com.br), na ordem da galeria.
+    images: [
+      '/products/monjaro-1.jpg',
+      '/products/monjaro-2.jpg',
+      '/products/monjaro-3.jpg',
+      '/products/monjaro-4.jpg',
+      '/products/monjaro-5.jpg',
+    ],
+    categorySlugs: ['desintoxicantes', 'diuretico', 'bem-estar', 'emagrecedores'],
+    price: 97.0, oldPrice: 149.9, badges: ['mais-vendido', 'lancamento'], tone: 'leaf',
+    rating: 4.9, reviewCount: 583,
+    shortDescription: 'Blend natural de 11 ervas com ação diurética, digestiva e depurativa, para você se sentir mais leve todos os dias.',
+    benefits: [
+      'Auxilia na eliminação do excesso de líquidos',
+      'Contribui para reduzir a sensação de inchaço',
+      'Favorece o bom funcionamento intestinal',
+      'Apoia a desintoxicação natural do organismo',
+      '100% natural, sem sabor artificial',
+    ],
+    composition: [
+      'Chá branco', 'Chá verde', 'Carqueja doce', 'Porangaba', 'Jambolão', 'Sene (folha)',
+      'Camomila', 'Cavalinha', 'Chá de bugre', 'Centella asiática', 'Hortelã', 'Abacateiro',
+    ],
+    howToUse: 'Adicione 1 colher (chá) do blend em 200 ml de água quente, deixe em infusão por 5 minutos, coe e beba. Tome de 2 a 3 xícaras ao dia, de preferência entre as refeições.',
+    reviews: monjaroReviews, crossSellSlugs: ['detox-cha-verde-chlorella', 'diuretico-natural-cha-verde', 'fibra-detox-saciedade'],
   },
 ]
 
