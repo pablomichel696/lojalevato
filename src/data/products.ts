@@ -7,7 +7,7 @@ export const products: Product[] = [
   {
     "id": "1",
     "slug": "cafeina-maca-peruana-60-cps-nutri-vivus-linha-premium",
-    "name": "Cafeína + Maca peruana - 60 cps - Nutri vivus - Linha premium",
+    "name": "Cafeína + Maca peruana",
     "capsules": 60,
     "mg": 500,
     "images": [
@@ -30,7 +30,7 @@ export const products: Product[] = [
     "tone": "primary",
     "rating": 4.7,
     "reviewCount": 47,
-    "shortDescription": "Cafeína + Maca Peruana 60 Cápsulas – Linha Premium Nutri Vivus&#010;&#010;Potencialize sua energia e vitalidade com o suplemento Cafeína + Maca Peruana da Nutri Vivus, da linha premium. Cada cápsula é cuidadosamente formulada para oferecer o melhor da cafeína para estímulo mental e foco, combinada com a maca peruana...",
+    "shortDescription": "Potencialize sua energia e vitalidade com o suplemento Cafeína + Maca Peruana da Nutri Vivus, da linha premium. Cada cápsula é cuidadosamente formulada para oferecer o melhor da cafeína para estímulo mental e foco, combinada com a maca peruana, conhecida por suas propriedades energizantes e adaptogênicas. Principais Benefícios: • Aumen...",
     "benefits": [
       "Auxilia a disposição física",
       "Contribui para o vigor",
@@ -38,7 +38,7 @@ export const products: Product[] = [
     ],
     "composition": [
       "Cafeína",
-      "Maca peruana - - -"
+      "Maca peruana"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -73,7 +73,7 @@ export const products: Product[] = [
   {
     "id": "2",
     "slug": "kit-detox-maca-black-creatina-360-capsulas-500mg-nutri-life",
-    "name": "Kit Detox - Maca Black - Creatina - 360 cápsulas - 500mg - Nutri Life",
+    "name": "Kit Detox - Maca Black - Creatina",
     "capsules": 360,
     "mg": 500,
     "images": [
@@ -98,14 +98,16 @@ export const products: Product[] = [
     "tone": "primary",
     "rating": 4.8,
     "reviewCount": 64,
-    "shortDescription": "Kit Turbo Performance: Seu Combo Completo para Potencializar Seus Treinos! 💥&#010;&#010;Se você busca um desempenho superior na academia ou na sua rotina de exercícios, o Kit Turbo Performance é a escolha ideal. Composto por um combo estratégico que inclui o Combo detox, creatina e Mac Black, este pacote oferece tu...",
+    "shortDescription": "Se você busca um desempenho superior na academia ou na sua rotina de exercícios, o Kit Turbo Performance é a escolha ideal. Composto por um combo estratégico que inclui o Combo detox, creatina e Mac Black, este pacote oferece tudo o que você precisa para alcançar seus objetivos de forma mais rápida e eficiente. Para que serve o Kit Tur...",
     "benefits": [
       "Auxilia no processo de emagrecimento",
       "Ajuda no controle do apetite",
       "Complementa dieta e exercícios"
     ],
     "composition": [
-      "Kit Detox - Maca Black - Creatina - - -"
+      "Detox",
+      "Maca Black",
+      "Creatina"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -140,7 +142,7 @@ export const products: Product[] = [
   {
     "id": "3",
     "slug": "magri-sbelt-120-capsulas-500mg-nutri-life",
-    "name": "Magri Sbelt - 120 cápsulas - 500mg - Nutri Life",
+    "name": "Magri Sbelt",
     "capsules": 120,
     "mg": 500,
     "images": [
@@ -158,14 +160,14 @@ export const products: Product[] = [
     "tone": "gold",
     "rating": 4.9,
     "reviewCount": 81,
-    "shortDescription": "Magri Sbelt - 120 Cápsulas para o Seu Equilíbrio Diário &#010;&#010;O Magri Sbelt oferece uma opção prática e confiável para quem busca manter o equilíbrio corporal no dia a dia. Com 120 cápsulas em embalagem, é ideal para uso contínuo, acompanhando sua rotina com facilidade.&#010;&#010; Características principais:...",
+    "shortDescription": "O Magri Sbelt oferece uma opção prática e confiável para quem busca manter o equilíbrio corporal no dia a dia. Com 120 cápsulas em embalagem, é ideal para uso contínuo, acompanhando sua rotina com facilidade. Características principais: - Embalagem com 120 cápsulas. - Uso recomendado: 3 cápsulas ao dia, conforme orientação. - Produto d...",
     "benefits": [
       "Auxilia no processo de emagrecimento",
       "Ajuda no controle do apetite",
       "Complementa dieta e exercícios"
     ],
     "composition": [
-      "Magri Sbelt - - -"
+      "Magri Sbelt"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -200,7 +202,7 @@ export const products: Product[] = [
   {
     "id": "4",
     "slug": "ora-com-gengibre-e-curcuma-120-capsulas-500mg-nutri-life",
-    "name": "Ora com Gengibre e cúrcuma - 120 cápsulas - 500mg - Nutri Life",
+    "name": "Ora com Gengibre e cúrcuma",
     "capsules": 120,
     "mg": 500,
     "images": [
@@ -218,7 +220,7 @@ export const products: Product[] = [
     "tone": "leaf",
     "rating": 4.6,
     "reviewCount": 98,
-    "shortDescription": "Ora + Cúrcuma + Gengibre - Suplemento Natural em Cápsulas &#010;&#010;Descubra o poder da combinação de Ora-pro-nobis, cúrcuma e gengibre em um suplemento rico em fibras e antioxidantes, especialmente desenvolvido para quem busca saúde e bem-estar de forma natural.&#010;&#010; Benefícios principais: - Auxilia na dig...",
+    "shortDescription": "Descubra o poder da combinação de Ora-pro-nobis, cúrcuma e gengibre em um suplemento rico em fibras e antioxidantes, especialmente desenvolvido para quem busca saúde e bem-estar de forma natural. Benefícios principais: - Auxilia na digestão, promovendo conforto e melhor absorção dos nutrientes. - Fortalece a imunidade, ajudando seu cor...",
     "benefits": [
       "Ação antioxidante",
       "Auxilia o bem-estar das articulações",
@@ -227,7 +229,7 @@ export const products: Product[] = [
     "composition": [
       "Ora",
       "Gengibre",
-      "cúrcuma - - -"
+      "Cúrcuma"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -262,7 +264,7 @@ export const products: Product[] = [
   {
     "id": "5",
     "slug": "desinchar-dia-noite-120-cps-nutri-life",
-    "name": "Desinchar Dia & Noite - 120 cps - Nutri Life",
+    "name": "Desinchar Dia & Noite",
     "capsules": 120,
     "mg": 500,
     "images": [
@@ -284,14 +286,14 @@ export const products: Product[] = [
     "tone": "gold",
     "rating": 4.7,
     "reviewCount": 115,
-    "shortDescription": "Desinchar Dia & Noite - 120 Cápsulas &#010;&#010;Mantenha sua rotina leve e equilibrada com o Desincha rDia & Noite, um suplemento em cápsulas pensado para o seu bem-estar ao longo do dia e da noite. Sua fórmula combina ingredientes naturais que auxiliam no controle do inchaço, colaborando para uma sensação de confo...",
+    "shortDescription": "Mantenha sua rotina leve e equilibrada com o Desincha rDia & Noite, um suplemento em cápsulas pensado para o seu bem-estar ao longo do dia e da noite. Sua fórmula combina ingredientes naturais que auxiliam no controle do inchaço, colaborando para uma sensação de conforto e leveza. Benefícios principais: - Auxilia na eliminação natural...",
     "benefits": [
       "Auxilia no processo de emagrecimento",
       "Ajuda no controle do apetite",
       "Complementa dieta e exercícios"
     ],
     "composition": [
-      "Desinchar Dia & Noite - -"
+      "Desinchar Dia & Noite"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -326,7 +328,7 @@ export const products: Product[] = [
   {
     "id": "6",
     "slug": "ashwagandha-maca-black-moringa-360-caps-500mg-nutri-life",
-    "name": "Ashwagandha + Maca black + Moringa - 360 caps- 500mg - Nutri Life",
+    "name": "Ashwagandha + Maca black + Moringa",
     "capsules": 360,
     "mg": 500,
     "images": [
@@ -347,7 +349,7 @@ export const products: Product[] = [
     "tone": "primary",
     "rating": 4.8,
     "reviewCount": 132,
-    "shortDescription": "Ashwagandha + Maca Black + Moringa - 360 Cápsulas de 500mg - Nutri Life&#010;&#010;Descubra a combinação poderosa de Ashwagandha, Maca Black e Moringa em um único suplemento que pode transformar sua rotina de bem-estar. Cada cápsula contém 500mg dessa fórmula especialmente desenvolvida para quem busca mais equilíbri...",
+    "shortDescription": "Descubra a combinação poderosa de Ashwagandha, Maca Black e Moringa em um único suplemento que pode transformar sua rotina de bem-estar. Cada cápsula contém 500mg dessa fórmula especialmente desenvolvida para quem busca mais equilíbrio, energia e vitalidade no dia a dia. Benefícios do Ashwagandha + Maca Black + Moringa Nutri Life: • As...",
     "benefits": [
       "Auxilia no relaxamento",
       "Favorece uma boa noite de sono",
@@ -356,7 +358,7 @@ export const products: Product[] = [
     "composition": [
       "Ashwagandha",
       "Maca black",
-      "Moringa - - -"
+      "Moringa"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -391,7 +393,7 @@ export const products: Product[] = [
   {
     "id": "7",
     "slug": "creatina-em-capsulas-120-cps-500mg-nutri-life",
-    "name": "Creatina em cápsulas - 120 cps - 500mg - Nutri Life",
+    "name": "Creatina em cápsulas",
     "capsules": 120,
     "mg": 500,
     "images": [
@@ -410,14 +412,14 @@ export const products: Product[] = [
     "tone": "gold",
     "rating": 4.9,
     "reviewCount": 149,
-    "shortDescription": "Creatina em Cápsulas Nutrilife – Praticidade e Qualidade para seu Suplemento Diário! &#010;&#010;A Creatina em cápsulas Nutrilife oferece uma forma simples e prática de incluir esse suplemento em sua rotina diária, com 120 cápsulas para um uso prolongado e eficiente. Ideal para quem busca conveniência sem abrir mão...",
+    "shortDescription": "A Creatina em cápsulas Nutrilife oferece uma forma simples e prática de incluir esse suplemento em sua rotina diária, com 120 cápsulas para um uso prolongado e eficiente. Ideal para quem busca conveniência sem abrir mão da qualidade. Por que escolher a Creatina em cápsulas Nutrilife? • Fácil de consumir: Cada cápsula contém a dose idea...",
     "benefits": [
       "Auxilia o desempenho no treino",
       "Contribui para a resistência",
       "Energia para o treino"
     ],
     "composition": [
-      "Creatina em cápsulas - - -"
+      "Creatina em cápsulas"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -452,7 +454,7 @@ export const products: Product[] = [
   {
     "id": "8",
     "slug": "tribullus-1500-120-capsulas-500mg-nutri-life",
-    "name": "Tribullus 1500 - 120 cápsulas - 500mg - Nutri Life",
+    "name": "Tribullus 1500",
     "capsules": 120,
     "mg": 500,
     "images": [
@@ -469,14 +471,14 @@ export const products: Product[] = [
     "tone": "primary",
     "rating": 4.6,
     "reviewCount": 166,
-    "shortDescription": "Tribullus 1500 - 120 Cápsulas Conheça o Tribullus 1500, um suplemento em cápsulas desenvolvido para quem busca uma opção prática para integrar à rotina diária. Com 120 cápsulas, sua embalagem garante uma utilização prolongada com facilidade.&#010;&#010;Características principais: - Apresenta uma fórmula cuidadosamen...",
+    "shortDescription": "Tribullus 1500 - 120 Cápsulas Conheça o Tribullus 1500, um suplemento em cápsulas desenvolvido para quem busca uma opção prática para integrar à rotina diária. Com 120 cápsulas, sua embalagem garante uma utilização prolongada com facilidade. Características principais: - Apresenta uma fórmula cuidadosamente elaborada para uso diário. -...",
     "benefits": [
       "Auxilia a disposição física",
       "Contribui para o vigor",
       "Fórmula tradicional"
     ],
     "composition": [
-      "Tribullus 1500 - - -"
+      "Tribullus 1500"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -511,7 +513,7 @@ export const products: Product[] = [
   {
     "id": "9",
     "slug": "uxi-amarelo-colageno-240-capsulas-500mg",
-    "name": "Uxi amarelo + Colageno- 240 cápsulas - 500mg",
+    "name": "Uxi amarelo + Colageno",
     "capsules": 240,
     "mg": 500,
     "images": [
@@ -531,7 +533,7 @@ export const products: Product[] = [
     "tone": "leaf",
     "rating": 4.7,
     "reviewCount": 183,
-    "shortDescription": "Uxi Amarelo + Colágeno - 240 Cápsulas - 500mg - Nutri Life&#010;&#010;Descubra o Uxi Amarelo + Colágeno Nutri Life, um suplemento completo que combina o poder natural do Uxi Amarelo com o colágeno para promover saúde e bem-estar de dentro para fora.&#010;&#010;Benefícios principais:&#010; • Suporte à saúde da mulher...",
+    "shortDescription": "Descubra o Uxi Amarelo + Colágeno Nutri Life, um suplemento completo que combina o poder natural do Uxi Amarelo com o colágeno para promover saúde e bem-estar de dentro para fora. Benefícios principais: • Suporte à saúde da mulher: O Uxi Amarelo é tradicionalmente conhecido por ajudar no equilíbrio do organismo feminino. • Fortalecimen...",
     "benefits": [
       "Contribui para pele, unhas e cabelos",
       "Ação de suporte à beleza",
@@ -539,7 +541,7 @@ export const products: Product[] = [
     ],
     "composition": [
       "Uxi amarelo",
-      "Colageno- -"
+      "Colageno"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -574,7 +576,7 @@ export const products: Product[] = [
   {
     "id": "10",
     "slug": "cha-verde-e-magrisbelt-240-capsulas-500mg-nutri-life",
-    "name": "Chá verde e MagriSbelt - 240 cápsulas - 500mg - Nutri Life",
+    "name": "Chá verde e MagriSbelt",
     "capsules": 240,
     "mg": 500,
     "images": [
@@ -596,7 +598,7 @@ export const products: Product[] = [
     "tone": "gold",
     "rating": 4.8,
     "reviewCount": 200,
-    "shortDescription": "🌿 Chá Verde + MagriSbelt – Seu aliado diário para bem-estar e equilíbrio&#010;Descubra a combinação perfeita de Chá Verde e MagriSbelt em cápsulas, desenvolvida para quem busca uma rotina mais saudável com praticidade. Cada frasco contém 120 cápsulas, garantindo um uso contínuo e eficaz. O consumo recomendado é de...",
+    "shortDescription": "Descubra a combinação perfeita de Chá Verde e MagriSbelt em cápsulas, desenvolvida para quem busca uma rotina mais saudável com praticidade. Cada frasco contém 120 cápsulas, garantindo um uso contínuo e eficaz. O consumo recomendado é de 3 cápsulas ao dia, facilitando a inclusão no seu dia a dia. Benefícios da combinação: • Chá Verde:...",
     "benefits": [
       "Auxilia no processo de emagrecimento",
       "Ajuda no controle do apetite",
@@ -604,7 +606,7 @@ export const products: Product[] = [
     ],
     "composition": [
       "Chá verde",
-      "MagriSbelt - - -"
+      "MagriSbelt"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -639,7 +641,7 @@ export const products: Product[] = [
   {
     "id": "11",
     "slug": "garra-do-diabo-120-capsulas-500mg-nutri-life",
-    "name": "Garra do diabo - 120 cápsulas - 500mg - Nutri Life",
+    "name": "Garra do diabo",
     "capsules": 120,
     "mg": 500,
     "images": [
@@ -657,14 +659,14 @@ export const products: Product[] = [
     "tone": "leaf",
     "rating": 4.9,
     "reviewCount": 217,
-    "shortDescription": "Garra do Diabo - 120 Cápsulas para o Seu Bem-Estar Diário&#010;&#010;Conheça a Garra do Diabo, um suplemento em cápsulas pensado para integrar sua rotina de forma prática e natural. Com 120 cápsulas disponíveis, oferece uma opção conveniente para o uso diário.&#010;&#010; Características Principais: - Embalagem com...",
+    "shortDescription": "Conheça a Garra do Diabo, um suplemento em cápsulas pensado para integrar sua rotina de forma prática e natural. Com 120 cápsulas disponíveis, oferece uma opção conveniente para o uso diário. Características Principais: - Embalagem com 120 cápsulas, ideal para uso prolongado. - Uso recomendado: 3 cápsulas ao dia, facilitando a inclusão...",
     "benefits": [
       "Ação antioxidante",
       "Auxilia o bem-estar das articulações",
       "Fórmula concentrada"
     ],
     "composition": [
-      "Garra do diabo - - -"
+      "Garra do diabo"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -699,7 +701,7 @@ export const products: Product[] = [
   {
     "id": "12",
     "slug": "calmante-desinchar-260cps-500mg-nutri-life",
-    "name": "Calmante + Desinchar - 260cps - 500mg - Nutri Life",
+    "name": "Calmante + Desinchar",
     "capsules": 260,
     "mg": 500,
     "images": [
@@ -721,7 +723,7 @@ export const products: Product[] = [
     "tone": "gold",
     "rating": 4.6,
     "reviewCount": 234,
-    "shortDescription": "Calmante + Desinchar - 260 cápsulas - 500mg - Nutri Life&#010;Descubra o Calmante + Desinchar da Nutri Life, um suplemento desenvolvido especialmente para quem busca equilíbrio emocional e redução do inchaço de forma natural e prática. Com 260 cápsulas de 500mg, oferece uma solução completa para integrar à sua rotin...",
+    "shortDescription": "Descubra o Calmante + Desinchar da Nutri Life, um suplemento desenvolvido especialmente para quem busca equilíbrio emocional e redução do inchaço de forma natural e prática. Com 260 cápsulas de 500mg, oferece uma solução completa para integrar à sua rotina diária de bem-estar. Benefícios do Calmante + Desinchar Nutri Life: • Auxilia no...",
     "benefits": [
       "Auxilia no processo de emagrecimento",
       "Ajuda no controle do apetite",
@@ -729,7 +731,7 @@ export const products: Product[] = [
     ],
     "composition": [
       "Calmante",
-      "Desinchar - - -"
+      "Desinchar"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -786,14 +788,14 @@ export const products: Product[] = [
     "tone": "leaf",
     "rating": 4.7,
     "reviewCount": 251,
-    "shortDescription": "✨ Kit 3 Gotas Sinusite 100% Natural – Cuidado Natural para o Bem-estar Nasal ✨&#010;&#010;O Kit 3 Gotas Sinusite 100% Natural é ideal para quem busca manter uma rotina de cuidados com o nariz e a respiração de forma prática. Sua fórmula combina Copaíba, Romã, D’água, Eucalipto, Menta e Buchinha em gotas de uso nasal...",
+    "shortDescription": "O Kit 3 Gotas Sinusite 100% Natural é ideal para quem busca manter uma rotina de cuidados com o nariz e a respiração de forma prática. Sua fórmula combina Copaíba, Romã, D’água, Eucalipto, Menta e Buchinha em gotas de uso nasal, oferecendo uma opção natural para o dia a dia. 💖 BENEFÍCIOS ✔ Kit com 3 unidades para melhor custo-benefíci...",
     "benefits": [
       "Auxilia o sistema imunológico",
       "Ação antioxidante",
       "Fórmula natural"
     ],
     "composition": [
-      "Kit 3 Gotas Sinusite 100% Natural – Copaíba",
+      "Copaíba",
       "Romã",
       "Eucalipto",
       "Menta",
@@ -832,7 +834,7 @@ export const products: Product[] = [
   {
     "id": "14",
     "slug": "amora-com-isoflavona-120-capsulas-nutri-life",
-    "name": "Amora com isoflavona - 120 cápsulas - Nutri Life",
+    "name": "Amora com isoflavona",
     "capsules": 120,
     "mg": 500,
     "images": [
@@ -853,7 +855,7 @@ export const products: Product[] = [
     "tone": "leaf",
     "rating": 4.8,
     "reviewCount": 268,
-    "shortDescription": "Praticidade e organização nutricional com ingredientes tradicionais da alimentação&#010;&#010;Ideal para quem busca incluir ingredientes naturais na rotina de forma prática e alinhada a uma estratégia nutricional segura. O suplemento AMORA MIURA com isoflavona da Nutri life é amplamente utilizado em rotinas alimenta...",
+    "shortDescription": "Ideal para quem busca incluir ingredientes naturais na rotina de forma prática e alinhada a uma estratégia nutricional segura. O suplemento AMORA MIURA com isoflavona da Nutri life é amplamente utilizado em rotinas alimentares por seu uso tradicional como complemento para uma rotina equilibrada. O suplemento alimentar AMORA MIURA com i...",
     "benefits": [
       "Apoia o equilíbrio hormonal feminino",
       "Contribui para o bem-estar no ciclo",
@@ -861,7 +863,7 @@ export const products: Product[] = [
     ],
     "composition": [
       "Amora",
-      "isoflavona - -"
+      "Isoflavona"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -896,7 +898,7 @@ export const products: Product[] = [
   {
     "id": "15",
     "slug": "amora-miura-unha-de-gato-levedo-de-cerveja-360-cps-500mg-nutri-life",
-    "name": "Amora miura + Unha de gato + Levedo de cerveja - 360 cps - 500mg - Nutri Life",
+    "name": "Amora miura + Unha de gato + Levedo de cerveja",
     "capsules": 360,
     "mg": 500,
     "images": [
@@ -917,7 +919,7 @@ export const products: Product[] = [
     "tone": "leaf",
     "rating": 4.9,
     "reviewCount": 285,
-    "shortDescription": "Combo Nutri Life Imunidade: Fortaleça sua Saúde com &#010;&#010;Ingredientes Naturais&#010;Buscando uma forma natural e eficiente de fortalecer seu sistema imunológico? O Combo Nutri Life Imunidade foi especialmente elaborado para fornecer suporte completo à sua saúde, combinando ingredientes reconhecidos por suas p...",
+    "shortDescription": "Ingredientes Naturais Buscando uma forma natural e eficiente de fortalecer seu sistema imunológico? O Combo Nutri Life Imunidade foi especialmente elaborado para fornecer suporte completo à sua saúde, combinando ingredientes reconhecidos por suas propriedades benéficas. Composição do Combo: - Amora Miura - Unha de Gato - Levedo de Cerv...",
     "benefits": [
       "Apoia o equilíbrio hormonal feminino",
       "Contribui para o bem-estar no ciclo",
@@ -926,7 +928,7 @@ export const products: Product[] = [
     "composition": [
       "Amora miura",
       "Unha de gato",
-      "Levedo de cerveja - - -"
+      "Levedo de cerveja"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -961,7 +963,7 @@ export const products: Product[] = [
   {
     "id": "16",
     "slug": "cha-seca-barriga-com-nozes-da-india-100g-blend-natural-para-sua-rotina",
-    "name": "Chá Seca Barriga com Nozes da Índia 100g – Blend Natural para Sua Rotina",
+    "name": "Chá Seca Barriga com Nozes da Índia",
     "kind": "pouch",
     "unitLabel": "Blend natural · 100g",
     "unitNoun": "pacote",
@@ -984,15 +986,14 @@ export const products: Product[] = [
     "tone": "gold",
     "rating": 4.6,
     "reviewCount": 302,
-    "shortDescription": "✨ Chá Seca Barriga com Nozes da Índia 100g – Bem-estar e Leveza para Sua Rotina ✨&#010;&#010;O Chá Seca Barriga com Nozes da Índia é um blend natural desenvolvido para quem busca complementar hábitos saudáveis e incluir uma bebida prática no dia a dia. Sua combinação de ervas pode ajudar a deixar a rotina mais leve,...",
+    "shortDescription": "O Chá Seca Barriga com Nozes da Índia é um blend natural desenvolvido para quem busca complementar hábitos saudáveis e incluir uma bebida prática no dia a dia. Sua combinação de ervas pode ajudar a deixar a rotina mais leve, equilibrada e saborosa. 💖 BENEFÍCIOS ✔ Auxilia na sensação de leveza corporal ✔ Pode contribuir para reduzir a...",
     "benefits": [
       "Auxilia no processo de emagrecimento",
       "Ajuda no controle do apetite",
       "Complementa dieta e exercícios"
     ],
     "composition": [
-      "Chá Seca Barriga",
-      "Nozes da Índia –"
+      "Chá Seca Barriga"
     ],
     "howToUse": "Adicione 1 colher (chá) do blend em 200 ml de água quente, deixe em infusão por 5 minutos, coe e beba. Tome de 2 a 3 xícaras ao dia.",
     "reviews": [
@@ -1027,7 +1028,7 @@ export const products: Product[] = [
   {
     "id": "17",
     "slug": "oleo-de-buchinha-20ml-gotas-para-rinite-e-sinusite-100-natural",
-    "name": "Kit 3 Óleo de Buchinha 20ml – 100% Natural Uso Nasal",
+    "name": "Kit 3 Óleo de Buchinha 20ml",
     "unitLabel": "20ml",
     "unitNoun": "frasco",
     "images": [
@@ -1049,14 +1050,14 @@ export const products: Product[] = [
     "tone": "leaf",
     "rating": 4.7,
     "reviewCount": 319,
-    "shortDescription": "✨ Kit 3 Óleo de Buchinha 20ml – Cuidado Natural para Respiração e Bem-estar Nasal ✨&#010;&#010;O Kit 3 Óleo de Buchinha é ideal para quem busca praticidade na rotina de cuidados com o nariz e a respiração. Com uso nasal e composição 100% natural, o produto é uma opção em gotas para auxiliar no conforto nasal do dia...",
+    "shortDescription": "O Kit 3 Óleo de Buchinha é ideal para quem busca praticidade na rotina de cuidados com o nariz e a respiração. Com uso nasal e composição 100% natural, o produto é uma opção em gotas para auxiliar no conforto nasal do dia a dia. 💖 BENEFÍCIOS ✔ Kit com 3 unidades para melhor custo-benefício ✔ Pode auxiliar na sensação de alívio nasal ✔...",
     "benefits": [
       "Auxilia o sistema imunológico",
       "Ação antioxidante",
       "Fórmula natural"
     ],
     "composition": [
-      "Kit 3 Óleo de Buchinha – 100% Natural Uso Nasal"
+      "Ingredientes naturais selecionados"
     ],
     "howToUse": "Use conforme a orientação do rótulo. Agite antes de usar.",
     "reviews": [
@@ -1091,7 +1092,7 @@ export const products: Product[] = [
   {
     "id": "18",
     "slug": "ashwagandha-120-caps-500mg-nutri-life",
-    "name": "Ashwagandha - 120 caps- 500mg - Nutri Life",
+    "name": "Ashwagandha",
     "capsules": 120,
     "mg": 500,
     "images": [
@@ -1111,14 +1112,14 @@ export const products: Product[] = [
     "tone": "leaf",
     "rating": 4.8,
     "reviewCount": 336,
-    "shortDescription": "Ashwagandha - 120 cápsulas - 500mg - Nutri Life&#010;&#010;Descubra os benefícios da Ashwagandha (Withania somnifera), também conhecida como Ginseng Indiano, uma das ervas mais poderosas da medicina Ayurveda. Este suplemento em cápsulas oferece uma solução natural e eficaz para quem deseja atingir mais equilíbrio e...",
+    "shortDescription": "Descubra os benefícios da Ashwagandha (Withania somnifera), também conhecida como Ginseng Indiano, uma das ervas mais poderosas da medicina Ayurveda. Este suplemento em cápsulas oferece uma solução natural e eficaz para quem deseja atingir mais equilíbrio e bem-estar no dia a dia. Principais benefícios: • Equilíbrio Adaptógeno: Ajuda o...",
     "benefits": [
       "Auxilia no relaxamento",
       "Favorece uma boa noite de sono",
       "Ajuda em momentos de rotina agitada"
     ],
     "composition": [
-      "Ashwagandha - - -"
+      "Ashwagandha"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -1153,7 +1154,7 @@ export const products: Product[] = [
   {
     "id": "19",
     "slug": "seca-barriga-com-noz-da-india-120-capsulas-500mg-nutri-life",
-    "name": "Seca Barriga com noz da índia - 120 cápsulas - 500mg - Nutri Life",
+    "name": "Seca Barriga com noz da índia",
     "capsules": 120,
     "mg": 500,
     "images": [
@@ -1175,7 +1176,7 @@ export const products: Product[] = [
     "tone": "gold",
     "rating": 4.9,
     "reviewCount": 353,
-    "shortDescription": "Seca Barriga com Noz da Índia - 120 CápsulasO Seca Barriga com Noz da Índia é um suplemento em cápsulas que visa apoiar o seu bem-estar de forma prática e natural. Com uma fórmula cuidadosamente elaborada, este produto é ideal para quem busca integrar uma rotina saudável ao seu dia a dia.&#010;&#010;Características...",
+    "shortDescription": "Seca Barriga com Noz da Índia - 120 CápsulasO Seca Barriga com Noz da Índia é um suplemento em cápsulas que visa apoiar o seu bem-estar de forma prática e natural. Com uma fórmula cuidadosamente elaborada, este produto é ideal para quem busca integrar uma rotina saudável ao seu dia a dia. Características Principais: - Embalagem com 120...",
     "benefits": [
       "Auxilia no processo de emagrecimento",
       "Ajuda no controle do apetite",
@@ -1183,7 +1184,7 @@ export const products: Product[] = [
     ],
     "composition": [
       "Seca Barriga",
-      "noz da índia - - -"
+      "Noz da índia"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -1218,7 +1219,7 @@ export const products: Product[] = [
   {
     "id": "20",
     "slug": "cha-verde-120-caps-500mg-nutri-life",
-    "name": "Chá verde - 120 caps - 500mg - Nutri Life",
+    "name": "Chá verde",
     "kind": "pouch",
     "unitLabel": "Blend natural",
     "unitNoun": "pacote",
@@ -1241,14 +1242,14 @@ export const products: Product[] = [
     "tone": "gold",
     "rating": 4.6,
     "reviewCount": 370,
-    "shortDescription": "Chá Verde Nutrilife - Energia e Bem-Estar em Cápsulas &#010;Descubra a praticidade do Chá Verde Nutrilife em cápsulas, perfeito para quem busca incorporar ingredientes naturais em sua rotina diária de forma simples e eficiente. Cada frasco contém 120 cápsulas, ideal para um consumo prolongado e contínuo.&#010;&#010;...",
+    "shortDescription": "Descubra a praticidade do Chá Verde Nutrilife em cápsulas, perfeito para quem busca incorporar ingredientes naturais em sua rotina diária de forma simples e eficiente. Cada frasco contém 120 cápsulas, ideal para um consumo prolongado e contínuo. Características do Produto: • Fácil consumo: 3 cápsulas ao dia, para um uso prático e sem c...",
     "benefits": [
       "Auxilia no processo de emagrecimento",
       "Ajuda no controle do apetite",
       "Complementa dieta e exercícios"
     ],
     "composition": [
-      "Chá verde - - -"
+      "Chá verde"
     ],
     "howToUse": "Adicione 1 colher (chá) do blend em 200 ml de água quente, deixe em infusão por 5 minutos, coe e beba. Tome de 2 a 3 xícaras ao dia.",
     "reviews": [
@@ -1283,7 +1284,7 @@ export const products: Product[] = [
   {
     "id": "21",
     "slug": "ora-com-curcuma-e-creatina-120-capsulas-500mg-nutri-life",
-    "name": "Ora com cúrcuma e creatina - 120 cápsulas - 500mg - Nutri Life",
+    "name": "Ora com cúrcuma e creatina",
     "capsules": 120,
     "mg": 500,
     "images": [
@@ -1304,7 +1305,7 @@ export const products: Product[] = [
     "tone": "gold",
     "rating": 4.7,
     "reviewCount": 387,
-    "shortDescription": "🌿 Ora + Cúrcuma + Creatina - Fonte de Proteínas, Antioxidantes e Ação Anti-inflamatória Natural 🌿&#010;&#010;Potencialize sua saúde com o Ora + Cúrcuma + Creatina, um suplemento inovador que combina os benefícios da cúrcuma, conhecida por suas propriedades anti-inflamatórias, com a creatina, uma excelente fonte de...",
+    "shortDescription": "🌿 Ora + Cúrcuma + Creatina - Fonte de Proteínas, Antioxidantes e Ação Anti-inflamatória Natural 🌿 Potencialize sua saúde com o Ora + Cúrcuma + Creatina, um suplemento inovador que combina os benefícios da cúrcuma, conhecida por suas propriedades anti-inflamatórias, com a creatina, uma excelente fonte de proteínas e antioxidantes para...",
     "benefits": [
       "Auxilia o desempenho no treino",
       "Contribui para a resistência",
@@ -1312,8 +1313,8 @@ export const products: Product[] = [
     ],
     "composition": [
       "Ora",
-      "cúrcuma",
-      "creatina - - -"
+      "Cúrcuma",
+      "Creatina"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -1348,7 +1349,7 @@ export const products: Product[] = [
   {
     "id": "22",
     "slug": "cha-seca-barriga-premium-com-nozes-da-india-100g-super-cha-mounjaro",
-    "name": "Chá Seca Barriga Premium com Nozes da Índia 100g – Super Chá Mounjaro",
+    "name": "Chá Seca Barriga Premium com Nozes da Índia",
     "kind": "pouch",
     "unitLabel": "Blend natural · 100g",
     "unitNoun": "pacote",
@@ -1374,15 +1375,14 @@ export const products: Product[] = [
     "tone": "primary",
     "rating": 4.8,
     "reviewCount": 404,
-    "shortDescription": "✨ Chá Seca Barriga Premium com Nozes da Índia 100g – Bem-estar e Leveza para Sua Rotina ✨&#010;&#010;O Chá Seca Barriga Premium com Nozes da Índia é um blend de ervas naturais selecionadas para quem busca complementar hábitos saudáveis e incluir uma bebida prática na rotina diária. Sua composição combina ingrediente...",
+    "shortDescription": "O Chá Seca Barriga Premium com Nozes da Índia é um blend de ervas naturais selecionadas para quem busca complementar hábitos saudáveis e incluir uma bebida prática na rotina diária. Sua composição combina ingredientes tradicionalmente utilizados em chás naturais, oferecendo uma opção saborosa para acompanhar o seu dia a dia. 💖 BENEFÍC...",
     "benefits": [
       "Auxilia no processo de emagrecimento",
       "Ajuda no controle do apetite",
       "Complementa dieta e exercícios"
     ],
     "composition": [
-      "Chá Seca Barriga Premium",
-      "Nozes da Índia – Mounjaro"
+      "Chá Seca Barriga Premium"
     ],
     "howToUse": "Adicione 1 colher (chá) do blend em 200 ml de água quente, deixe em infusão por 5 minutos, coe e beba. Tome de 2 a 3 xícaras ao dia.",
     "reviews": [
@@ -1417,7 +1417,7 @@ export const products: Product[] = [
   {
     "id": "23",
     "slug": "black-monster-120-capsulas-500mg-nutri-life",
-    "name": "Black Monster - 120 cápsulas - 500mg - Nutri Life",
+    "name": "Black Monster",
     "capsules": 120,
     "mg": 500,
     "images": [
@@ -1437,14 +1437,14 @@ export const products: Product[] = [
     "tone": "gold",
     "rating": 4.9,
     "reviewCount": 421,
-    "shortDescription": "Black Monster - 120 Cápsulas Sua rotina merece o suporte certo para mais disposição e energia no dia a dia. O Black Monster chega em cápsulas práticas, facilitando o consumo e oferecendo uma experiência simples para quem busca mais vitalidade.&#010;&#010;Como usar:&#010;Recomenda-se a ingestão de 3 cápsulas ao dia,...",
+    "shortDescription": "Black Monster - 120 Cápsulas Sua rotina merece o suporte certo para mais disposição e energia no dia a dia. O Black Monster chega em cápsulas práticas, facilitando o consumo e oferecendo uma experiência simples para quem busca mais vitalidade. Como usar: Recomenda-se a ingestão de 3 cápsulas ao dia, garantindo praticidade e facilidade...",
     "benefits": [
       "Auxilia no processo de emagrecimento",
       "Ajuda no controle do apetite",
       "Complementa dieta e exercícios"
     ],
     "composition": [
-      "Black Monster - - -"
+      "Black Monster"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -1479,7 +1479,7 @@ export const products: Product[] = [
   {
     "id": "24",
     "slug": "valeriana-120-capsulas-500mg-nutri-life",
-    "name": "Valeriana - 120 cápsulas - 500mg - Nutri Life",
+    "name": "Valeriana",
     "capsules": 120,
     "mg": 500,
     "images": [
@@ -1497,14 +1497,14 @@ export const products: Product[] = [
     "tone": "leaf",
     "rating": 4.6,
     "reviewCount": 38,
-    "shortDescription": "Valeriana - 120 Cápsulas Conheça o suplemento de Valeriana, pensado para quem busca praticidade e qualidade em sua rotina diária. Com 120 cápsulas em embalagem, oferece uma opção conveniente para uso contínuo.&#010;&#010; Características principais: - Composto em cápsulas com Valeriana, um ingrediente natural muito...",
+    "shortDescription": "Valeriana - 120 Cápsulas Conheça o suplemento de Valeriana, pensado para quem busca praticidade e qualidade em sua rotina diária. Com 120 cápsulas em embalagem, oferece uma opção conveniente para uso contínuo. Características principais: - Composto em cápsulas com Valeriana, um ingrediente natural muito utilizado. - Uso recomendado: 3...",
     "benefits": [
       "Auxilia no relaxamento",
       "Favorece uma boa noite de sono",
       "Ajuda em momentos de rotina agitada"
     ],
     "composition": [
-      "Valeriana - - -"
+      "Valeriana"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -1539,7 +1539,7 @@ export const products: Product[] = [
   {
     "id": "25",
     "slug": "semente-de-abobora-120-capsulas-500mg-nutri-life",
-    "name": "Semente de abobora - 120 cápsulas - 500mg - Nutri Life",
+    "name": "Semente de abobora",
     "capsules": 120,
     "mg": 500,
     "images": [
@@ -1558,14 +1558,14 @@ export const products: Product[] = [
     "tone": "leaf",
     "rating": 4.7,
     "reviewCount": 55,
-    "shortDescription": "Semente de Abóbora Nutrilife &#010;&#010;Nutrição poderosa para sua saúde e bem-estar! &#010;&#010;A Semente de Abóbora Nutrilife é um suplemento natural repleto de vitaminas, minerais e antioxidantes que ajudam a fortalecer o sistema imunológico, melhorar a saúde do coração e proporcionar mais energia e vitalidade...",
+    "shortDescription": "Nutrição poderosa para sua saúde e bem-estar! A Semente de Abóbora Nutrilife é um suplemento natural repleto de vitaminas, minerais e antioxidantes que ajudam a fortalecer o sistema imunológico, melhorar a saúde do coração e proporcionar mais energia e vitalidade ao seu dia a dia. Ideal para quem busca um aliado natural na rotina alime...",
     "benefits": [
       "Auxilia a função urinária",
       "Contribui para o bem-estar masculino",
       "Fórmula natural"
     ],
     "composition": [
-      "Semente de abobora - - -"
+      "Semente de abobora"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -1599,7 +1599,7 @@ export const products: Product[] = [
   {
     "id": "26",
     "slug": "quebra-pedra-natu-ervas-120-capsulas-500mg-suplemento-natural",
-    "name": "Quebra Pedra Natu Ervas 120 Cápsulas 500mg – Suplemento Natural",
+    "name": "Quebra Pedra Natu Ervas 120 Cápsulas 500mg",
     "capsules": 120,
     "mg": 500,
     "images": [
@@ -1620,14 +1620,14 @@ export const products: Product[] = [
     "tone": "leaf",
     "rating": 4.8,
     "reviewCount": 72,
-    "shortDescription": "✨ Quebra Pedra Natu Ervas – Suplemento Natural para Sua Rotina ✨&#010;&#010;O Quebra Pedra da Natu Ervas é um suplemento alimentar em cápsulas desenvolvido para quem busca complementar a rotina com ingredientes naturais tradicionalmente utilizados em hábitos de bem-estar. Sua apresentação em cápsulas oferece pratici...",
+    "shortDescription": "O Quebra Pedra da Natu Ervas é um suplemento alimentar em cápsulas desenvolvido para quem busca complementar a rotina com ingredientes naturais tradicionalmente utilizados em hábitos de bem-estar. Sua apresentação em cápsulas oferece praticidade para o consumo diário. 💖 BENEFÍCIOS ✔ Auxilia na complementação da rotina alimentar ✔ Plan...",
     "benefits": [
       "Auxilia na eliminação do excesso de líquidos",
       "Contribui para reduzir o inchaço",
       "Fórmula natural"
     ],
     "composition": [
-      "Quebra Pedra Natu Ervas – Suplemento Natural"
+      "Quebra Pedra Natu Ervas 120 Cápsulas 500mg"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -1662,7 +1662,7 @@ export const products: Product[] = [
   {
     "id": "27",
     "slug": "kit-cha-verde-com-creatina-240-capsulas-500mg-nutri-life",
-    "name": "Kit Chá verde com Creatina - 240 cápsulas - 500mg Nutri Life",
+    "name": "Kit Chá verde com Creatina",
     "capsules": 240,
     "mg": 500,
     "images": [
@@ -1686,15 +1686,15 @@ export const products: Product[] = [
     "tone": "gold",
     "rating": 4.9,
     "reviewCount": 89,
-    "shortDescription": "Chá Verde + Creatina - Suplemento Prático para Seu Dia a Dia! 🍃💪&#010;&#010;Descubra os benefícios do Chá Verde + Creatina, um suplemento que combina a energia do chá verde com a força da creatina em 120 cápsulas. Perfeito para quem busca um aliado na rotina de exercícios e bem-estar.&#010;&#010;Benefícios do Chá...",
+    "shortDescription": "Descubra os benefícios do Chá Verde + Creatina, um suplemento que combina a energia do chá verde com a força da creatina em 120 cápsulas. Perfeito para quem busca um aliado na rotina de exercícios e bem-estar. Benefícios do Chá Verde + Creatina: • Apoio à Performance: A creatina é conhecida por ajudar a melhorar a força durante os trei...",
     "benefits": [
       "Auxilia no processo de emagrecimento",
       "Ajuda no controle do apetite",
       "Complementa dieta e exercícios"
     ],
     "composition": [
-      "Kit Chá verde",
-      "Creatina - -"
+      "Chá verde",
+      "Creatina"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -1729,7 +1729,7 @@ export const products: Product[] = [
   {
     "id": "28",
     "slug": "saude-da-mulher-120-capsulas-500mg-nutri-life",
-    "name": "Saúde da mulher - 120 cápsulas - 500mg - Nutri Life",
+    "name": "Saúde da mulher",
     "capsules": 120,
     "mg": 500,
     "images": [
@@ -1747,14 +1747,14 @@ export const products: Product[] = [
     "tone": "leaf",
     "rating": 4.6,
     "reviewCount": 106,
-    "shortDescription": "Saúde da Mulher - 120 Cápsulas Cuide do seu bem-estar com o Saúde da Mulher, um suplemento em cápsulas desenvolvido especialmente para atender às necessidades femininas. Nossa fórmula foi elaborada com ingredientes selecionados, proporcionando uma opção prática e eficaz para o dia a dia.&#010;&#010;Características P...",
+    "shortDescription": "Saúde da Mulher - 120 Cápsulas Cuide do seu bem-estar com o Saúde da Mulher, um suplemento em cápsulas desenvolvido especialmente para atender às necessidades femininas. Nossa fórmula foi elaborada com ingredientes selecionados, proporcionando uma opção prática e eficaz para o dia a dia. Características Principais: - Embalação com 120...",
     "benefits": [
       "Apoia o equilíbrio hormonal feminino",
       "Contribui para o bem-estar no ciclo",
       "Fórmula natural"
     ],
     "composition": [
-      "Saúde da mulher - - -"
+      "Saúde da mulher"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -1789,7 +1789,7 @@ export const products: Product[] = [
   {
     "id": "29",
     "slug": "ozem-nutri-60-capsulas-linha-premium",
-    "name": "Ozem nutri - 60 cápsulas - Linha premium",
+    "name": "Ozem nutri",
     "capsules": 60,
     "mg": 500,
     "images": [
@@ -1811,14 +1811,14 @@ export const products: Product[] = [
     "tone": "primary",
     "rating": 4.7,
     "reviewCount": 123,
-    "shortDescription": "Ozem Nutri - 60 Cápsulas - Linha Premium&#010;&#010;Descubra o poder do Ozem Nutro, o emagrecedor da linha premium que é 10x mais forte para auxiliar na sua jornada de emagrecimento com eficácia e segurança. Desenvolvido especialmente para quem busca resultados reais, este suplemento em cápsulas oferece uma fórmula...",
+    "shortDescription": "Descubra o poder do Ozem Nutro, o emagrecedor da linha premium que é 10x mais forte para auxiliar na sua jornada de emagrecimento com eficácia e segurança. Desenvolvido especialmente para quem busca resultados reais, este suplemento em cápsulas oferece uma fórmula avançada que potencializa a queima de gordura e o controle do apetite. B...",
     "benefits": [
       "Auxilia no processo de emagrecimento",
       "Ajuda no controle do apetite",
       "Complementa dieta e exercícios"
     ],
     "composition": [
-      "Ozem nutri - -"
+      "Ozem nutri"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -1853,7 +1853,7 @@ export const products: Product[] = [
   {
     "id": "30",
     "slug": "desejus-sexy-120-capsulas-500mg-nutri-life",
-    "name": "Desejus sexy - 120 cápsulas - 500mg - Nutri Life",
+    "name": "Desejus sexy",
     "capsules": 120,
     "mg": 500,
     "images": [
@@ -1871,14 +1871,14 @@ export const products: Product[] = [
     "tone": "primary",
     "rating": 4.8,
     "reviewCount": 140,
-    "shortDescription": "Desejus Sexy Feminino - O Seu Toque de Sedução em Cápsulas! &#010;Descubra o Desejus Sexy Feminino, um suplemento exclusivo que promete realçar sua sensualidade e bem-estar. Com 120 cápsulas práticas, este produto é ideal para quem busca uma dose extra de confiança e charme no dia a dia.&#010;&#010;Uso recomendado:...",
+    "shortDescription": "Descubra o Desejus Sexy Feminino, um suplemento exclusivo que promete realçar sua sensualidade e bem-estar. Com 120 cápsulas práticas, este produto é ideal para quem busca uma dose extra de confiança e charme no dia a dia. Uso recomendado: Consuma 3 cápsulas ao dia para aproveitar todos os benefícios que Desejus Sexy tem a oferecer. Be...",
     "benefits": [
       "Auxilia a disposição física",
       "Contribui para o vigor",
       "Fórmula tradicional"
     ],
     "composition": [
-      "Desejus sexy - - -"
+      "Desejus sexy"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -1913,7 +1913,7 @@ export const products: Product[] = [
   {
     "id": "31",
     "slug": "ora-pro-nobis-500-mg-120-capsulas-nutri-life",
-    "name": "Ora Pro Nobis 500 mg – 120 Cápsulas | Nutri Life",
+    "name": "Ora Pro Nobis 500 mg",
     "capsules": 120,
     "mg": 500,
     "images": [
@@ -1932,14 +1932,14 @@ export const products: Product[] = [
     "tone": "leaf",
     "rating": 4.9,
     "reviewCount": 157,
-    "shortDescription": "Ora Pro Nobis 500 mg – 120 Cápsulas | Nutri Life&#010;&#010;O Ora Pro Nobis da Nutri Life é um suplemento em cápsulas desenvolvido para quem busca praticidade ao complementar a rotina alimentar com ingredientes naturais. Com 120 cápsulas por embalagem, ele oferece conveniência para incluir no dia a dia uma opção com...",
+    "shortDescription": "O Ora Pro Nobis da Nutri Life é um suplemento em cápsulas desenvolvido para quem busca praticidade ao complementar a rotina alimentar com ingredientes naturais. Com 120 cápsulas por embalagem, ele oferece conveniência para incluir no dia a dia uma opção compatível com rotinas que priorizam suporte nutricional diário e equilíbrio alimen...",
     "benefits": [
       "Ação antioxidante",
       "Auxilia o bem-estar das articulações",
       "Fórmula concentrada"
     ],
     "composition": [
-      "Ora Pro Nobis – |"
+      "Ora Pro Nobis 500 mg"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -1974,7 +1974,7 @@ export const products: Product[] = [
   {
     "id": "32",
     "slug": "seca-barriga-colageno-120-capsulas-500mg-nutri-life",
-    "name": "Seca Barriga + colageno - 120 cápsulas - 500mg - Nutri Life",
+    "name": "Seca Barriga + colageno",
     "capsules": 120,
     "mg": 500,
     "images": [
@@ -1995,7 +1995,7 @@ export const products: Product[] = [
     "tone": "gold",
     "rating": 4.6,
     "reviewCount": 174,
-    "shortDescription": "Seca Barriga + Colágeno - 120 Cápsulas - 500mg - Nutri Life&#010;Buscando um aliado para seu bem-estar e cuidado com a pele? Conheça o Seca Barriga + Colágeno da Nutri Life, um suplemento prático e eficaz pensado para apoiar sua rotina de forma natural.&#010;&#010;Benefícios do Seca Barriga + Colágeno:&#010; • Ação...",
+    "shortDescription": "Buscando um aliado para seu bem-estar e cuidado com a pele? Conheça o Seca Barriga + Colágeno da Nutri Life, um suplemento prático e eficaz pensado para apoiar sua rotina de forma natural. Benefícios do Seca Barriga + Colágeno: • Ação para o controle do peso abdominal: Fórmula desenvolvida para ajudar na redução da gordura localizada,...",
     "benefits": [
       "Auxilia no processo de emagrecimento",
       "Ajuda no controle do apetite",
@@ -2003,7 +2003,7 @@ export const products: Product[] = [
     ],
     "composition": [
       "Seca Barriga",
-      "colageno - - -"
+      "Colageno"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -2038,7 +2038,7 @@ export const products: Product[] = [
   {
     "id": "33",
     "slug": "unha-de-gato-com-sucupira-120-capsulas-500mg-nutri-life",
-    "name": "Unha de gato com Sucupira - 120 cápsulas - 500mg - Nutri Life",
+    "name": "Unha de gato com Sucupira",
     "capsules": 120,
     "mg": 500,
     "images": [
@@ -2057,7 +2057,7 @@ export const products: Product[] = [
     "tone": "leaf",
     "rating": 4.7,
     "reviewCount": 191,
-    "shortDescription": "🌿 Unha de Gato + Sucupira - 120 Cápsulas 🌿 O Unha de Gato + Sucupira é um suplemento em cápsulas que combina o melhor da natureza para apoiar o seu bem-estar. Com uma fórmula cuidadosa, esse produto é ideal para quem busca um suporte natural e prático no dia a dia.&#010;&#010;✨ Benefícios principais: - Fórmula com...",
+    "shortDescription": "🌿 Unha de Gato + Sucupira - 120 Cápsulas 🌿 O Unha de Gato + Sucupira é um suplemento em cápsulas que combina o melhor da natureza para apoiar o seu bem-estar. Com uma fórmula cuidadosa, esse produto é ideal para quem busca um suporte natural e prático no dia a dia. ✨ Benefícios principais: - Fórmula com ingredientes selecionados que...",
     "benefits": [
       "Ação antioxidante",
       "Auxilia o bem-estar das articulações",
@@ -2065,7 +2065,7 @@ export const products: Product[] = [
     ],
     "composition": [
       "Unha de gato",
-      "Sucupira - - -"
+      "Sucupira"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -2100,7 +2100,7 @@ export const products: Product[] = [
   {
     "id": "34",
     "slug": "detox-120-capsulas-500mg-nutri-life",
-    "name": "Detox- 120 cápsulas - 500mg - Nutri Life",
+    "name": "Detox",
     "capsules": 120,
     "mg": 500,
     "images": [
@@ -2121,14 +2121,14 @@ export const products: Product[] = [
     "tone": "gold",
     "rating": 4.8,
     "reviewCount": 208,
-    "shortDescription": "Detox - 120 Cápsulas para o Cuidado Diário do Seu Corpo &#010;&#010;Equilibre sua rotina com o Detox, um suplemento em cápsulas desenvolvido para auxiliar no cuidado diário do organismo. Com uma fórmula cuidadosamente elaborada, o Detox oferece uma opção prática e natural para quem busca manter o bem-estar de forma...",
+    "shortDescription": "Equilibre sua rotina com o Detox, um suplemento em cápsulas desenvolvido para auxiliar no cuidado diário do organismo. Com uma fórmula cuidadosamente elaborada, o Detox oferece uma opção prática e natural para quem busca manter o bem-estar de forma responsável. Características Principais: - Fórmula com ingredientes selecionados que col...",
     "benefits": [
       "Auxilia no processo de emagrecimento",
       "Ajuda no controle do apetite",
       "Complementa dieta e exercícios"
     ],
     "composition": [
-      "Detox- - -"
+      "Detox"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -2163,7 +2163,7 @@ export const products: Product[] = [
   {
     "id": "35",
     "slug": "amora-miura-isoflavona-120-capsulas-500mg-bem-estar-feminino-natural",
-    "name": "Amora Miura + Isoflavona 120 Cápsulas 500mg – Bem-Estar Feminino Natural",
+    "name": "Amora Miura + Isoflavona 120 Cápsulas 500mg",
     "capsules": 120,
     "mg": 500,
     "images": [
@@ -2185,7 +2185,7 @@ export const products: Product[] = [
     "tone": "leaf",
     "rating": 4.9,
     "reviewCount": 225,
-    "shortDescription": "✨ Amora Miura + Isoflavona – Bem-Estar Feminino para Sua Rotina ✨&#010;&#010;A Amora Miura + Isoflavona é um suplemento alimentar em cápsulas desenvolvido para mulheres que buscam complementar a rotina com ingredientes tradicionalmente utilizados no cuidado feminino. Sua fórmula une praticidade, equilíbrio e bem-est...",
+    "shortDescription": "A Amora Miura + Isoflavona é um suplemento alimentar em cápsulas desenvolvido para mulheres que buscam complementar a rotina com ingredientes tradicionalmente utilizados no cuidado feminino. Sua fórmula une praticidade, equilíbrio e bem-estar em um consumo simples para o dia a dia. 💖 BENEFÍCIOS ✔ Auxilia na complementação da rotina fe...",
     "benefits": [
       "Apoia o equilíbrio hormonal feminino",
       "Contribui para o bem-estar no ciclo",
@@ -2193,7 +2193,7 @@ export const products: Product[] = [
     ],
     "composition": [
       "Amora Miura",
-      "Isoflavona – Bem-Estar Feminino Natural"
+      "Isoflavona 120 Cápsulas 500mg"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -2228,7 +2228,7 @@ export const products: Product[] = [
   {
     "id": "36",
     "slug": "vitamina-b12-60cps-linha-premium-nutri-vivus",
-    "name": "Vitamina b12 - 60cps -Linha Premium - Nutri vivus",
+    "name": "Vitamina b12",
     "capsules": 60,
     "mg": 500,
     "images": [
@@ -2251,14 +2251,14 @@ export const products: Product[] = [
     "tone": "primary",
     "rating": 4.6,
     "reviewCount": 242,
-    "shortDescription": "A Vitamina B12 Nutri Vivus é um suplemento alimentar de origem vegetal especialmente desenvolvido para complementar sua rotina diária com praticidade e segurança. Ideal para quem busca manter o equilíbrio nutricional do organismo, este produto oferece uma solução eficiente para o consumo de nutrientes essenciais.&#0...",
+    "shortDescription": "A Vitamina B12 Nutri Vivus é um suplemento alimentar de origem vegetal especialmente desenvolvido para complementar sua rotina diária com praticidade e segurança. Ideal para quem busca manter o equilíbrio nutricional do organismo, este produto oferece uma solução eficiente para o consumo de nutrientes essenciais. Benefícios da Vitamina...",
     "benefits": [
       "Auxilia o sistema imunológico",
       "Ação antioxidante",
       "Fórmula natural"
     ],
     "composition": [
-      "Vitamina b12 - - -"
+      "Vitamina b12"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -2293,7 +2293,7 @@ export const products: Product[] = [
   {
     "id": "37",
     "slug": "castanha-da-india-120-capsulas-500mg-nutri-life",
-    "name": "Castanha da índia - 120 cápsulas - 500mg Nutri Life",
+    "name": "Castanha da índia",
     "capsules": 120,
     "mg": 500,
     "images": [
@@ -2312,14 +2312,14 @@ export const products: Product[] = [
     "tone": "leaf",
     "rating": 4.7,
     "reviewCount": 259,
-    "shortDescription": "Castanha da Índia - Suplemento Natural em Cápsulas! &#010;&#010;Descubra os benefícios da Castanha da Índia em um formato prático e fácil de consumir. Com 120 cápsulas, este suplemento é ideal para quem busca uma rotina saudável e equilibrada.&#010;&#010;Uso recomendado: Consuma 3 cápsulas ao dia para aproveitar ao...",
+    "shortDescription": "Descubra os benefícios da Castanha da Índia em um formato prático e fácil de consumir. Com 120 cápsulas, este suplemento é ideal para quem busca uma rotina saudável e equilibrada. Uso recomendado: Consuma 3 cápsulas ao dia para aproveitar ao máximo os potenciais da castanha da índia em sua alimentação. Benefícios da Castanha da Índia:...",
     "benefits": [
       "Auxilia a saúde das articulações",
       "Contribui para a mobilidade",
       "Fórmula de suporte"
     ],
     "composition": [
-      "Castanha da índia - -"
+      "Castanha da índia"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -2354,7 +2354,7 @@ export const products: Product[] = [
   {
     "id": "38",
     "slug": "uxi-amarelo-com-unha-de-gato-120-capsulas-500mg-nutri-life",
-    "name": "Uxi Amarelo com unha de gato - 120 cápsulas - 500mg - Nutri Life",
+    "name": "Uxi Amarelo com unha de gato",
     "capsules": 120,
     "mg": 500,
     "images": [
@@ -2374,7 +2374,7 @@ export const products: Product[] = [
     "tone": "leaf",
     "rating": 4.8,
     "reviewCount": 276,
-    "shortDescription": "Uxi Amarelo com Unha de Gato - 120 Cápsulas &#010;&#010;Descubra o Uxi Amarelo com unha de gato, um suplemento em cápsulas que oferece uma opção natural para complementar sua rotina de bem-estar. Com uma fórmula cuidadosamente elaborada, este produto é ideal para quem busca praticidade e qualidade.&#010;&#010;Caract...",
+    "shortDescription": "Descubra o Uxi Amarelo com unha de gato, um suplemento em cápsulas que oferece uma opção natural para complementar sua rotina de bem-estar. Com uma fórmula cuidadosamente elaborada, este produto é ideal para quem busca praticidade e qualidade. Características principais: - Embalagem com 120 cápsulas, perfeita para uso contínuo. - Uso r...",
     "benefits": [
       "Ação antioxidante",
       "Auxilia o bem-estar das articulações",
@@ -2382,7 +2382,7 @@ export const products: Product[] = [
     ],
     "composition": [
       "Uxi Amarelo",
-      "unha de gato - - -"
+      "Unha de gato"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -2417,7 +2417,7 @@ export const products: Product[] = [
   {
     "id": "39",
     "slug": "calmante-120-capsulas-500mg-nutri-life",
-    "name": "Calmante - 120 cápsulas - 500mg - Nutri Life",
+    "name": "Calmante",
     "capsules": 120,
     "mg": 500,
     "images": [
@@ -2435,14 +2435,14 @@ export const products: Product[] = [
     "tone": "leaf",
     "rating": 4.9,
     "reviewCount": 293,
-    "shortDescription": "Calmante - Composto Natural | 120 Cápsulas &#010;Descubra o equilíbrio natural para o seu dia a dia com o Calmante - Composto Natural. Desenvolvido para quem busca uma rotina mais tranquila, este suplemento contém ingredientes cuidadosamente selecionados que podem ajudar a promover uma sensação de calma e bem-estar....",
+    "shortDescription": "Descubra o equilíbrio natural para o seu dia a dia com o Calmante - Composto Natural. Desenvolvido para quem busca uma rotina mais tranquila, este suplemento contém ingredientes cuidadosamente selecionados que podem ajudar a promover uma sensação de calma e bem-estar. Características do Produto: • Composto natural calmante: elaborado c...",
     "benefits": [
       "Auxilia no relaxamento",
       "Favorece uma boa noite de sono",
       "Ajuda em momentos de rotina agitada"
     ],
     "composition": [
-      "Calmante - - -"
+      "Calmante"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -2477,7 +2477,7 @@ export const products: Product[] = [
   {
     "id": "40",
     "slug": "omega-3-1000mg-nutri-vivus-60-capsulas",
-    "name": "Omega 3 - 1000mg - Nutri vivus - 60 cápsulas",
+    "name": "Omega 3",
     "capsules": 60,
     "mg": 1000,
     "images": [
@@ -2498,14 +2498,14 @@ export const products: Product[] = [
     "tone": "primary",
     "rating": 4.6,
     "reviewCount": 310,
-    "shortDescription": "Omega 3 - 1000mg - Nutri Vivus - 60 cápsulas&#010;&#010;O Omega 3 Nutri Vivus é um suplemento premium, desenvolvido para quem busca qualidade e eficácia na suplementação diária. Cada cápsula contém 1000mg de Omega 3, um componente essencial para a saúde cardiovascular, cerebral e das articulações.&#010;&#010;Princip...",
+    "shortDescription": "O Omega 3 Nutri Vivus é um suplemento premium, desenvolvido para quem busca qualidade e eficácia na suplementação diária. Cada cápsula contém 1000mg de Omega 3, um componente essencial para a saúde cardiovascular, cerebral e das articulações. Principais benefícios: - Promove o equilíbrio do colesterol. - Auxilia na melhora da memória e...",
     "benefits": [
       "Auxilia o sistema imunológico",
       "Ação antioxidante",
       "Fórmula natural"
     ],
     "composition": [
-      "Omega 3 - - -"
+      "Omega 3"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -2540,7 +2540,7 @@ export const products: Product[] = [
   {
     "id": "41",
     "slug": "glucomannan-120-capsulas-500mg-nutri-life",
-    "name": "Glucomannan - 120 cápsulas - 500mg - Nutri Life",
+    "name": "Glucomannan",
     "capsules": 120,
     "mg": 500,
     "images": [
@@ -2560,14 +2560,14 @@ export const products: Product[] = [
     "tone": "gold",
     "rating": 4.7,
     "reviewCount": 327,
-    "shortDescription": "Glucomannan - 120 Cápsulas para o Seu Bem-Estar Natural&#010;&#010;Descubra os benefícios do glucomannan, uma fibra natural extraída da raiz do konjac, que vem ganhando destaque por seu potencial em auxiliar a saúde e o equilíbrio do corpo. Nosso suplemento em cápsulas oferece uma forma prática e eficaz de incluir e...",
+    "shortDescription": "Descubra os benefícios do glucomannan, uma fibra natural extraída da raiz do konjac, que vem ganhando destaque por seu potencial em auxiliar a saúde e o equilíbrio do corpo. Nosso suplemento em cápsulas oferece uma forma prática e eficaz de incluir essa fibra na sua rotina diária. Benefícios Principais: • Auxilia no controle do apetite...",
     "benefits": [
       "Auxilia no processo de emagrecimento",
       "Ajuda no controle do apetite",
       "Complementa dieta e exercícios"
     ],
     "composition": [
-      "Glucomannan - - -"
+      "Glucomannan"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -2602,7 +2602,7 @@ export const products: Product[] = [
   {
     "id": "42",
     "slug": "espinheira-santa-120-capsulas-500mg-nutri-life",
-    "name": "Espinheira Santa - 120 cápsulas - 500mg - Nutri Life",
+    "name": "Espinheira Santa",
     "capsules": 120,
     "mg": 500,
     "images": [
@@ -2620,14 +2620,14 @@ export const products: Product[] = [
     "tone": "leaf",
     "rating": 4.8,
     "reviewCount": 344,
-    "shortDescription": "Espinheira Santa - 120 Cápsulas &#010;&#010;Descubra a praticidade da Espinheira Santa em cápsulas, uma opção natural para quem busca incorporar ingredientes tradicionais em sua rotina diária. Com 120 cápsulas na embalagem, é ideal para uso contínuo.&#010;&#010; Características Principais: - Produto elaborado com Es...",
+    "shortDescription": "Descubra a praticidade da Espinheira Santa em cápsulas, uma opção natural para quem busca incorporar ingredientes tradicionais em sua rotina diária. Com 120 cápsulas na embalagem, é ideal para uso contínuo. Características Principais: - Produto elaborado com Espinheira Santa, reconhecida por seu uso tradicional. - Cada embalagem contém...",
     "benefits": [
       "Auxilia no conforto digestivo",
       "Contribui para o equilíbrio gástrico",
       "Fórmula natural"
     ],
     "composition": [
-      "Espinheira Santa - - -"
+      "Espinheira Santa"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -2660,7 +2660,7 @@ export const products: Product[] = [
   {
     "id": "43",
     "slug": "super-cha-monjaro-250g-blend-natural-para-sua-rotina",
-    "name": "Super Chá Monjaro 100g – Blend Natural para Sua Rotina",
+    "name": "Super Chá Monjaro",
     "kind": "pouch",
     "unitLabel": "Blend natural · 100g",
     "unitNoun": "pacote",
@@ -2683,14 +2683,14 @@ export const products: Product[] = [
     "tone": "gold",
     "rating": 4.9,
     "reviewCount": 361,
-    "shortDescription": "✨ Super Chá Monjaro 100g – Bem-estar e Leveza para Sua Rotina ✨&#010;&#010;O Super Chá Monjaro é um blend especial de ingredientes naturais selecionados para quem busca complementar hábitos saudáveis e incluir uma bebida saborosa na rotina diária.&#010;&#010;💖 BENEFÍCIOS&#010;&#010;✔ Auxilia na sensação de leveza c...",
+    "shortDescription": "O Super Chá Monjaro é um blend especial de ingredientes naturais selecionados para quem busca complementar hábitos saudáveis e incluir uma bebida saborosa na rotina diária. 💖 BENEFÍCIOS ✔ Auxilia na sensação de leveza corporal ✔ Pode contribuir para reduzir a sensação de inchaço ✔ Ajuda na rotina de hidratação diária ✔ Ingredientes na...",
     "benefits": [
       "Auxilia no processo de emagrecimento",
       "Ajuda no controle do apetite",
       "Complementa dieta e exercícios"
     ],
     "composition": [
-      "Monjaro –"
+      "Super Chá Monjaro"
     ],
     "howToUse": "Adicione 1 colher (chá) do blend em 200 ml de água quente, deixe em infusão por 5 minutos, coe e beba. Tome de 2 a 3 xícaras ao dia.",
     "reviews": [
@@ -2725,7 +2725,7 @@ export const products: Product[] = [
   {
     "id": "44",
     "slug": "maca-black-120-capsulas-500mg-nutri-life",
-    "name": "Maca Black - 120 cápsulas - 500mg - Nutri Life",
+    "name": "Maca Black",
     "capsules": 120,
     "mg": 500,
     "images": [
@@ -2743,14 +2743,14 @@ export const products: Product[] = [
     "tone": "primary",
     "rating": 4.6,
     "reviewCount": 378,
-    "shortDescription": "Maca Black - 120 Cápsulas para Seu Bem-Estar Descubra a Maca Black, um suplemento em cápsulas que promove o equilíbrio natural do corpo. Este produto é ideal para quem busca uma opção prática e eficaz para complementar sua rotina diária.&#010;&#010;Benefícios Principais: - Suporte Natural: A fórmula da Maca Black é...",
+    "shortDescription": "Maca Black - 120 Cápsulas para Seu Bem-Estar Descubra a Maca Black, um suplemento em cápsulas que promove o equilíbrio natural do corpo. Este produto é ideal para quem busca uma opção prática e eficaz para complementar sua rotina diária. Benefícios Principais: - Suporte Natural: A fórmula da Maca Black é composta por ingredientes selec...",
     "benefits": [
       "Auxilia a disposição física",
       "Contribui para o vigor",
       "Fórmula tradicional"
     ],
     "composition": [
-      "Maca Black - - -"
+      "Maca Black"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -2785,7 +2785,7 @@ export const products: Product[] = [
   {
     "id": "45",
     "slug": "ashwagandha-moringa-240-caps-500mg-nutri-life",
-    "name": "Ashwagandha + Moringa - 240 caps- 500mg - Nutri Life",
+    "name": "Ashwagandha + Moringa",
     "capsules": 240,
     "mg": 500,
     "images": [
@@ -2805,7 +2805,7 @@ export const products: Product[] = [
     "tone": "leaf",
     "rating": 4.7,
     "reviewCount": 395,
-    "shortDescription": "Ashwagandha + Moringa - 240 cápsulas de 500mg - Nutri Life&#010;Descubra a combinação poderosa da Ashwagandha e da Moringa, dois ingredientes naturais reconhecidos por seus inúmeros benefícios para o bem-estar. Este suplemento em cápsulas oferece uma forma prática e eficaz de incluir esses nutrientes essenciais na s...",
+    "shortDescription": "Descubra a combinação poderosa da Ashwagandha e da Moringa, dois ingredientes naturais reconhecidos por seus inúmeros benefícios para o bem-estar. Este suplemento em cápsulas oferece uma forma prática e eficaz de incluir esses nutrientes essenciais na sua rotina diária. Benefícios do Ashwagandha + Moringa Nutri Life • Suporte ao equilí...",
     "benefits": [
       "Auxilia no relaxamento",
       "Favorece uma boa noite de sono",
@@ -2813,7 +2813,7 @@ export const products: Product[] = [
     ],
     "composition": [
       "Ashwagandha",
-      "Moringa - - -"
+      "Moringa"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -2848,7 +2848,7 @@ export const products: Product[] = [
   {
     "id": "46",
     "slug": "melao-de-sao-caetano-120-capsulas-500mg-nutri-life",
-    "name": "Melão de São Caetano -120 cápsulas - 500mg - Nutri Life",
+    "name": "Melão de São Caetano",
     "capsules": 120,
     "mg": 500,
     "images": [
@@ -2866,14 +2866,14 @@ export const products: Product[] = [
     "tone": "leaf",
     "rating": 4.8,
     "reviewCount": 412,
-    "shortDescription": "Melão de São Caetano - 120 Cápsulas &#010;&#010;Descubra uma forma prática de incluir o Melão de São Caetano na sua rotina diária com este suplemento em cápsulas. Desenvolvido para oferecer conveniência, o produto vem em embalagem com 120 cápsulas, ideal para uso contínuo.&#010;&#010; Características principais: - F...",
+    "shortDescription": "Descubra uma forma prática de incluir o Melão de São Caetano na sua rotina diária com este suplemento em cápsulas. Desenvolvido para oferecer conveniência, o produto vem em embalagem com 120 cápsulas, ideal para uso contínuo. Características principais: - Forma prática de consumo do Melão de São Caetano. - Embalagem com 120 cápsulas, p...",
     "benefits": [
       "Auxilia o metabolismo do açúcar",
       "Contribui para o equilíbrio energético",
       "Fórmula natural"
     ],
     "composition": [
-      "Melão de São Caetano - - -"
+      "Melão de São Caetano"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -2907,7 +2907,7 @@ export const products: Product[] = [
   {
     "id": "47",
     "slug": "cha-seca-barriga-100g-blend-natural-para-sua-rotina",
-    "name": "Chá Seca Barriga 100g – Blend Natural para Sua Rotina",
+    "name": "Chá Seca Barriga",
     "kind": "pouch",
     "unitLabel": "Blend natural · 100g",
     "unitNoun": "pacote",
@@ -2930,14 +2930,14 @@ export const products: Product[] = [
     "tone": "gold",
     "rating": 4.9,
     "reviewCount": 429,
-    "shortDescription": "✨ Chá Seca Barriga 100g – Blend Natural para Sua Rotina ✨&#010;&#010;O Chá Seca Barriga é um blend de ervas naturais com Noz da Índia, Goji Berry e outros ingredientes selecionados para quem busca complementar hábitos saudáveis e incluir uma bebida prática na rotina diária.&#010;&#010;💖 BENEFÍCIOS&#010;&#010;✔ Auxi...",
+    "shortDescription": "O Chá Seca Barriga é um blend de ervas naturais com Noz da Índia, Goji Berry e outros ingredientes selecionados para quem busca complementar hábitos saudáveis e incluir uma bebida prática na rotina diária. 💖 BENEFÍCIOS ✔ Auxilia na sensação de leveza corporal ✔ Pode contribuir para reduzir a sensação de inchaço ✔ Ajuda na rotina de hi...",
     "benefits": [
       "Auxilia no processo de emagrecimento",
       "Ajuda no controle do apetite",
       "Complementa dieta e exercícios"
     ],
     "composition": [
-      "Chá Seca Barriga –"
+      "Chá Seca Barriga"
     ],
     "howToUse": "Adicione 1 colher (chá) do blend em 200 ml de água quente, deixe em infusão por 5 minutos, coe e beba. Tome de 2 a 3 xícaras ao dia.",
     "reviews": [
@@ -2972,7 +2972,7 @@ export const products: Product[] = [
   {
     "id": "48",
     "slug": "combo-mulher-30-360-cps-500mg-nutri-life",
-    "name": "Combo mulher 30+ - 360 cps - 500mg - Nutri Life",
+    "name": "Combo mulher 30+",
     "capsules": 360,
     "mg": 500,
     "images": [
@@ -2992,15 +2992,14 @@ export const products: Product[] = [
     "tone": "leaf",
     "rating": 4.6,
     "reviewCount": 46,
-    "shortDescription": "Combo Mulher 30+ - Cuidado e Bem-Estar em Cápsulas!&#010;&#010;✨ O Combo Mulher 30+ é a escolha ideal para quem busca cuidar da saúde e bem-estar de forma prática e eficaz. Este kit contém:&#010; • 1 Magrisbelt: Auxilia na manutenção da silhueta e promove a sensação de leveza.&#010; • 1 Saúde da Mulher: Suplemento d...",
+    "shortDescription": "✨ O Combo Mulher 30+ é a escolha ideal para quem busca cuidar da saúde e bem-estar de forma prática e eficaz. Este kit contém: • 1 Magrisbelt: Auxilia na manutenção da silhueta e promove a sensação de leveza. • 1 Saúde da Mulher: Suplemento desenvolvido para atender às necessidades específicas da saúde feminina. • 1 Colágeno: Contribui...",
     "benefits": [
       "Apoia o equilíbrio hormonal feminino",
       "Contribui para o bem-estar no ciclo",
       "Fórmula natural"
     ],
     "composition": [
-      "Combo mulher 30",
-      "- - -"
+      "Mulher 30"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -3058,17 +3057,17 @@ export const products: Product[] = [
     "tone": "gold",
     "rating": 4.7,
     "reviewCount": 63,
-    "shortDescription": "Combo Nutri Life – Creatina + Ora Pro Nobis Cúrcuma e Gengibre + Ácido Hialurônico (360 cápsulas)&#010;Este combo exclusivo da Nutri Life reúne três suplementos que se complementam, oferecendo praticidade para quem deseja incluir nutrientes variados na alimentação diária.Composto por três frascos de 120 cápsulas cad...",
+    "shortDescription": "Este combo exclusivo da Nutri Life reúne três suplementos que se complementam, oferecendo praticidade para quem deseja incluir nutrientes variados na alimentação diária.Composto por três frascos de 120 cápsulas cada, ele traz uma combinação popular entre quem busca energia para atividades, equilíbrio nutricional e suporte para cuidados...",
     "benefits": [
       "Auxilia o desempenho no treino",
       "Contribui para a resistência",
       "Energia para o treino"
     ],
     "composition": [
-      "Combo Creatina",
+      "Creatina",
       "Ora Pro Nobis Cúrcuma",
       "Gengibre",
-      "Ácido Hialurônico"
+      "Ácido Hialurônico Nutri Life"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -3125,14 +3124,15 @@ export const products: Product[] = [
     "tone": "leaf",
     "rating": 4.8,
     "reviewCount": 80,
-    "shortDescription": "✨ Babosa Aloe Vera Plus 500ml – Bem-estar Natural para Sua Rotina ✨&#010;&#010;A Babosa Aloe Vera Plus é uma bebida/suplemento líquido à base de Aloe Vera, desenvolvida para quem busca complementar hábitos saudáveis de forma prática no dia a dia. Sua fórmula zero açúcar oferece uma opção leve para incluir na rotina...",
+    "shortDescription": "A Babosa Aloe Vera Plus é uma bebida/suplemento líquido à base de Aloe Vera, desenvolvida para quem busca complementar hábitos saudáveis de forma prática no dia a dia. Sua fórmula zero açúcar oferece uma opção leve para incluir na rotina com mais equilíbrio. 💖 BENEFÍCIOS ✔ Auxilia na complementação da rotina diária ✔ Produto à base de...",
     "benefits": [
       "Auxilia no conforto digestivo",
       "Contribui para o equilíbrio gástrico",
       "Fórmula natural"
     ],
     "composition": [
-      "Babosa Aloe Vera Plus – Zero Açúcar"
+      "Babosa Aloe Vera Plus 500ml",
+      "Zero Açúcar"
     ],
     "howToUse": "Use conforme a orientação do rótulo. Agite antes de usar.",
     "reviews": [
@@ -3165,7 +3165,7 @@ export const products: Product[] = [
   {
     "id": "51",
     "slug": "uxi-amarelo-castanha-da-india-240-capsulas-500mg-nutri-life",
-    "name": "Uxi amarelo + Castanha da Índia - 240 cápsulas - 500mg - Nutri Life",
+    "name": "Uxi amarelo + Castanha da Índia",
     "capsules": 240,
     "mg": 500,
     "images": [
@@ -3184,7 +3184,7 @@ export const products: Product[] = [
     "tone": "leaf",
     "rating": 4.9,
     "reviewCount": 97,
-    "shortDescription": "Uxi Amarelo + Castanha da Índia – Para que serve e benefícios&#010;&#010;Se você busca um suplemento natural para melhorar a saúde e o bem-estar, o Uxi Amarelo + Castanha da Índia é uma excelente escolha. Com ingredientes tradicionais, essa combinação atua de forma eficaz em diferentes funções do organismo, promoven...",
+    "shortDescription": "Se você busca um suplemento natural para melhorar a saúde e o bem-estar, o Uxi Amarelo + Castanha da Índia é uma excelente escolha. Com ingredientes tradicionais, essa combinação atua de forma eficaz em diferentes funções do organismo, promovendo equilíbrio e vitalidade. Principais usos e benefícios Uxi Amarelo: Conhecido por suas prop...",
     "benefits": [
       "Auxilia a saúde das articulações",
       "Contribui para a mobilidade",
@@ -3192,7 +3192,7 @@ export const products: Product[] = [
     ],
     "composition": [
       "Uxi amarelo",
-      "Castanha da Índia - - -"
+      "Castanha da Índia"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -3227,7 +3227,7 @@ export const products: Product[] = [
   {
     "id": "52",
     "slug": "ginkgo-biloba-120-capsulas-500mg-nutri-life",
-    "name": "Ginkgo biloba - 120 cápsulas - 500mg - Nutri Life",
+    "name": "Ginkgo biloba",
     "capsules": 120,
     "mg": 500,
     "images": [
@@ -3245,14 +3245,14 @@ export const products: Product[] = [
     "tone": "leaf",
     "rating": 4.6,
     "reviewCount": 114,
-    "shortDescription": "Ginkgo Biloba - 120 Cápsulas &#010;&#010;O Ginkgo Biloba é um suplemento natural em cápsulas, ideal para quem busca uma opção prática para o dia a dia. Cada embalagem contém 120 cápsulas, garantindo um uso contínuo e conveniente. Características principais: - Contém Ginkgo Biloba de qualidade. - Embalagem com 120 cá...",
+    "shortDescription": "O Ginkgo Biloba é um suplemento natural em cápsulas, ideal para quem busca uma opção prática para o dia a dia. Cada embalagem contém 120 cápsulas, garantindo um uso contínuo e conveniente. Características principais: - Contém Ginkgo Biloba de qualidade. - Embalagem com 120 cápsulas. - Uso recomendado: 3 cápsulas ao dia para melhor apro...",
     "benefits": [
       "Contribui para a circulação",
       "Ação antioxidante",
       "Fórmula tradicional"
     ],
     "composition": [
-      "Ginkgo biloba - - -"
+      "Ginkgo biloba"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -3287,7 +3287,7 @@ export const products: Product[] = [
   {
     "id": "53",
     "slug": "curcuma-pimenta-preta-vitamina-c-120-capsulas-500mg-flow-nature",
-    "name": "Cúrcuma + Pimenta Preta + Vitamina C 120 Cápsulas 500mg – Flow Nature",
+    "name": "Cúrcuma + Pimenta Preta + Vitamina C 120 Cápsulas 500mg",
     "capsules": 120,
     "mg": 500,
     "images": [
@@ -3309,7 +3309,7 @@ export const products: Product[] = [
     "tone": "leaf",
     "rating": 4.7,
     "reviewCount": 131,
-    "shortDescription": "✨ Cúrcuma + Pimenta Preta + Vitamina C – Suplemento para Sua Rotina ✨&#010;&#010;A Cúrcuma + Pimenta Preta + Vitamina C da Flow Nature é um suplemento alimentar em cápsulas desenvolvido para quem busca complementar a rotina com ingredientes reconhecidos pelo uso tradicional e pela praticidade no consumo diário.&#010...",
+    "shortDescription": "A Cúrcuma + Pimenta Preta + Vitamina C da Flow Nature é um suplemento alimentar em cápsulas desenvolvido para quem busca complementar a rotina com ingredientes reconhecidos pelo uso tradicional e pela praticidade no consumo diário. 💖 BENEFÍCIOS ✔ Auxilia na complementação da alimentação diária ✔ Contém cúrcuma, pimenta preta e vitamin...",
     "benefits": [
       "Ação antioxidante",
       "Auxilia o bem-estar das articulações",
@@ -3318,7 +3318,7 @@ export const products: Product[] = [
     "composition": [
       "Cúrcuma",
       "Pimenta Preta",
-      "Vitamina C –"
+      "Vitamina C 120 Cápsulas 500mg"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -3353,7 +3353,7 @@ export const products: Product[] = [
   {
     "id": "54",
     "slug": "seca-barriga-com-psyllium-120-capsulas-500mg-nutri-life",
-    "name": "Seca barriga com psyllium - 120 cápsulas - 500mg - Nutri Life",
+    "name": "Seca barriga com psyllium",
     "capsules": 120,
     "mg": 500,
     "images": [
@@ -3374,7 +3374,7 @@ export const products: Product[] = [
     "tone": "gold",
     "rating": 4.8,
     "reviewCount": 148,
-    "shortDescription": "Seca Barriga com Psyllium - 120 Cápsulas &#010;&#010;O Seca Barriga com Psyllium é um suplemento prático, desenvolvido para quem busca um suporte natural ao bem-estar do organismo. Com uma fórmula cuidadosamente elaborada, este produto é ideal para integrar à sua rotina diária.&#010;&#010;Características Principais:...",
+    "shortDescription": "O Seca Barriga com Psyllium é um suplemento prático, desenvolvido para quem busca um suporte natural ao bem-estar do organismo. Com uma fórmula cuidadosamente elaborada, este produto é ideal para integrar à sua rotina diária. Características Principais: - Contém 120 cápsulas para um uso contínuo e prático. - Uso recomendado: 3 cápsulas...",
     "benefits": [
       "Auxilia no processo de emagrecimento",
       "Ajuda no controle do apetite",
@@ -3382,7 +3382,7 @@ export const products: Product[] = [
     ],
     "composition": [
       "Seca barriga",
-      "psyllium - - -"
+      "Psyllium"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -3439,7 +3439,7 @@ export const products: Product[] = [
     "tone": "leaf",
     "rating": 4.9,
     "reviewCount": 165,
-    "shortDescription": "✨ Cúrcuma com Pimenta Preta – Suplemento Natural para Sua Rotina ✨&#010;&#010;A Cúrcuma com Pimenta Preta da Natu Ervas é um suplemento alimentar em cápsulas desenvolvido para quem busca complementar a alimentação diária com praticidade. A combinação une dois ingredientes tradicionalmente utilizados em rotinas natur...",
+    "shortDescription": "A Cúrcuma com Pimenta Preta da Natu Ervas é um suplemento alimentar em cápsulas desenvolvido para quem busca complementar a alimentação diária com praticidade. A combinação une dois ingredientes tradicionalmente utilizados em rotinas naturais, oferecendo uma opção simples para incluir no dia a dia. 💖 BENEFÍCIOS ✔ Auxilia na complement...",
     "benefits": [
       "Ação antioxidante",
       "Auxilia o bem-estar das articulações",
@@ -3447,7 +3447,7 @@ export const products: Product[] = [
     ],
     "composition": [
       "Cúrcuma",
-      "Pimenta Preta"
+      "Pimenta Preta 120 Cápsulas 500mg"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -3482,7 +3482,7 @@ export const products: Product[] = [
   {
     "id": "56",
     "slug": "kit-colageno-barbatimao-saude-da-mulher-360-capsulas-500mg-nutri-life",
-    "name": "Kit Colágeno - Barbatimão - Saúde da mulher - 360 cápsulas - 500mg - Nutri Life",
+    "name": "Kit Colágeno - Barbatimão - Saúde da mulher",
     "capsules": 360,
     "mg": 500,
     "images": [
@@ -3503,14 +3503,16 @@ export const products: Product[] = [
     "tone": "leaf",
     "rating": 4.6,
     "reviewCount": 182,
-    "shortDescription": "Poder Feminino Nutri Life é um suplemento inovador que combina os benefícios do colágeno, barbatimão e ingredientes específicos para a saúde da mulher, oferecendo uma fórmula completa para o seu bem-estar diário.&#010;&#010;Este combo exclusivo foi elaborado para atuar de forma sinérgica na sua rotina, promovendo a...",
+    "shortDescription": "Poder Feminino Nutri Life é um suplemento inovador que combina os benefícios do colágeno, barbatimão e ingredientes específicos para a saúde da mulher, oferecendo uma fórmula completa para o seu bem-estar diário. Este combo exclusivo foi elaborado para atuar de forma sinérgica na sua rotina, promovendo a saúde da pele, o fortalecimento...",
     "benefits": [
       "Apoia o equilíbrio hormonal feminino",
       "Contribui para o bem-estar no ciclo",
       "Fórmula natural"
     ],
     "composition": [
-      "Kit Colágeno - Barbatimão - Saúde da mulher - - -"
+      "Colágeno",
+      "Barbatimão",
+      "Saúde da mulher"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -3545,7 +3547,7 @@ export const products: Product[] = [
   {
     "id": "57",
     "slug": "viagron-120-capsulas-500mg-nutri-life",
-    "name": "Viagron - 120 cápsulas - 500mg - Nutri life",
+    "name": "Viagron",
     "capsules": 120,
     "mg": 500,
     "images": [
@@ -3562,14 +3564,14 @@ export const products: Product[] = [
     "tone": "primary",
     "rating": 4.7,
     "reviewCount": 199,
-    "shortDescription": "Viagron Masculino - 120 Cápsulas Viagron é um suplemento desenvolvido para o público masculino que busca uma rotina prática e equilibrada. Com uma embalagem contendo 120 cápsulas, oferece uma alternativa conveniente para o uso diário. Características principais: - &#010;&#010;Embalagem com 120 cápsulas para uso prol...",
+    "shortDescription": "Viagron Masculino - 120 Cápsulas Viagron é um suplemento desenvolvido para o público masculino que busca uma rotina prática e equilibrada. Com uma embalagem contendo 120 cápsulas, oferece uma alternativa conveniente para o uso diário. Características principais: - Embalagem com 120 cápsulas para uso prolongado. - Uso recomendado: 3 cáp...",
     "benefits": [
       "Auxilia a disposição física",
       "Contribui para o vigor",
       "Fórmula tradicional"
     ],
     "composition": [
-      "Viagron - - -"
+      "Viagron"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -3604,7 +3606,7 @@ export const products: Product[] = [
   {
     "id": "58",
     "slug": "colageno-hidrolisado-120-cps-500mg-nutri-life",
-    "name": "Colágeno Hidrolisado - 120 cps - 500mg - Nutri Life",
+    "name": "Colágeno Hidrolisado",
     "capsules": 120,
     "mg": 500,
     "images": [
@@ -3625,14 +3627,14 @@ export const products: Product[] = [
     "tone": "leaf",
     "rating": 4.8,
     "reviewCount": 216,
-    "shortDescription": "Produzido com colágeno hidrolisado, esse suplemento da Nutri Life foi pensado para quem busca praticidade na hora de complementar a rotina alimentar. O formato em cápsulas permite o consumo de forma prática, mesmo em dias corridos, favorecendo a regularidade nas estratégias de organização nutricional.&#010;&#010;O c...",
+    "shortDescription": "Produzido com colágeno hidrolisado, esse suplemento da Nutri Life foi pensado para quem busca praticidade na hora de complementar a rotina alimentar. O formato em cápsulas permite o consumo de forma prática, mesmo em dias corridos, favorecendo a regularidade nas estratégias de organização nutricional. O colágeno é um ingrediente tradic...",
     "benefits": [
       "Contribui para pele, unhas e cabelos",
       "Ação de suporte à beleza",
       "Fórmula natural"
     ],
     "composition": [
-      "Colágeno Hidrolisado - - -"
+      "Colágeno Hidrolisado"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -3667,7 +3669,7 @@ export const products: Product[] = [
   {
     "id": "59",
     "slug": "creatina-100-pure-60-caps-nutri-vivus-linha-premium",
-    "name": "Creatina 100% PURE - 60 caps - Nutri vivus - Linha premium",
+    "name": "Creatina 100% PURE",
     "capsules": 60,
     "mg": 500,
     "images": [
@@ -3689,14 +3691,14 @@ export const products: Product[] = [
     "tone": "primary",
     "rating": 4.9,
     "reviewCount": 233,
-    "shortDescription": "Creatina 100% PURE - 60 cápsulas - Nutri Vivus - Linha Premium&#010;Aumente sua performance e recupere seus músculos com a Creatina 100% PURE da Nutri Vivus, um suplemento premium desenvolvido para atletas e entusiastas do fitness. Cada cápsula contém creatina pura, garantindo alta absorção e eficácia para potencial...",
+    "shortDescription": "Aumente sua performance e recupere seus músculos com a Creatina 100% PURE da Nutri Vivus, um suplemento premium desenvolvido para atletas e entusiastas do fitness. Cada cápsula contém creatina pura, garantindo alta absorção e eficácia para potencializar seus treinos. Características principais: - 60 cápsulas por embalagem, ideal para u...",
     "benefits": [
       "Auxilia o desempenho no treino",
       "Contribui para a resistência",
       "Energia para o treino"
     ],
     "composition": [
-      "Creatina 100% PURE - - -"
+      "Creatina 100% PURE"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [
@@ -3731,7 +3733,7 @@ export const products: Product[] = [
   {
     "id": "60",
     "slug": "mounjaro-natural-max-life-120-capsulas-500mg-linha-premium",
-    "name": "Mounjaro Natural Max Life 120 Cápsulas 500mg – Linha Premium",
+    "name": "Mounjaro Natural Max Life 120 Cápsulas 500mg",
     "capsules": 120,
     "mg": 500,
     "images": [
@@ -3756,14 +3758,14 @@ export const products: Product[] = [
     "tone": "primary",
     "rating": 4.6,
     "reviewCount": 250,
-    "shortDescription": "✨ Mounjaro Natural Max Life – Suplemento Natural para Sua Rotina ✨&#010;&#010;O Mounjaro Natural Max Life é um suplemento alimentar em cápsulas desenvolvido para quem busca complementar hábitos saudáveis com praticidade no dia a dia. Sua fórmula 100% natural é ideal para acompanhar uma rotina equilibrada, com foco e...",
+    "shortDescription": "O Mounjaro Natural Max Life é um suplemento alimentar em cápsulas desenvolvido para quem busca complementar hábitos saudáveis com praticidade no dia a dia. Sua fórmula 100% natural é ideal para acompanhar uma rotina equilibrada, com foco em bem-estar, leveza e cuidado diário. 💖 BENEFÍCIOS ✔ Auxilia na complementação da rotina alimenta...",
     "benefits": [
       "Auxilia no processo de emagrecimento",
       "Ajuda no controle do apetite",
       "Complementa dieta e exercícios"
     ],
     "composition": [
-      "Mounjaro Natural –"
+      "Mounjaro Natural Max Life 120 Cápsulas 500mg"
     ],
     "howToUse": "Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.",
     "reviews": [

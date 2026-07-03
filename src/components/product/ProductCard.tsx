@@ -5,7 +5,11 @@ import ProductCover from '../shared/ProductCover'
 import Badge from '../shared/Badge'
 import PriceTag from '../shared/PriceTag'
 
+const BADGE_PRIORITY: Product['badges'] = ['premium', 'mais-vendido', 'lancamento', 'promocao']
+
 export default function ProductCard({ product }: { product: Product }) {
+  // mostra no máximo 2 selos por prioridade (o desconto já aparece no preço)
+  const shownBadges = BADGE_PRIORITY.filter((b) => product.badges.includes(b)).slice(0, 2)
   return (
     <motion.div whileHover={{ y: -4 }} transition={{ duration: 0.25 }} className="group h-full">
       <Link
@@ -14,9 +18,9 @@ export default function ProductCard({ product }: { product: Product }) {
       >
         <div className="relative aspect-square overflow-hidden">
           <ProductCover product={product} className="h-full w-full transition-transform duration-500 group-hover:scale-105" />
-          {product.badges.length > 0 && (
+          {shownBadges.length > 0 && (
             <div className="absolute left-2 top-2 flex flex-col gap-1">
-              {product.badges.map((b) => (
+              {shownBadges.map((b) => (
                 <Badge key={b} type={b} />
               ))}
             </div>

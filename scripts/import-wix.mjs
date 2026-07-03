@@ -29,12 +29,36 @@ const slugify = (s) =>
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-+|-+$/g, '')
 
+const decodeEntities = (s = '') =>
+  s.replace(/&#(\d+);/g, (_, n) => String.fromCharCode(+n))
+    .replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCharCode(parseInt(h, 16)))
+    .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&quot;/g, '"')
+    .replace(/&#39;|&apos;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+
 const stripHtml = (s = '') =>
-  s.replace(/<[^>]+>/g, ' ')
-    .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&')
-    .replace(/&quot;/g, '"').replace(/&#39;/g, "'")
-    .replace(/&lt;/g, '<').replace(/&gt;/g, '>')
-    .replace(/\s+/g, ' ').trim()
+  decodeEntities(String(s).replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ').trim()
+
+// Descrição preservando parágrafos: troca tags por quebra e decodifica entidades.
+const cleanDesc = (s = '') =>
+  decodeEntities(String(s).replace(/<[^>]+>/g, '\n'))
+    .split(/\n+/).map((p) => p.replace(/\s+/g, ' ').trim()).filter(Boolean)
+
+// Limpa o nome de exibição: remove specs (nº cápsulas/mg/g/ml), marca e slogans.
+const cleanName = (raw = '') => {
+  let n = stripHtml(raw).replace(/\s*\|\s*Levato.*$/i, '')
+  n = n
+    .replace(/\s*[-–|]\s*\d+\s*(c[aá]psulas?|cps|caps)\b[\s\S]*$/i, '') // "- 120 cápsulas ..." até o fim
+    .replace(/\s*[-–|]\s*(nutri\s?life|nutri\s?vivus|flow nature|natu ervas)\b[\s\S]*$/i, '')
+    .replace(/\s*[-–|]\s*(blend natural|super ch[aá] moun?jaro|suplemento natural|bem-estar feminino natural|uso nasal|zero a[cç]ucar|100% natural)\b[\s\S]*$/i, '')
+    .replace(/\s*[-–|]\s*linha premium\b/gi, '')
+    .replace(/\s*[-–|]\s*\d+\s*mg\b/gi, '')
+    .replace(/\s*[-–|]\s*\d+\s*ml\b/gi, '')
+    .replace(/\s+\d+\s*g\b\s*$/i, '') // "... 100g" no fim (tamanho já vai no unitLabel)
+    .replace(/\s*[-–|]\s*$/, '')
+    .replace(/\s{2,}/g, ' ')
+    .trim()
+  return n || stripHtml(raw)
+}
 
 // ---- categorização por palavra-chave -> slugs de categoria do app ----
 function categorize(name) {
@@ -183,9 +207,9 @@ async function main() {
       const m = html.match(new RegExp(`<meta property="${prop}" content="([^"]*)"`))
       return m ? m[1] : ''
     }
-    let name = stripHtml((prod && prod.name) || og('og:title') || '')
-    name = name.replace(/\s*\|\s*Levato.*$/i, '').replace(/\s*[-–]\s*Levato.*$/i, '').trim()
-    if (!name) { const t = html.match(/<title>([^<]*)<\/title>/); name = t ? stripHtml(t[1]).replace(/\s*\|\s*Levato.*$/i, '').trim() : '' }
+    let rawName = stripHtml((prod && prod.name) || og('og:title') || '')
+    if (!rawName) { const t = html.match(/<title>([^<]*)<\/title>/); rawName = t ? stripHtml(t[1]).replace(/\s*\|\s*Levato.*$/i, '').trim() : '' }
+    const name = cleanName(rawName)
 
     // preço: vem do JSON embutido do Wix (não do JSON-LD). Usa discountedPrice (promo) se houver.
     const priceM = html.match(/"price":(\d+(?:\.\d+)?)/)
@@ -223,11 +247,11 @@ async function main() {
       } catch { /* ignore */ }
     }
 
-    const { cats, isTea, isLiquid } = categorize(name)
-    const capsMatch = name.match(/(\d+)\s*c[aá]?ps/i) || name.match(/(\d+)\s*c[aá]psulas/i)
-    const mgMatch = name.match(/(\d+)\s*mg/i)
-    const gMatch = name.match(/(\d+)\s*g\b/i)
-    const mlMatch = name.match(/(\d+)\s*ml\b/i)
+    const { cats, isTea, isLiquid } = categorize(rawName)
+    const capsMatch = rawName.match(/(\d+)\s*c[aá]?ps/i) || rawName.match(/(\d+)\s*c[aá]psulas/i)
+    const mgMatch = rawName.match(/(\d+)\s*mg/i)
+    const gMatch = rawName.match(/(\d+)\s*g\b/i)
+    const mlMatch = rawName.match(/(\d+)\s*ml\b/i)
 
     let unitLabel, unitNoun, kind, capsules, mg
     if (isTea) {
@@ -241,7 +265,7 @@ async function main() {
       mg = mgMatch ? Number(mgMatch[1]) : 500
     }
 
-    const isPremium = /premium|nutri vivus|max life/i.test(name)
+    const isPremium = /premium|nutri vivus|max life/i.test(rawName)
     const isCombo = cats.includes('combos')
     const badges = []
     if (isPremium) { badges.push('premium'); if (!cats.includes('linha-premium')) cats.push('linha-premium') }
@@ -256,12 +280,14 @@ async function main() {
     const primary = cats.find((c) => BENEFITS[c]) || 'bem-estar'
     const benefits = BENEFITS[primary]
 
-    // composição a partir do nome (ingredientes)
+    // composição a partir do nome já limpo (ingredientes)
+    const cap = (s) => s.charAt(0).toUpperCase() + s.slice(1)
     const composition = name
-      .replace(/\d+\s*c[aá]?ps\w*/gi, '').replace(/\d+\s*mg/gi, '').replace(/\d+\s*g\b/gi, '')
-      .replace(/\d+\s*ml\b/gi, '').replace(/nutri[- ]life|nutri[- ]vivus|flow nature|linha premium|max life|super chá|blend natural.*$/gi, '')
-      .split(/\s+com\s+|\s+e\s+|\+|,|\//i).map((s) => stripHtml(s).trim())
-      .filter((s) => s && s.length > 2 && !/^\d+$/.test(s)).slice(0, 6)
+      .replace(/^(kit|combo)\s+/i, '')
+      .split(/\s*\+\s*|\s*,\s*|\s+com\s+|\s+e\s+|\s*\/\s*|\s+[-–]\s+/i)
+      .map((s) => s.replace(/[-–|]+\s*$/, '').trim())
+      .filter((s) => s && s.length > 2 && !/^\d/.test(s) && !/^(premium|natural|nutri|linha|plus|nozes da india)$/i.test(asciiLower(s)))
+      .map(cap).slice(0, 6)
 
     const howToUse = isTea
       ? 'Adicione 1 colher (chá) do blend em 200 ml de água quente, deixe em infusão por 5 minutos, coe e beba. Tome de 2 a 3 xícaras ao dia.'
@@ -269,8 +295,11 @@ async function main() {
         ? 'Use conforme a orientação do rótulo. Agite antes de usar.'
         : 'Tomar 2 cápsulas ao dia, com água, preferencialmente após as refeições.'
 
-    let shortDescription = stripHtml((prod && prod.description) || og('og:description') || '')
-    if (shortDescription.length > 320) shortDescription = shortDescription.slice(0, 317).trim() + '...'
+    let paras = cleanDesc((prod && prod.description) || og('og:description') || '')
+    // remove a 1ª linha se for só o título/repetição do nome do produto
+    if (paras.length > 1 && (paras[0].length < 95 || /cápsulas|c[aá]psulas|blend|nutri/i.test(paras[0]) && paras[0].length < 120)) paras.shift()
+    let shortDescription = paras.join(' ').replace(/\s+/g, ' ').trim()
+    if (shortDescription.length > 340) shortDescription = shortDescription.slice(0, 337).trim() + '...'
     if (!shortDescription) shortDescription = `${name} — produto 100% natural da linha Levato.`
 
     const agg = prod && prod.aggregateRating
