@@ -79,7 +79,7 @@ export const products: Product[] = [
     "capsules": 360,
     "mg": 500,
     "images": [
-      "/products/kit-detox-maca-black-creatina-360-capsulas-500mg-nutri-life-1.webp"
+      "/products/kit-detox-maca-black-creatina-360-capsulas-500mg-nutri-life-1-w.webp"
     ],
     "categorySlugs": [
       "emagrecedores",
@@ -149,7 +149,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/magri-sbelt-120-capsulas-500mg-nutri-life-1.webp"
+      "/products/magri-sbelt-120-capsulas-500mg-nutri-life-1-w.webp"
     ],
     "categorySlugs": [
       "emagrecedores",
@@ -271,7 +271,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/desinchar-dia-noite-120-cps-nutri-life-1.webp"
+      "/products/desinchar-dia-noite-120-cps-nutri-life-1-w.webp"
     ],
     "categorySlugs": [
       "emagrecedores",
@@ -335,7 +335,7 @@ export const products: Product[] = [
     "capsules": 360,
     "mg": 500,
     "images": [
-      "/products/ashwagandha-maca-black-moringa-360-caps-500mg-nutri-life-1.webp"
+      "/products/ashwagandha-maca-black-moringa-360-caps-500mg-nutri-life-1-w.webp"
     ],
     "categorySlugs": [
       "calmante",
@@ -400,7 +400,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/creatina-em-capsulas-120-cps-500mg-nutri-life-1.webp"
+      "/products/creatina-em-capsulas-120-cps-500mg-nutri-life-1-w.webp"
     ],
     "categorySlugs": [
       "pre-treino",
@@ -462,7 +462,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/tribullus-1500-120-capsulas-500mg-nutri-life-1.webp"
+      "/products/tribullus-1500-120-capsulas-500mg-nutri-life-1-w.webp"
     ],
     "categorySlugs": [
       "estimulantes-sexuais"
@@ -522,7 +522,7 @@ export const products: Product[] = [
     "capsules": 240,
     "mg": 500,
     "images": [
-      "/products/uxi-amarelo-colageno-240-capsulas-500mg-1.webp"
+      "/products/uxi-amarelo-colageno-240-capsulas-500mg-1-w.webp"
     ],
     "categorySlugs": [
       "beleza-saude",
@@ -587,7 +587,7 @@ export const products: Product[] = [
     "capsules": 240,
     "mg": 500,
     "images": [
-      "/products/cha-verde-e-magrisbelt-240-capsulas-500mg-nutri-life-1.webp"
+      "/products/cha-verde-e-magrisbelt-240-capsulas-500mg-nutri-life-1-w.webp"
     ],
     "categorySlugs": [
       "emagrecedores",
@@ -713,7 +713,7 @@ export const products: Product[] = [
     "capsules": 260,
     "mg": 500,
     "images": [
-      "/products/calmante-desinchar-260cps-500mg-nutri-life-1.webp"
+      "/products/calmante-desinchar-260cps-500mg-nutri-life-1-w.webp"
     ],
     "categorySlugs": [
       "emagrecedores",
@@ -777,7 +777,7 @@ export const products: Product[] = [
     "unitLabel": "Líquido natural",
     "unitNoun": "frasco",
     "images": [
-      "/products/gotas-sinusite-100-natural-20ml-copaiba-roma-eucalipto-menta-e-buchinha-1.webp",
+      "/products/gotas-sinusite-100-natural-20ml-copaiba-roma-eucalipto-menta-e-buchinha-1-w.webp",
       "/products/gotas-sinusite-100-natural-20ml-copaiba-roma-eucalipto-menta-e-buchinha-2.webp",
       "/products/gotas-sinusite-100-natural-20ml-copaiba-roma-eucalipto-menta-e-buchinha-3.webp",
       "/products/gotas-sinusite-100-natural-20ml-copaiba-roma-eucalipto-menta-e-buchinha-4.webp"
@@ -906,7 +906,7 @@ export const products: Product[] = [
     "capsules": 360,
     "mg": 500,
     "images": [
-      "/products/amora-miura-unha-de-gato-levedo-de-cerveja-360-cps-500mg-nutri-life-1.webp"
+      "/products/amora-miura-unha-de-gato-levedo-de-cerveja-360-cps-500mg-nutri-life-1-w.webp"
     ],
     "categorySlugs": [
       "saude-feminina",
@@ -1110,7 +1110,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/ashwagandha-120-caps-500mg-nutri-life-1.webp",
+      "/products/ashwagandha-120-caps-500mg-nutri-life-1-w.webp",
       "/products/ashwagandha-120-caps-500mg-nutri-life-2.webp",
       "/products/ashwagandha-120-caps-500mg-nutri-life-3.webp"
     ],
@@ -1239,7 +1239,7 @@ export const products: Product[] = [
     "unitLabel": "Blend natural",
     "unitNoun": "pacote",
     "images": [
-      "/products/cha-verde-120-caps-500mg-nutri-life-1.webp"
+      "/products/cha-verde-120-caps-500mg-nutri-life-1-w.webp"
     ],
     "categorySlugs": [
       "emagrecedores",
@@ -1312,7 +1312,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/ora-com-curcuma-e-creatina-120-capsulas-500mg-nutri-life-1.webp"
+      "/products/ora-com-curcuma-e-creatina-120-capsulas-500mg-nutri-life-1-w.webp"
     ],
     "categorySlugs": [
       "pre-treino",
@@ -1455,7 +1455,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/black-monster-120-capsulas-500mg-nutri-life-1.webp"
+      "/products/black-monster-120-capsulas-500mg-nutri-life-1-w.webp"
     ],
     "categorySlugs": [
       "emagrecedores",
@@ -1703,7 +1703,7 @@ export const products: Product[] = [
     "capsules": 240,
     "mg": 500,
     "images": [
-      "/products/kit-cha-verde-com-creatina-240-capsulas-500mg-nutri-life-1.webp"
+      "/products/kit-cha-verde-com-creatina-240-capsulas-500mg-nutri-life-1-w.webp"
     ],
     "categorySlugs": [
       "emagrecedores",
@@ -1896,7 +1896,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/desejus-sexy-120-capsulas-500mg-nutri-life-1.webp"
+      "/products/desejus-sexy-120-capsulas-500mg-nutri-life-1-w.webp"
     ],
     "categorySlugs": [
       "estimulantes-sexuais"
@@ -2018,7 +2018,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/seca-barriga-colageno-120-capsulas-500mg-nutri-life-1.webp"
+      "/products/seca-barriga-colageno-120-capsulas-500mg-nutri-life-1-w.webp"
     ],
     "categorySlugs": [
       "emagrecedores",
@@ -2082,7 +2082,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/unha-de-gato-com-sucupira-120-capsulas-500mg-nutri-life-1.webp"
+      "/products/unha-de-gato-com-sucupira-120-capsulas-500mg-nutri-life-1-w.webp"
     ],
     "categorySlugs": [
       "anti-inflamatorio",
@@ -2146,7 +2146,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/detox-120-capsulas-500mg-nutri-life-1.webp"
+      "/products/detox-120-capsulas-500mg-nutri-life-1-w.webp"
     ],
     "categorySlugs": [
       "emagrecedores",
@@ -2469,7 +2469,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/calmante-120-capsulas-500mg-nutri-life-1.webp"
+      "/products/calmante-120-capsulas-500mg-nutri-life-1-w.webp"
     ],
     "categorySlugs": [
       "calmante",
@@ -2529,7 +2529,7 @@ export const products: Product[] = [
     "capsules": 60,
     "mg": 1000,
     "images": [
-      "/products/omega-3-1000mg-nutri-vivus-60-capsulas-1.webp"
+      "/products/omega-3-1000mg-nutri-vivus-60-capsulas-1-w.webp"
     ],
     "categorySlugs": [
       "imunidade",
@@ -2593,7 +2593,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/glucomannan-120-capsulas-500mg-nutri-life-1.webp"
+      "/products/glucomannan-120-capsulas-500mg-nutri-life-1-w.webp"
     ],
     "categorySlugs": [
       "emagrecedores",
@@ -2850,7 +2850,7 @@ export const products: Product[] = [
     "capsules": 240,
     "mg": 500,
     "images": [
-      "/products/ashwagandha-moringa-240-caps-500mg-nutri-life-1.webp"
+      "/products/ashwagandha-moringa-240-caps-500mg-nutri-life-1-w.webp"
     ],
     "categorySlugs": [
       "calmante",
@@ -3049,7 +3049,7 @@ export const products: Product[] = [
     "capsules": 360,
     "mg": 500,
     "images": [
-      "/products/combo-mulher-30-360-cps-500mg-nutri-life-1.webp",
+      "/products/combo-mulher-30-360-cps-500mg-nutri-life-1-w.webp",
       "/products/combo-mulher-30-360-cps-500mg-nutri-life-2.webp"
     ],
     "categorySlugs": [
@@ -3111,7 +3111,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/combo-creatina-ora-pro-nobis-curcuma-e-gengibre-acido-hialuronico-nutri-life-1.webp"
+      "/products/combo-creatina-ora-pro-nobis-curcuma-e-gengibre-acido-hialuronico-nutri-life-1-w.webp"
     ],
     "categorySlugs": [
       "pre-treino",
@@ -3245,7 +3245,7 @@ export const products: Product[] = [
     "capsules": 240,
     "mg": 500,
     "images": [
-      "/products/uxi-amarelo-castanha-da-india-240-capsulas-500mg-nutri-life-1.webp"
+      "/products/uxi-amarelo-castanha-da-india-240-capsulas-500mg-nutri-life-1-w.webp"
     ],
     "categorySlugs": [
       "articulacoes-dores",
@@ -3567,7 +3567,7 @@ export const products: Product[] = [
     "capsules": 360,
     "mg": 500,
     "images": [
-      "/products/kit-colageno-barbatimao-saude-da-mulher-360-capsulas-500mg-nutri-life-1.webp"
+      "/products/kit-colageno-barbatimao-saude-da-mulher-360-capsulas-500mg-nutri-life-1-w.webp"
     ],
     "categorySlugs": [
       "saude-feminina",
@@ -3633,7 +3633,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/viagron-120-capsulas-500mg-nutri-life-1.webp"
+      "/products/viagron-120-capsulas-500mg-nutri-life-1-w.webp"
     ],
     "categorySlugs": [
       "estimulantes-sexuais"
@@ -3756,7 +3756,7 @@ export const products: Product[] = [
     "capsules": 60,
     "mg": 500,
     "images": [
-      "/products/creatina-100-pure-60-caps-nutri-vivus-linha-premium-1.webp"
+      "/products/creatina-100-pure-60-caps-nutri-vivus-linha-premium-1-w.webp"
     ],
     "categorySlugs": [
       "pre-treino",
