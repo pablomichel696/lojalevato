@@ -7,6 +7,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import sharp from 'sharp'
+import { enrichProduct } from './ingredients.mjs'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const ROOT = path.resolve(__dirname, '..')
@@ -48,7 +49,7 @@ const cleanDesc = (s = '') =>
 const cleanName = (raw = '') => {
   let n = stripHtml(raw).replace(/\s*\|\s*Levato.*$/i, '')
   n = n
-    .replace(/\s*[-–|]\s*\d+\s*(c[aá]psulas?|cps|caps)\b[\s\S]*$/i, '') // "- 120 cápsulas ..." até o fim
+    .replace(/\s*[-–|]?\s*\d+\s*(c[aá]psulas?|cps|caps)\b[\s\S]*$/i, '') // "120 cápsulas ..." até o fim (com ou sem hífen)
     .replace(/\s*[-–|]\s*(nutri\s?life|nutri\s?vivus|flow nature|natu ervas)\b[\s\S]*$/i, '')
     .replace(/\s*[-–|]\s*(blend natural|super ch[aá] moun?jaro|suplemento natural|bem-estar feminino natural|uso nasal|zero a[cç]ucar|100% natural)\b[\s\S]*$/i, '')
     .replace(/\s*[-–|]\s*linha premium\b/gi, '')
@@ -119,27 +120,6 @@ function categorize(name) {
   return { cats: [...cats], isTea, isLiquid }
 }
 
-const BENEFITS = {
-  emagrecedores: ['Auxilia no processo de emagrecimento', 'Ajuda no controle do apetite', 'Complementa dieta e exercícios'],
-  desintoxicantes: ['Apoia a desintoxicação natural do organismo', 'Auxilia na eliminação de líquidos', 'Sensação de leveza no dia a dia'],
-  diuretico: ['Auxilia na eliminação do excesso de líquidos', 'Contribui para reduzir o inchaço', 'Fórmula natural'],
-  calmante: ['Auxilia no relaxamento', 'Favorece uma boa noite de sono', 'Ajuda em momentos de rotina agitada'],
-  'saude-feminina': ['Apoia o equilíbrio hormonal feminino', 'Contribui para o bem-estar no ciclo', 'Fórmula natural'],
-  'estimulantes-sexuais': ['Auxilia a disposição física', 'Contribui para o vigor', 'Fórmula tradicional'],
-  fitness: ['Auxilia o desempenho no treino', 'Contribui para a energia e disposição', 'Ideal para a rotina fitness'],
-  'pre-treino': ['Auxilia o desempenho no treino', 'Contribui para a resistência', 'Energia para o treino'],
-  termogenico: ['Ação termogênica', 'Auxilia o gasto calórico no treino', 'Combina com exercícios'],
-  'beleza-saude': ['Contribui para pele, unhas e cabelos', 'Ação de suporte à beleza', 'Fórmula natural'],
-  'anti-inflamatorio': ['Ação antioxidante', 'Auxilia o bem-estar das articulações', 'Fórmula concentrada'],
-  'articulacoes-dores': ['Auxilia a saúde das articulações', 'Contribui para a mobilidade', 'Fórmula de suporte'],
-  'circulacao-sanguinea': ['Contribui para a circulação', 'Ação antioxidante', 'Fórmula tradicional'],
-  'refluxo-gastrite': ['Auxilia no conforto digestivo', 'Contribui para o equilíbrio gástrico', 'Fórmula natural'],
-  'controle-acucar-diabetes': ['Auxilia o metabolismo do açúcar', 'Contribui para o equilíbrio energético', 'Fórmula natural'],
-  'saude-prostata': ['Auxilia a função urinária', 'Contribui para o bem-estar masculino', 'Fórmula natural'],
-  imunidade: ['Auxilia o sistema imunológico', 'Ação antioxidante', 'Fórmula natural'],
-  'auxilio-intestinal': ['Auxilia o funcionamento intestinal', 'Contribui para a saciedade', 'Fórmula com fibras'],
-  'bem-estar': ['Apoia o bem-estar no dia a dia', 'Fórmula 100% natural', 'Rotina prática'],
-}
 
 const REVIEW_NAMES = ['Mariana S.', 'Carlos E.', 'Fernanda L.', 'Juliana P.', 'Roberto A.', 'Camila R.', 'Patrícia G.', 'Sandra M.', 'Luciana F.', 'Aline C.']
 const REVIEW_TEXT = [
@@ -280,18 +260,8 @@ async function main() {
     const tone = cats.includes('estimulantes-sexuais') || isPremium ? 'primary'
       : (cats.includes('emagrecedores') || cats.includes('fitness')) ? 'gold' : 'leaf'
 
-    // benefícios pela categoria principal
-    const primary = cats.find((c) => BENEFITS[c]) || 'bem-estar'
-    const benefits = BENEFITS[primary]
-
-    // composição a partir do nome já limpo (ingredientes)
-    const cap = (s) => s.charAt(0).toUpperCase() + s.slice(1)
-    const composition = name
-      .replace(/^(kit|combo)\s+/i, '')
-      .split(/\s*\+\s*|\s*,\s*|\s+com\s+|\s+e\s+|\s*\/\s*|\s+[-–]\s+/i)
-      .map((s) => s.replace(/[-–|]+\s*$/, '').trim())
-      .filter((s) => s && s.length > 2 && !/^\d/.test(s) && !/^(premium|natural|nutri|linha|plus|nozes da india)$/i.test(asciiLower(s)))
-      .map(cap).slice(0, 6)
+    // composição + benefícios ricos, derivados dos ingredientes do nome
+    const { composition, benefits } = enrichProduct({ name, kind, categorySlugs: cats })
 
     const howToUse = isTea
       ? 'Adicione 1 colher (chá) do blend em 200 ml de água quente, deixe em infusão por 5 minutos, coe e beba. Tome de 2 a 3 xícaras ao dia.'

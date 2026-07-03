@@ -62,6 +62,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         pending: `${baseUrl}/checkout?status=pendente`,
       },
       auto_return: 'approved',
+      // Mercado Pago notifica /api/webhook quando o pagamento muda de status.
+      notification_url: `${baseUrl}/api/webhook`,
     }
 
     const mpRes = await fetch(`${MP_API}/checkout/preferences`, {
