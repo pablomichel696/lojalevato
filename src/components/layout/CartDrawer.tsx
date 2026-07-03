@@ -1,9 +1,11 @@
 import { AnimatePresence, motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { useCart } from '../../context/useCart'
+import ProductCover from '../shared/ProductCover'
 import ProductImagePlaceholder from '../shared/ProductImagePlaceholder'
 import Button from '../shared/Button'
 import { formatPrice } from '../../lib/format'
+import { getProductBySlug } from '../../data/products'
 
 export default function CartDrawer() {
   const { items, isOpen, closeCart, subtotal, updateQuantity, removeItem } = useCart()
@@ -40,9 +42,15 @@ export default function CartDrawer() {
                 <p className="mt-8 text-center text-sm text-primary-500">Seu carrinho está vazio.</p>
               ) : (
                 <ul className="flex flex-col gap-4">
-                  {items.map((item) => (
+                  {items.map((item) => {
+                    const product = getProductBySlug(item.productSlug)
+                    return (
                     <li key={item.key} className="flex gap-3">
-                      <ProductImagePlaceholder tone={item.tone} className="h-16 w-16 flex-shrink-0 rounded-lg" />
+                      {product ? (
+                        <ProductCover product={product} className="h-16 w-16 flex-shrink-0 rounded-lg" />
+                      ) : (
+                        <ProductImagePlaceholder tone={item.tone} className="h-16 w-16 flex-shrink-0 rounded-lg" />
+                      )}
                       <div className="flex-1">
                         <p className="text-sm font-medium text-primary-800">{item.name}</p>
                         <p className="text-xs text-primary-500">Kit {item.kitDays} dias</p>
@@ -76,7 +84,8 @@ export default function CartDrawer() {
                         </button>
                       </div>
                     </li>
-                  ))}
+                    )
+                  })}
                 </ul>
               )}
             </div>

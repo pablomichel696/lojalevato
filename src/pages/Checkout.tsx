@@ -11,7 +11,7 @@ import Button from '../components/shared/Button'
 const STEPS = ['Identificação', 'Entrega', 'Pagamento']
 
 export default function Checkout() {
-  const { items, subtotal, clearCart } = useCart()
+  const { items, subtotal, clearCart, hydrated } = useCart()
   const [step, setStep] = useState(0)
   const [payment, setPayment] = useState<'pix' | 'cartao'>('pix')
   const [orderId, setOrderId] = useState<string | null>(null)
@@ -66,6 +66,8 @@ export default function Checkout() {
     )
   }
 
+  // aguarda a hidratação do localStorage antes de decidir redirecionar
+  if (!hydrated) return null
   if (items.length === 0) return <Navigate to="/carrinho" replace />
 
   return (

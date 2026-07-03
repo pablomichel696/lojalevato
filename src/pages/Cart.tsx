@@ -2,9 +2,11 @@ import { Link } from 'react-router-dom'
 import { useCart } from '../context/useCart'
 import Section, { SectionHeader } from '../components/shared/Section'
 import Button from '../components/shared/Button'
+import ProductCover from '../components/shared/ProductCover'
 import ProductImagePlaceholder from '../components/shared/ProductImagePlaceholder'
 import { formatPrice } from '../lib/format'
 import { FREE_SHIPPING_THRESHOLD } from '../lib/config'
+import { getProductBySlug } from '../data/products'
 
 export default function Cart() {
   const { items, subtotal, updateQuantity, removeItem } = useCart()
@@ -27,9 +29,15 @@ export default function Cart() {
 
       <div className="grid gap-8 lg:grid-cols-3">
         <ul className="flex flex-col gap-4 lg:col-span-2">
-          {items.map((item) => (
+          {items.map((item) => {
+            const product = getProductBySlug(item.productSlug)
+            return (
             <li key={item.key} className="flex gap-4 rounded-xl2 bg-white p-4 shadow-card">
-              <ProductImagePlaceholder tone={item.tone} className="h-20 w-20 flex-shrink-0 rounded-lg" />
+              {product ? (
+                <ProductCover product={product} className="h-20 w-20 flex-shrink-0 rounded-lg" />
+              ) : (
+                <ProductImagePlaceholder tone={item.tone} className="h-20 w-20 flex-shrink-0 rounded-lg" />
+              )}
               <div className="flex flex-1 flex-col justify-between">
                 <div>
                   <p className="text-sm font-medium text-primary-800">{item.name}</p>
@@ -54,7 +62,8 @@ export default function Cart() {
                 </button>
               </div>
             </li>
-          ))}
+            )
+          })}
         </ul>
 
         <div className="h-fit rounded-xl2 bg-primary-50 p-5">

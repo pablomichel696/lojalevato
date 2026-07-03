@@ -57,6 +57,8 @@ function reducer(state: CartState, action: CartAction): CartState {
 export type CartContextValue = {
   items: CartItem[]
   isOpen: boolean
+  /** true depois que o carrinho foi carregado do localStorage (evita redirect prematuro) */
+  hydrated: boolean
   subtotal: number
   itemCount: number
   addItem: (item: Omit<CartItem, 'quantity'>, quantity?: number) => void
@@ -99,6 +101,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
   const value: CartContextValue = {
     items: state.items,
     isOpen: state.isOpen,
+    hydrated,
     subtotal,
     itemCount,
     addItem: (item, quantity = 1) => {

@@ -6,6 +6,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import sharp from 'sharp'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const ROOT = path.resolve(__dirname, '..')
@@ -238,12 +239,15 @@ async function main() {
     for (let i = 0; i < Math.min(4, mediaIds.length); i++) {
       const ext = mediaIds[i].toLowerCase().endsWith('.png') ? 'png' : 'jpg'
       const dlUrl = `https://static.wixstatic.com/media/${mediaIds[i]}/v1/fill/w_1000,h_1000,q_85/file.${ext}`
-      const file = `${slug}-${i + 1}.${ext}`
+      const file = `${slug}-${i + 1}.webp`
       const dest = path.join(IMG_DIR, file)
       if (fs.existsSync(dest)) { images.push(`/products/${file}`); continue }
       try {
         const buf = Buffer.from(await (await fetch(dlUrl, UA)).arrayBuffer())
-        if (buf.length > 1000) { fs.writeFileSync(dest, buf); images.push(`/products/${file}`) }
+        if (buf.length > 1000) {
+          await sharp(buf).resize({ width: 900, height: 900, fit: 'inside', withoutEnlargement: true }).webp({ quality: 78 }).toFile(dest)
+          images.push(`/products/${file}`)
+        }
       } catch { /* ignore */ }
     }
 

@@ -37,10 +37,12 @@ export default function CouponPopup() {
             exit={{ opacity: 0 }}
             onClick={close}
           />
+          {/* wrapper flex centraliza de forma confiável (o Framer controla o transform do card) */}
+          <div className="fixed inset-0 z-[60] flex items-center justify-center p-4">
           <motion.div
             role="dialog"
             aria-modal="true"
-            className="fixed left-1/2 top-1/2 z-[60] w-[90%] max-w-sm -translate-x-1/2 -translate-y-1/2 rounded-xl2 bg-cream-50 p-6 text-center shadow-soft"
+            className="relative w-full max-w-sm rounded-xl2 bg-cream-50 p-6 text-center shadow-soft"
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.9 }}
@@ -77,6 +79,7 @@ export default function CouponPopup() {
               </form>
             )}
           </motion.div>
+          </div>
         </>
       )}
     </AnimatePresence>

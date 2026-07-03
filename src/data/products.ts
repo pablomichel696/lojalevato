@@ -11,7 +11,7 @@ export const products: Product[] = [
     "capsules": 60,
     "mg": 500,
     "images": [
-      "/products/cafeina-maca-peruana-60-cps-nutri-vivus-linha-premium-1.png"
+      "/products/cafeina-maca-peruana-60-cps-nutri-vivus-linha-premium-1.webp"
     ],
     "categorySlugs": [
       "estimulantes-sexuais",
@@ -77,7 +77,7 @@ export const products: Product[] = [
     "capsules": 360,
     "mg": 500,
     "images": [
-      "/products/kit-detox-maca-black-creatina-360-capsulas-500mg-nutri-life-1.png"
+      "/products/kit-detox-maca-black-creatina-360-capsulas-500mg-nutri-life-1.webp"
     ],
     "categorySlugs": [
       "emagrecedores",
@@ -146,7 +146,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/magri-sbelt-120-capsulas-500mg-nutri-life-1.png"
+      "/products/magri-sbelt-120-capsulas-500mg-nutri-life-1.webp"
     ],
     "categorySlugs": [
       "emagrecedores",
@@ -206,7 +206,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/ora-com-gengibre-e-curcuma-120-capsulas-500mg-nutri-life-1.png"
+      "/products/ora-com-gengibre-e-curcuma-120-capsulas-500mg-nutri-life-1.webp"
     ],
     "categorySlugs": [
       "anti-inflamatorio",
@@ -268,7 +268,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/desinchar-dia-noite-120-cps-nutri-life-1.png"
+      "/products/desinchar-dia-noite-120-cps-nutri-life-1.webp"
     ],
     "categorySlugs": [
       "emagrecedores",
@@ -332,7 +332,7 @@ export const products: Product[] = [
     "capsules": 360,
     "mg": 500,
     "images": [
-      "/products/ashwagandha-maca-black-moringa-360-caps-500mg-nutri-life-1.png"
+      "/products/ashwagandha-maca-black-moringa-360-caps-500mg-nutri-life-1.webp"
     ],
     "categorySlugs": [
       "calmante",
@@ -397,7 +397,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/creatina-em-capsulas-120-cps-500mg-nutri-life-1.png"
+      "/products/creatina-em-capsulas-120-cps-500mg-nutri-life-1.webp"
     ],
     "categorySlugs": [
       "pre-treino",
@@ -458,7 +458,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/tribullus-1500-120-capsulas-500mg-nutri-life-1.png"
+      "/products/tribullus-1500-120-capsulas-500mg-nutri-life-1.webp"
     ],
     "categorySlugs": [
       "estimulantes-sexuais"
@@ -517,7 +517,7 @@ export const products: Product[] = [
     "capsules": 240,
     "mg": 500,
     "images": [
-      "/products/uxi-amarelo-colageno-240-capsulas-500mg-1.png"
+      "/products/uxi-amarelo-colageno-240-capsulas-500mg-1.webp"
     ],
     "categorySlugs": [
       "beleza-saude",
@@ -580,7 +580,7 @@ export const products: Product[] = [
     "capsules": 240,
     "mg": 500,
     "images": [
-      "/products/cha-verde-e-magrisbelt-240-capsulas-500mg-nutri-life-1.png"
+      "/products/cha-verde-e-magrisbelt-240-capsulas-500mg-nutri-life-1.webp"
     ],
     "categorySlugs": [
       "emagrecedores",
@@ -645,7 +645,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/garra-do-diabo-120-capsulas-500mg-nutri-life-1.png"
+      "/products/garra-do-diabo-120-capsulas-500mg-nutri-life-1.webp"
     ],
     "categorySlugs": [
       "anti-inflamatorio",
@@ -705,7 +705,7 @@ export const products: Product[] = [
     "capsules": 260,
     "mg": 500,
     "images": [
-      "/products/calmante-desinchar-260cps-500mg-nutri-life-1.png"
+      "/products/calmante-desinchar-260cps-500mg-nutri-life-1.webp"
     ],
     "categorySlugs": [
       "emagrecedores",
@@ -770,10 +770,10 @@ export const products: Product[] = [
     "unitLabel": "Líquido natural",
     "unitNoun": "frasco",
     "images": [
-      "/products/gotas-sinusite-100-natural-20ml-copaiba-roma-eucalipto-menta-e-buchinha-1.png",
-      "/products/gotas-sinusite-100-natural-20ml-copaiba-roma-eucalipto-menta-e-buchinha-2.png",
-      "/products/gotas-sinusite-100-natural-20ml-copaiba-roma-eucalipto-menta-e-buchinha-3.png",
-      "/products/gotas-sinusite-100-natural-20ml-copaiba-roma-eucalipto-menta-e-buchinha-4.png"
+      "/products/gotas-sinusite-100-natural-20ml-copaiba-roma-eucalipto-menta-e-buchinha-1.webp",
+      "/products/gotas-sinusite-100-natural-20ml-copaiba-roma-eucalipto-menta-e-buchinha-2.webp",
+      "/products/gotas-sinusite-100-natural-20ml-copaiba-roma-eucalipto-menta-e-buchinha-3.webp",
+      "/products/gotas-sinusite-100-natural-20ml-copaiba-roma-eucalipto-menta-e-buchinha-4.webp"
     ],
     "categorySlugs": [
       "imunidade",
@@ -838,9 +838,9 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/amora-com-isoflavona-120-capsulas-nutri-life-1.png",
-      "/products/amora-com-isoflavona-120-capsulas-nutri-life-2.png",
-      "/products/amora-com-isoflavona-120-capsulas-nutri-life-3.png"
+      "/products/amora-com-isoflavona-120-capsulas-nutri-life-1.webp",
+      "/products/amora-com-isoflavona-120-capsulas-nutri-life-2.webp",
+      "/products/amora-com-isoflavona-120-capsulas-nutri-life-3.webp"
     ],
     "categorySlugs": [
       "saude-feminina",
@@ -902,7 +902,7 @@ export const products: Product[] = [
     "capsules": 360,
     "mg": 500,
     "images": [
-      "/products/amora-miura-unha-de-gato-levedo-de-cerveja-360-cps-500mg-nutri-life-1.png"
+      "/products/amora-miura-unha-de-gato-levedo-de-cerveja-360-cps-500mg-nutri-life-1.webp"
     ],
     "categorySlugs": [
       "saude-feminina",
@@ -968,10 +968,10 @@ export const products: Product[] = [
     "unitLabel": "Blend natural · 100g",
     "unitNoun": "pacote",
     "images": [
-      "/products/cha-seca-barriga-com-nozes-da-india-100g-blend-natural-para-sua-rotina-1.png",
-      "/products/cha-seca-barriga-com-nozes-da-india-100g-blend-natural-para-sua-rotina-2.png",
-      "/products/cha-seca-barriga-com-nozes-da-india-100g-blend-natural-para-sua-rotina-3.png",
-      "/products/cha-seca-barriga-com-nozes-da-india-100g-blend-natural-para-sua-rotina-4.png"
+      "/products/cha-seca-barriga-com-nozes-da-india-100g-blend-natural-para-sua-rotina-1.webp",
+      "/products/cha-seca-barriga-com-nozes-da-india-100g-blend-natural-para-sua-rotina-2.webp",
+      "/products/cha-seca-barriga-com-nozes-da-india-100g-blend-natural-para-sua-rotina-3.webp",
+      "/products/cha-seca-barriga-com-nozes-da-india-100g-blend-natural-para-sua-rotina-4.webp"
     ],
     "categorySlugs": [
       "emagrecedores",
@@ -1032,10 +1032,10 @@ export const products: Product[] = [
     "unitLabel": "20ml",
     "unitNoun": "frasco",
     "images": [
-      "/products/oleo-de-buchinha-20ml-gotas-para-rinite-e-sinusite-100-natural-1.png",
-      "/products/oleo-de-buchinha-20ml-gotas-para-rinite-e-sinusite-100-natural-2.png",
-      "/products/oleo-de-buchinha-20ml-gotas-para-rinite-e-sinusite-100-natural-3.png",
-      "/products/oleo-de-buchinha-20ml-gotas-para-rinite-e-sinusite-100-natural-4.png"
+      "/products/oleo-de-buchinha-20ml-gotas-para-rinite-e-sinusite-100-natural-1.webp",
+      "/products/oleo-de-buchinha-20ml-gotas-para-rinite-e-sinusite-100-natural-2.webp",
+      "/products/oleo-de-buchinha-20ml-gotas-para-rinite-e-sinusite-100-natural-3.webp",
+      "/products/oleo-de-buchinha-20ml-gotas-para-rinite-e-sinusite-100-natural-4.webp"
     ],
     "categorySlugs": [
       "imunidade",
@@ -1096,9 +1096,9 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/ashwagandha-120-caps-500mg-nutri-life-1.png",
-      "/products/ashwagandha-120-caps-500mg-nutri-life-2.png",
-      "/products/ashwagandha-120-caps-500mg-nutri-life-3.png"
+      "/products/ashwagandha-120-caps-500mg-nutri-life-1.webp",
+      "/products/ashwagandha-120-caps-500mg-nutri-life-2.webp",
+      "/products/ashwagandha-120-caps-500mg-nutri-life-3.webp"
     ],
     "categorySlugs": [
       "calmante",
@@ -1158,10 +1158,10 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/seca-barriga-com-noz-da-india-120-capsulas-500mg-nutri-life-1.png",
-      "/products/seca-barriga-com-noz-da-india-120-capsulas-500mg-nutri-life-2.png",
-      "/products/seca-barriga-com-noz-da-india-120-capsulas-500mg-nutri-life-3.png",
-      "/products/seca-barriga-com-noz-da-india-120-capsulas-500mg-nutri-life-4.png"
+      "/products/seca-barriga-com-noz-da-india-120-capsulas-500mg-nutri-life-1.webp",
+      "/products/seca-barriga-com-noz-da-india-120-capsulas-500mg-nutri-life-2.webp",
+      "/products/seca-barriga-com-noz-da-india-120-capsulas-500mg-nutri-life-3.webp",
+      "/products/seca-barriga-com-noz-da-india-120-capsulas-500mg-nutri-life-4.webp"
     ],
     "categorySlugs": [
       "emagrecedores",
@@ -1224,7 +1224,7 @@ export const products: Product[] = [
     "unitLabel": "Blend natural",
     "unitNoun": "pacote",
     "images": [
-      "/products/cha-verde-120-caps-500mg-nutri-life-1.png"
+      "/products/cha-verde-120-caps-500mg-nutri-life-1.webp"
     ],
     "categorySlugs": [
       "emagrecedores",
@@ -1288,7 +1288,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/ora-com-curcuma-e-creatina-120-capsulas-500mg-nutri-life-1.png"
+      "/products/ora-com-curcuma-e-creatina-120-capsulas-500mg-nutri-life-1.webp"
     ],
     "categorySlugs": [
       "pre-treino",
@@ -1354,10 +1354,10 @@ export const products: Product[] = [
     "unitLabel": "Blend natural · 100g",
     "unitNoun": "pacote",
     "images": [
-      "/products/cha-seca-barriga-premium-com-nozes-da-india-100g-super-cha-mounjaro-1.png",
-      "/products/cha-seca-barriga-premium-com-nozes-da-india-100g-super-cha-mounjaro-2.png",
-      "/products/cha-seca-barriga-premium-com-nozes-da-india-100g-super-cha-mounjaro-3.png",
-      "/products/cha-seca-barriga-premium-com-nozes-da-india-100g-super-cha-mounjaro-4.png"
+      "/products/cha-seca-barriga-premium-com-nozes-da-india-100g-super-cha-mounjaro-1.webp",
+      "/products/cha-seca-barriga-premium-com-nozes-da-india-100g-super-cha-mounjaro-2.webp",
+      "/products/cha-seca-barriga-premium-com-nozes-da-india-100g-super-cha-mounjaro-3.webp",
+      "/products/cha-seca-barriga-premium-com-nozes-da-india-100g-super-cha-mounjaro-4.webp"
     ],
     "categorySlugs": [
       "emagrecedores",
@@ -1421,7 +1421,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/black-monster-120-capsulas-500mg-nutri-life-1.png"
+      "/products/black-monster-120-capsulas-500mg-nutri-life-1.webp"
     ],
     "categorySlugs": [
       "emagrecedores",
@@ -1483,7 +1483,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/valeriana-120-capsulas-500mg-nutri-life-1.png"
+      "/products/valeriana-120-capsulas-500mg-nutri-life-1.webp"
     ],
     "categorySlugs": [
       "calmante",
@@ -1543,7 +1543,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/semente-de-abobora-120-capsulas-500mg-nutri-life-1.png"
+      "/products/semente-de-abobora-120-capsulas-500mg-nutri-life-1.webp"
     ],
     "categorySlugs": [
       "saude-prostata",
@@ -1603,10 +1603,10 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/quebra-pedra-natu-ervas-120-capsulas-500mg-suplemento-natural-1.png",
-      "/products/quebra-pedra-natu-ervas-120-capsulas-500mg-suplemento-natural-2.png",
-      "/products/quebra-pedra-natu-ervas-120-capsulas-500mg-suplemento-natural-3.png",
-      "/products/quebra-pedra-natu-ervas-120-capsulas-500mg-suplemento-natural-4.png"
+      "/products/quebra-pedra-natu-ervas-120-capsulas-500mg-suplemento-natural-1.webp",
+      "/products/quebra-pedra-natu-ervas-120-capsulas-500mg-suplemento-natural-2.webp",
+      "/products/quebra-pedra-natu-ervas-120-capsulas-500mg-suplemento-natural-3.webp",
+      "/products/quebra-pedra-natu-ervas-120-capsulas-500mg-suplemento-natural-4.webp"
     ],
     "categorySlugs": [
       "diuretico",
@@ -1666,7 +1666,7 @@ export const products: Product[] = [
     "capsules": 240,
     "mg": 500,
     "images": [
-      "/products/kit-cha-verde-com-creatina-240-capsulas-500mg-nutri-life-1.png"
+      "/products/kit-cha-verde-com-creatina-240-capsulas-500mg-nutri-life-1.webp"
     ],
     "categorySlugs": [
       "emagrecedores",
@@ -1733,7 +1733,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/saude-da-mulher-120-capsulas-500mg-nutri-life-1.png"
+      "/products/saude-da-mulher-120-capsulas-500mg-nutri-life-1.webp"
     ],
     "categorySlugs": [
       "saude-feminina",
@@ -1793,7 +1793,7 @@ export const products: Product[] = [
     "capsules": 60,
     "mg": 500,
     "images": [
-      "/products/ozem-nutri-60-capsulas-linha-premium-1.png"
+      "/products/ozem-nutri-60-capsulas-linha-premium-1.webp"
     ],
     "categorySlugs": [
       "emagrecedores",
@@ -1857,7 +1857,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/desejus-sexy-120-capsulas-500mg-nutri-life-1.png"
+      "/products/desejus-sexy-120-capsulas-500mg-nutri-life-1.webp"
     ],
     "categorySlugs": [
       "estimulantes-sexuais"
@@ -1917,7 +1917,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/ora-pro-nobis-500-mg-120-capsulas-nutri-life-1.png"
+      "/products/ora-pro-nobis-500-mg-120-capsulas-nutri-life-1.webp"
     ],
     "categorySlugs": [
       "anti-inflamatorio",
@@ -1978,7 +1978,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/seca-barriga-colageno-120-capsulas-500mg-nutri-life-1.png"
+      "/products/seca-barriga-colageno-120-capsulas-500mg-nutri-life-1.webp"
     ],
     "categorySlugs": [
       "emagrecedores",
@@ -2042,7 +2042,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/unha-de-gato-com-sucupira-120-capsulas-500mg-nutri-life-1.png"
+      "/products/unha-de-gato-com-sucupira-120-capsulas-500mg-nutri-life-1.webp"
     ],
     "categorySlugs": [
       "anti-inflamatorio",
@@ -2104,7 +2104,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/detox-120-capsulas-500mg-nutri-life-1.png"
+      "/products/detox-120-capsulas-500mg-nutri-life-1.webp"
     ],
     "categorySlugs": [
       "emagrecedores",
@@ -2167,10 +2167,10 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/amora-miura-isoflavona-120-capsulas-500mg-bem-estar-feminino-natural-1.png",
-      "/products/amora-miura-isoflavona-120-capsulas-500mg-bem-estar-feminino-natural-2.png",
-      "/products/amora-miura-isoflavona-120-capsulas-500mg-bem-estar-feminino-natural-3.png",
-      "/products/amora-miura-isoflavona-120-capsulas-500mg-bem-estar-feminino-natural-4.png"
+      "/products/amora-miura-isoflavona-120-capsulas-500mg-bem-estar-feminino-natural-1.webp",
+      "/products/amora-miura-isoflavona-120-capsulas-500mg-bem-estar-feminino-natural-2.webp",
+      "/products/amora-miura-isoflavona-120-capsulas-500mg-bem-estar-feminino-natural-3.webp",
+      "/products/amora-miura-isoflavona-120-capsulas-500mg-bem-estar-feminino-natural-4.webp"
     ],
     "categorySlugs": [
       "saude-feminina",
@@ -2232,9 +2232,9 @@ export const products: Product[] = [
     "capsules": 60,
     "mg": 500,
     "images": [
-      "/products/vitamina-b12-60cps-linha-premium-nutri-vivus-1.png",
-      "/products/vitamina-b12-60cps-linha-premium-nutri-vivus-2.png",
-      "/products/vitamina-b12-60cps-linha-premium-nutri-vivus-3.png"
+      "/products/vitamina-b12-60cps-linha-premium-nutri-vivus-1.webp",
+      "/products/vitamina-b12-60cps-linha-premium-nutri-vivus-2.webp",
+      "/products/vitamina-b12-60cps-linha-premium-nutri-vivus-3.webp"
     ],
     "categorySlugs": [
       "imunidade",
@@ -2297,7 +2297,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/castanha-da-india-120-capsulas-500mg-nutri-life-1.png"
+      "/products/castanha-da-india-120-capsulas-500mg-nutri-life-1.webp"
     ],
     "categorySlugs": [
       "articulacoes-dores",
@@ -2358,7 +2358,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/uxi-amarelo-com-unha-de-gato-120-capsulas-500mg-nutri-life-1.png"
+      "/products/uxi-amarelo-com-unha-de-gato-120-capsulas-500mg-nutri-life-1.webp"
     ],
     "categorySlugs": [
       "anti-inflamatorio",
@@ -2421,7 +2421,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/calmante-120-capsulas-500mg-nutri-life-1.png"
+      "/products/calmante-120-capsulas-500mg-nutri-life-1.webp"
     ],
     "categorySlugs": [
       "calmante",
@@ -2481,7 +2481,7 @@ export const products: Product[] = [
     "capsules": 60,
     "mg": 1000,
     "images": [
-      "/products/omega-3-1000mg-nutri-vivus-60-capsulas-1.png"
+      "/products/omega-3-1000mg-nutri-vivus-60-capsulas-1.webp"
     ],
     "categorySlugs": [
       "imunidade",
@@ -2544,7 +2544,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/glucomannan-120-capsulas-500mg-nutri-life-1.png"
+      "/products/glucomannan-120-capsulas-500mg-nutri-life-1.webp"
     ],
     "categorySlugs": [
       "emagrecedores",
@@ -2606,7 +2606,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/espinheira-santa-120-capsulas-500mg-nutri-life-1.png"
+      "/products/espinheira-santa-120-capsulas-500mg-nutri-life-1.webp"
     ],
     "categorySlugs": [
       "refluxo-gastrite",
@@ -2665,10 +2665,10 @@ export const products: Product[] = [
     "unitLabel": "Blend natural · 100g",
     "unitNoun": "pacote",
     "images": [
-      "/products/super-cha-monjaro-250g-blend-natural-para-sua-rotina-1.jpg",
-      "/products/super-cha-monjaro-250g-blend-natural-para-sua-rotina-2.jpg",
-      "/products/super-cha-monjaro-250g-blend-natural-para-sua-rotina-3.jpg",
-      "/products/super-cha-monjaro-250g-blend-natural-para-sua-rotina-4.jpg"
+      "/products/super-cha-monjaro-250g-blend-natural-para-sua-rotina-1.webp",
+      "/products/super-cha-monjaro-250g-blend-natural-para-sua-rotina-2.webp",
+      "/products/super-cha-monjaro-250g-blend-natural-para-sua-rotina-3.webp",
+      "/products/super-cha-monjaro-250g-blend-natural-para-sua-rotina-4.webp"
     ],
     "categorySlugs": [
       "emagrecedores",
@@ -2729,7 +2729,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/maca-black-120-capsulas-500mg-nutri-life-1.png"
+      "/products/maca-black-120-capsulas-500mg-nutri-life-1.webp"
     ],
     "categorySlugs": [
       "estimulantes-sexuais"
@@ -2789,7 +2789,7 @@ export const products: Product[] = [
     "capsules": 240,
     "mg": 500,
     "images": [
-      "/products/ashwagandha-moringa-240-caps-500mg-nutri-life-1.png"
+      "/products/ashwagandha-moringa-240-caps-500mg-nutri-life-1.webp"
     ],
     "categorySlugs": [
       "calmante",
@@ -2852,7 +2852,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/melao-de-sao-caetano-120-capsulas-500mg-nutri-life-1.png"
+      "/products/melao-de-sao-caetano-120-capsulas-500mg-nutri-life-1.webp"
     ],
     "categorySlugs": [
       "controle-acucar-diabetes",
@@ -2912,10 +2912,10 @@ export const products: Product[] = [
     "unitLabel": "Blend natural · 100g",
     "unitNoun": "pacote",
     "images": [
-      "/products/cha-seca-barriga-100g-blend-natural-para-sua-rotina-1.jpg",
-      "/products/cha-seca-barriga-100g-blend-natural-para-sua-rotina-2.jpg",
-      "/products/cha-seca-barriga-100g-blend-natural-para-sua-rotina-3.jpg",
-      "/products/cha-seca-barriga-100g-blend-natural-para-sua-rotina-4.jpg"
+      "/products/cha-seca-barriga-100g-blend-natural-para-sua-rotina-1.webp",
+      "/products/cha-seca-barriga-100g-blend-natural-para-sua-rotina-2.webp",
+      "/products/cha-seca-barriga-100g-blend-natural-para-sua-rotina-3.webp",
+      "/products/cha-seca-barriga-100g-blend-natural-para-sua-rotina-4.webp"
     ],
     "categorySlugs": [
       "emagrecedores",
@@ -2976,8 +2976,8 @@ export const products: Product[] = [
     "capsules": 360,
     "mg": 500,
     "images": [
-      "/products/combo-mulher-30-360-cps-500mg-nutri-life-1.png",
-      "/products/combo-mulher-30-360-cps-500mg-nutri-life-2.png"
+      "/products/combo-mulher-30-360-cps-500mg-nutri-life-1.webp",
+      "/products/combo-mulher-30-360-cps-500mg-nutri-life-2.webp"
     ],
     "categorySlugs": [
       "saude-feminina",
@@ -3038,7 +3038,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/combo-creatina-ora-pro-nobis-curcuma-e-gengibre-acido-hialuronico-nutri-life-1.png"
+      "/products/combo-creatina-ora-pro-nobis-curcuma-e-gengibre-acido-hialuronico-nutri-life-1.webp"
     ],
     "categorySlugs": [
       "pre-treino",
@@ -3106,10 +3106,10 @@ export const products: Product[] = [
     "unitLabel": "500ml",
     "unitNoun": "frasco",
     "images": [
-      "/products/babosa-aloe-vera-plus-500ml-zero-acucar-1.png",
-      "/products/babosa-aloe-vera-plus-500ml-zero-acucar-2.png",
-      "/products/babosa-aloe-vera-plus-500ml-zero-acucar-3.png",
-      "/products/babosa-aloe-vera-plus-500ml-zero-acucar-4.png"
+      "/products/babosa-aloe-vera-plus-500ml-zero-acucar-1.webp",
+      "/products/babosa-aloe-vera-plus-500ml-zero-acucar-2.webp",
+      "/products/babosa-aloe-vera-plus-500ml-zero-acucar-3.webp",
+      "/products/babosa-aloe-vera-plus-500ml-zero-acucar-4.webp"
     ],
     "categorySlugs": [
       "refluxo-gastrite",
@@ -3169,7 +3169,7 @@ export const products: Product[] = [
     "capsules": 240,
     "mg": 500,
     "images": [
-      "/products/uxi-amarelo-castanha-da-india-240-capsulas-500mg-nutri-life-1.png"
+      "/products/uxi-amarelo-castanha-da-india-240-capsulas-500mg-nutri-life-1.webp"
     ],
     "categorySlugs": [
       "articulacoes-dores",
@@ -3231,7 +3231,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/ginkgo-biloba-120-capsulas-500mg-nutri-life-1.png"
+      "/products/ginkgo-biloba-120-capsulas-500mg-nutri-life-1.webp"
     ],
     "categorySlugs": [
       "circulacao-sanguinea",
@@ -3291,10 +3291,10 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/curcuma-pimenta-preta-vitamina-c-120-capsulas-500mg-flow-nature-1.png",
-      "/products/curcuma-pimenta-preta-vitamina-c-120-capsulas-500mg-flow-nature-2.png",
-      "/products/curcuma-pimenta-preta-vitamina-c-120-capsulas-500mg-flow-nature-3.png",
-      "/products/curcuma-pimenta-preta-vitamina-c-120-capsulas-500mg-flow-nature-4.png"
+      "/products/curcuma-pimenta-preta-vitamina-c-120-capsulas-500mg-flow-nature-1.webp",
+      "/products/curcuma-pimenta-preta-vitamina-c-120-capsulas-500mg-flow-nature-2.webp",
+      "/products/curcuma-pimenta-preta-vitamina-c-120-capsulas-500mg-flow-nature-3.webp",
+      "/products/curcuma-pimenta-preta-vitamina-c-120-capsulas-500mg-flow-nature-4.webp"
     ],
     "categorySlugs": [
       "anti-inflamatorio",
@@ -3357,7 +3357,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/seca-barriga-com-psyllium-120-capsulas-500mg-nutri-life-1.png"
+      "/products/seca-barriga-com-psyllium-120-capsulas-500mg-nutri-life-1.webp"
     ],
     "categorySlugs": [
       "emagrecedores",
@@ -3421,10 +3421,10 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/curcuma-com-pimenta-preta-120-capsulas-500mg-1.jpg",
-      "/products/curcuma-com-pimenta-preta-120-capsulas-500mg-2.jpg",
-      "/products/curcuma-com-pimenta-preta-120-capsulas-500mg-3.jpg",
-      "/products/curcuma-com-pimenta-preta-120-capsulas-500mg-4.jpg"
+      "/products/curcuma-com-pimenta-preta-120-capsulas-500mg-1.webp",
+      "/products/curcuma-com-pimenta-preta-120-capsulas-500mg-2.webp",
+      "/products/curcuma-com-pimenta-preta-120-capsulas-500mg-3.webp",
+      "/products/curcuma-com-pimenta-preta-120-capsulas-500mg-4.webp"
     ],
     "categorySlugs": [
       "anti-inflamatorio",
@@ -3486,7 +3486,7 @@ export const products: Product[] = [
     "capsules": 360,
     "mg": 500,
     "images": [
-      "/products/kit-colageno-barbatimao-saude-da-mulher-360-capsulas-500mg-nutri-life-1.png"
+      "/products/kit-colageno-barbatimao-saude-da-mulher-360-capsulas-500mg-nutri-life-1.webp"
     ],
     "categorySlugs": [
       "saude-feminina",
@@ -3551,7 +3551,7 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/viagron-120-capsulas-500mg-nutri-life-1.png"
+      "/products/viagron-120-capsulas-500mg-nutri-life-1.webp"
     ],
     "categorySlugs": [
       "estimulantes-sexuais"
@@ -3610,9 +3610,9 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/colageno-hidrolisado-120-cps-500mg-nutri-life-1.png",
-      "/products/colageno-hidrolisado-120-cps-500mg-nutri-life-2.png",
-      "/products/colageno-hidrolisado-120-cps-500mg-nutri-life-3.png"
+      "/products/colageno-hidrolisado-120-cps-500mg-nutri-life-1.webp",
+      "/products/colageno-hidrolisado-120-cps-500mg-nutri-life-2.webp",
+      "/products/colageno-hidrolisado-120-cps-500mg-nutri-life-3.webp"
     ],
     "categorySlugs": [
       "beleza-saude",
@@ -3673,7 +3673,7 @@ export const products: Product[] = [
     "capsules": 60,
     "mg": 500,
     "images": [
-      "/products/creatina-100-pure-60-caps-nutri-vivus-linha-premium-1.png"
+      "/products/creatina-100-pure-60-caps-nutri-vivus-linha-premium-1.webp"
     ],
     "categorySlugs": [
       "pre-treino",
@@ -3737,10 +3737,10 @@ export const products: Product[] = [
     "capsules": 120,
     "mg": 500,
     "images": [
-      "/products/mounjaro-natural-max-life-120-capsulas-500mg-linha-premium-1.jpg",
-      "/products/mounjaro-natural-max-life-120-capsulas-500mg-linha-premium-2.jpg",
-      "/products/mounjaro-natural-max-life-120-capsulas-500mg-linha-premium-3.jpg",
-      "/products/mounjaro-natural-max-life-120-capsulas-500mg-linha-premium-4.jpg"
+      "/products/mounjaro-natural-max-life-120-capsulas-500mg-linha-premium-1.webp",
+      "/products/mounjaro-natural-max-life-120-capsulas-500mg-linha-premium-2.webp",
+      "/products/mounjaro-natural-max-life-120-capsulas-500mg-linha-premium-3.webp",
+      "/products/mounjaro-natural-max-life-120-capsulas-500mg-linha-premium-4.webp"
     ],
     "categorySlugs": [
       "emagrecedores",
