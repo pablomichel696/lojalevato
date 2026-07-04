@@ -120,22 +120,23 @@
   .trustbar{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 16px;margin-bottom:20px;font-size:12px;font-weight:600;color:#e5d9ff}
   .trustbar span{display:inline-flex;align-items:center;gap:6px}
   .trustbar svg{width:14px;height:14px;color:var(--ouro)}
-  .hero-product{position:relative;width:min(330px,78vw);margin:16px auto 6px;animation:float 5.5s ease-in-out infinite}
+  .hero-product{position:relative;width:min(290px,72vw);margin:22px auto 12px;animation:float 5.5s ease-in-out infinite}
   @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
-  .hero-product::before{content:"";position:absolute;left:50%;top:46%;transform:translate(-50%,-50%);width:112%;height:112%;
-    background:radial-gradient(circle,rgba(251,191,36,.30),rgba(233,213,255,.14) 45%,transparent 68%);filter:blur(4px);z-index:0}
-  .hero-product img{position:relative;z-index:1;width:100%;filter:drop-shadow(0 30px 42px rgba(0,0,0,.5))}
-  .hero-product .reflection{position:absolute;left:50%;bottom:-5%;transform:translateX(-50%);width:60%;height:24px;
-    background:radial-gradient(ellipse,rgba(0,0,0,.5),transparent 70%);filter:blur(6px);z-index:0}
-  .seal{position:absolute;z-index:2;top:0;right:2%;width:clamp(74px,21vw,94px);height:clamp(74px,21vw,94px);border-radius:50%;
+  .hero-product::before{content:"";position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:155%;height:155%;
+    background:radial-gradient(circle,rgba(251,191,36,.34),rgba(139,92,246,.30) 40%,transparent 66%);filter:blur(6px);z-index:0}
+  .hero-product>img{position:relative;z-index:1;width:100%;filter:drop-shadow(0 24px 34px rgba(0,0,0,.6))}
+  .seal{position:absolute;z-index:3;top:-4%;right:-6%;width:clamp(72px,22vw,96px);height:clamp(72px,22vw,96px);border-radius:50%;
     display:grid;place-items:center;text-align:center;line-height:1.02;color:#3b0764;
     background:radial-gradient(circle at 34% 28%,#fde68a,var(--ouro) 72%);border:3px solid #fff7e0;
     box-shadow:0 12px 26px -6px rgba(251,191,36,.7);transform:rotate(-8deg)}
-  .seal b{font-family:'Playfair Display',serif;font-size:clamp(19px,5vw,24px);font-weight:800;display:block}
+  .seal b{font-family:'Playfair Display',serif;font-size:clamp(19px,5.2vw,25px);font-weight:800;display:block}
   .seal small{font-size:9px;letter-spacing:.14em;text-transform:uppercase;font-weight:700}
-  .spec{display:inline-flex;align-items:center;gap:9px;margin-top:4px;padding:9px 18px;border-radius:999px;
-    font-size:13px;font-weight:700;color:#fff;background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.2)}
-  .spec em{width:5px;height:5px;border-radius:50%;background:var(--ouro);font-style:normal}
+  .float{position:absolute;z-index:2;display:inline-flex;align-items:center;gap:7px;padding:8px 13px;border-radius:999px;
+    font-size:12.5px;font-weight:700;color:#fff;white-space:nowrap;background:rgba(255,255,255,.13);
+    border:1px solid rgba(255,255,255,.24);backdrop-filter:blur(8px);box-shadow:0 8px 22px -8px rgba(0,0,0,.55)}
+  .float em{width:6px;height:6px;border-radius:50%;background:var(--ouro);font-style:normal;flex-shrink:0}
+  .float.a{top:20%;left:-9%}
+  .float.b{top:60%;right:-9%}
   .socialproof{display:inline-flex;align-items:center;gap:12px;margin-top:20px}
   .avatars{display:flex}
   .avatars span{width:36px;height:36px;border-radius:50%;margin-left:-11px;border:2px solid var(--roxo-900);
@@ -329,10 +330,10 @@
 
     <div class="hero-product">
       <div class="seal"><span><b>100%</b><small>Natural</small></span></div>
-      <img src="img/packshot.webp" width="330" height="330" alt="Embalagem do Super Chá Mounjaro da Levato, 100g" fetchpriority="high">
-      <div class="reflection"></div>
+      <span class="float a"><em></em> Blend de 11 ervas</span>
+      <span class="float b"><em></em> 100g</span>
+      <img src="img/packshot-cut.webp" width="290" height="396" alt="Embalagem do Super Chá Mounjaro da Levato, 100g" fetchpriority="high">
     </div>
-    <div class="center"><span class="spec"><em></em> 100g <em></em> Blend de 11 ervas</span></div>
 
     <div class="center">
       <div class="socialproof">
