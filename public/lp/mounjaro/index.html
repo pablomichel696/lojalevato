@@ -116,6 +116,63 @@
   .rating{display:flex; align-items:center; justify-content:center; gap:8px; margin-top:16px; font-size:14px; color:#efe7ff}
   .stars{color:var(--ouro); letter-spacing:2px}
 
+  /* ===== HERO premium extras ===== */
+  .trustbar{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 16px;margin-bottom:20px;font-size:12px;font-weight:600;color:#e5d9ff}
+  .trustbar span{display:inline-flex;align-items:center;gap:6px}
+  .trustbar svg{width:14px;height:14px;color:var(--ouro)}
+  .hero-product{position:relative;width:min(330px,78vw);margin:16px auto 6px;animation:float 5.5s ease-in-out infinite}
+  @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+  .hero-product::before{content:"";position:absolute;left:50%;top:46%;transform:translate(-50%,-50%);width:112%;height:112%;
+    background:radial-gradient(circle,rgba(251,191,36,.30),rgba(233,213,255,.14) 45%,transparent 68%);filter:blur(4px);z-index:0}
+  .hero-product img{position:relative;z-index:1;width:100%;filter:drop-shadow(0 30px 42px rgba(0,0,0,.5))}
+  .hero-product .reflection{position:absolute;left:50%;bottom:-5%;transform:translateX(-50%);width:60%;height:24px;
+    background:radial-gradient(ellipse,rgba(0,0,0,.5),transparent 70%);filter:blur(6px);z-index:0}
+  .seal{position:absolute;z-index:2;top:0;right:2%;width:clamp(74px,21vw,94px);height:clamp(74px,21vw,94px);border-radius:50%;
+    display:grid;place-items:center;text-align:center;line-height:1.02;color:#3b0764;
+    background:radial-gradient(circle at 34% 28%,#fde68a,var(--ouro) 72%);border:3px solid #fff7e0;
+    box-shadow:0 12px 26px -6px rgba(251,191,36,.7);transform:rotate(-8deg)}
+  .seal b{font-family:'Playfair Display',serif;font-size:clamp(19px,5vw,24px);font-weight:800;display:block}
+  .seal small{font-size:9px;letter-spacing:.14em;text-transform:uppercase;font-weight:700}
+  .spec{display:inline-flex;align-items:center;gap:9px;margin-top:4px;padding:9px 18px;border-radius:999px;
+    font-size:13px;font-weight:700;color:#fff;background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.2)}
+  .spec em{width:5px;height:5px;border-radius:50%;background:var(--ouro);font-style:normal}
+  .socialproof{display:inline-flex;align-items:center;gap:12px;margin-top:20px}
+  .avatars{display:flex}
+  .avatars span{width:36px;height:36px;border-radius:50%;margin-left:-11px;border:2px solid var(--roxo-900);
+    display:grid;place-items:center;font-size:13px;font-weight:700;color:#fff}
+  .avatars span:first-child{margin-left:0}
+  .socialproof .sp-txt{font-size:13px;color:#efe7ff;text-align:left;line-height:1.3}
+  .socialproof .sp-txt b{color:#fff}
+  .hero-offer{display:inline-flex;align-items:center;gap:14px;margin:22px auto 6px;padding:11px 18px;border-radius:16px;
+    background:rgba(255,255,255,.07);border:1px solid rgba(251,191,36,.35)}
+  .hero-offer .off{background:linear-gradient(180deg,#fcd34d,var(--ouro));color:#3b0764;font-weight:800;font-size:14px;padding:6px 11px;border-radius:10px}
+  .hero-offer .pr{text-align:left;color:#fff}
+  .hero-offer .pr .d{font-size:12px;color:#c4b5fd;text-decoration:line-through}
+  .hero-offer .pr .p{font-size:24px;font-weight:800;font-family:'Playfair Display',serif;line-height:1}
+  .hero-note{font-size:12.5px;color:#c9bbef;margin-top:12px;display:flex;align-items:center;justify-content:center;gap:7px}
+  .hero-note svg{width:15px;height:15px;color:var(--ouro)}
+
+  /* ===== OFERTA (CTA final) ===== */
+  .offer{max-width:440px;margin:8px auto 0;text-align:left;background:rgba(255,255,255,.06);
+    border:1px solid rgba(251,191,36,.42);border-radius:24px;padding:22px 22px 24px;backdrop-filter:blur(8px);
+    box-shadow:0 26px 64px -22px rgba(0,0,0,.65)}
+  .offer-head{display:flex;align-items:center;gap:14px;padding-bottom:16px;border-bottom:1px solid rgba(255,255,255,.12)}
+  .offer-head img{width:66px;height:66px;border-radius:14px;background:#fff;object-fit:contain;flex-shrink:0;padding:4px}
+  .offer-head h3{font-family:'Inter',sans-serif;font-size:16px;font-weight:700;color:#fff;margin-bottom:2px}
+  .offer-head p{font-size:12.5px;color:#d6c9ff}
+  .offer-checks{list-style:none;margin:16px 0 6px;padding:0}
+  .offer-checks li{display:flex;align-items:flex-start;gap:9px;padding:5px 0;font-size:14px;color:#efe7ff}
+  .offer-checks svg{width:18px;height:18px;color:#4ade80;flex-shrink:0;margin-top:1px}
+  .offer-price{display:flex;align-items:center;gap:14px;justify-content:center;margin:14px 0 4px}
+  .offer-price .off{background:linear-gradient(180deg,#fcd34d,var(--ouro));color:#3b0764;font-weight:800;font-size:14px;padding:7px 12px;border-radius:10px}
+  .offer-price .col .d{font-size:14px;color:#c4b5fd;text-decoration:line-through}
+  .offer-price .col .p{font-family:'Playfair Display',serif;font-weight:800;font-size:38px;color:#fff;line-height:1}
+  .offer-pay{text-align:center;font-size:12.5px;color:#c9bbef;margin-bottom:16px}
+  .offer .btn{margin-top:2px}
+  .trust-row{display:grid;grid-template-columns:1fr 1fr;gap:12px 14px;margin-top:20px}
+  .trust-item{display:flex;align-items:center;gap:9px;font-size:12.5px;color:#e5d9ff}
+  .trust-item svg{width:20px;height:20px;color:var(--ouro);flex-shrink:0}
+
   /* ============ CARDS / GLASS ============ */
   .glass{
     background:rgba(255,255,255,.72); border:1px solid rgba(124,58,237,.12);
@@ -259,27 +316,49 @@
 <!-- ============================ HERO ============================ -->
 <header class="hero">
   <div class="wrap">
+    <div class="trustbar">
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg> 100% Natural</span>
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg> Blend de 11 ervas</span>
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg> Envio para todo o Brasil</span>
+    </div>
+
     <div class="brandbar"><b>LEVATO</b></div>
-    <span class="eyebrow on-dark">100% Natural • Blend de Ervas</span>
+    <span class="eyebrow on-dark">Diurético • Digestivo • Depurativo</span>
     <h1>Super Chá <span>Mounjaro</span></h1>
-    <p class="sub">O blend de ervas que trabalha pela sua <b>leveza</b> — ação diurética, digestiva e depurativa no seu dia a dia.</p>
+    <p class="sub">Menos retenção, menos inchaço e mais <b>leveza</b> na sua rotina — com a força de um blend natural de ervas.</p>
 
-    <div class="hero-shot">
-      <img src="img/packshot.webp" width="300" height="300" alt="Embalagem do Super Chá Mounjaro da Levato, 100g">
+    <div class="hero-product">
+      <div class="seal"><span><b>100%</b><small>Natural</small></span></div>
+      <img src="img/packshot.webp" width="330" height="330" alt="Embalagem do Super Chá Mounjaro da Levato, 100g" fetchpriority="high">
+      <div class="reflection"></div>
+    </div>
+    <div class="center"><span class="spec"><em></em> 100g <em></em> Blend de 11 ervas</span></div>
+
+    <div class="center">
+      <div class="socialproof">
+        <div class="avatars">
+          <span style="background:linear-gradient(135deg,#7c3aed,#4c1d95)">A</span>
+          <span style="background:linear-gradient(135deg,#db2777,#9d174d)">C</span>
+          <span style="background:linear-gradient(135deg,#0ea5e9,#0369a1)">M</span>
+          <span style="background:linear-gradient(135deg,#16a34a,#166534)">J</span>
+        </div>
+        <div class="sp-txt"><span class="stars">★★★★★</span> <b>4,9/5</b><br>+300 clientes satisfeitos</div>
+      </div>
     </div>
 
-    <div class="hero-badges">
-      <span class="pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg> Diurético</span>
-      <span class="pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg> Digestivo</span>
-      <span class="pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg> Depurativo</span>
+    <div style="margin-top:22px">
+      <!-- LINK_LOJA_WIX: troque o href pela página do produto na sua loja Wix -->
+      <a class="btn pulse" href="https://www.levato.com.br/product-page/super-ch%C3%A1-monjaro-250g-blend-natural-para-sua-rotina" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+        QUERO SENTIR MAIS LEVEZA
+      </a>
     </div>
 
-    <!-- LINK_LOJA_WIX: troque o href pela página do produto na sua loja Wix -->
-    <a class="btn pulse" href="https://www.levato.com.br/product-page/super-ch%C3%A1-monjaro-250g-blend-natural-para-sua-rotina" target="_blank" rel="noopener">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
-      COMPRAR AGORA
-    </a>
-    <div class="rating"><span class="stars">★★★★★</span> 4,9/5 • mais de 300 clientes satisfeitos</div>
+    <div class="hero-offer">
+      <span class="off">-18%</span>
+      <div class="pr"><span class="d">de R$ 85,00</span><br><span class="p">R$ 69,90</span></div>
+    </div>
+    <div class="hero-note"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> Pagamento seguro • Envio para todo o Brasil</div>
   </div>
 </header>
 
@@ -530,19 +609,40 @@
 <!-- ============================ CTA FINAL ============================ -->
 <section class="final">
   <div class="wrap">
-    <h2 class="reveal">Comece hoje a sua rotina de <span>leveza</span></h2>
-    <p class="reveal">Garanta o seu Super Chá Mounjaro e sinta a diferença de um blend natural, todos os dias.</p>
-    <div class="price-box reveal">
-      <!-- PREÇO: preencha os valores (remova a linha "de" se não houver desconto) -->
-      <span class="de">de R$ 85,00</span>
-      <span class="por">R$ 69,90 <small>à vista</small></span>
+    <div class="center reveal"><span class="eyebrow on-dark">Oferta especial</span></div>
+    <h2 class="reveal">Comece hoje sua rotina de <span>leveza</span></h2>
+    <p class="reveal">Agora é a sua vez de sentir a diferença de um blend 100% natural, todos os dias.</p>
+
+    <div class="offer reveal">
+      <div class="offer-head">
+        <img src="img/packshot.webp" alt="Super Chá Mounjaro 100g">
+        <div>
+          <h3>Super Chá Mounjaro</h3>
+          <p>Blend de 11 ervas · 100g · 100% natural</p>
+        </div>
+      </div>
+      <ul class="offer-checks">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg> Auxilia a eliminar o excesso de líquidos</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg> Ajuda a reduzir a sensação de inchaço</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg> Favorece o funcionamento intestinal</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg> Apoia a desintoxicação natural</li>
+      </ul>
+      <div class="offer-price">
+        <span class="off">-18%</span>
+        <div class="col"><span class="d">de R$ 85,00</span><br><span class="p">R$ 69,90</span></div>
+      </div>
+      <div class="offer-pay">à vista no Pix ou no cartão</div>
+      <a class="btn pulse" href="https://www.levato.com.br/product-page/super-ch%C3%A1-monjaro-250g-blend-natural-para-sua-rotina" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+        QUERO O MEU AGORA
+      </a>
+      <div class="trust-row">
+        <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> Compra 100% segura</div>
+        <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M13 2 4 14h6l-1 8 9-12h-6z"/></svg> Pix com aprovação imediata</div>
+        <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 3h15v13H1zM16 8h4l3 3v5h-7z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg> Envio para todo o Brasil</div>
+        <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 3C7 5 5 8 5 12a7 7 0 0 0 14 0c0-2-1-4-2-5 0 2-1 3-3 3 1-4-1-7-3-7Z"/></svg> Produto 100% natural</div>
+      </div>
     </div>
-    <br>
-    <a class="btn pulse reveal" href="https://www.levato.com.br/product-page/super-ch%C3%A1-monjaro-250g-blend-natural-para-sua-rotina" target="_blank" rel="noopener">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
-      COMPRAR AGORA
-    </a>
-    <div class="guarantee reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 4 6v6c0 5 8 8 8 8s8-3 8-8V6Z"/><path d="m9 12 2 2 4-4"/></svg> Compra 100% segura • Envio para todo o Brasil</div>
   </div>
 </section>
 
