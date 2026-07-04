@@ -175,30 +175,41 @@
   .trust-item svg{width:20px;height:20px;color:var(--ouro);flex-shrink:0}
 
   /* ===== KITS ===== */
-  .kit-why{display:flex;flex-wrap:wrap;justify-content:center;gap:10px 18px;margin:18px auto 2px;max-width:540px}
-  .kit-why span{display:inline-flex;align-items:center;gap:7px;font-size:12.5px;font-weight:600;color:#e5d9ff}
+  .kit-why{display:flex;flex-wrap:wrap;justify-content:center;gap:10px 20px;margin:20px auto 2px;max-width:560px}
+  .kit-why span{display:inline-flex;align-items:center;gap:7px;font-size:13px;font-weight:600;color:#e5d9ff}
   .kit-why svg{width:16px;height:16px;color:var(--ouro);flex-shrink:0}
-  .kit-imgs{display:flex;justify-content:center;align-items:flex-end;height:86px;margin-bottom:8px}
-  .kit-imgs img{height:82px;width:auto;margin-left:-32px;filter:drop-shadow(0 8px 11px rgba(0,0,0,.55))}
-  .kit-imgs img:first-child{margin-left:0}
-  .kits{display:grid;gap:18px;max-width:460px;margin:26px auto 0}
+  .kits{display:grid;gap:20px;max-width:470px;margin:30px auto 0}
   @media(min-width:620px){.kits{grid-template-columns:1fr 1fr}}
-  .kit{position:relative;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.16);border-radius:20px;padding:24px 20px 22px;text-align:center}
-  .kit.best{border:1.5px solid var(--ouro);background:rgba(251,191,36,.09);box-shadow:0 22px 54px -22px rgba(251,191,36,.55)}
-  .kit-badge{position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:linear-gradient(180deg,#fcd34d,var(--ouro));
-    color:#3b0764;font-weight:800;font-size:12px;padding:5px 15px;border-radius:999px;white-space:nowrap;box-shadow:0 6px 16px -4px rgba(251,191,36,.6)}
-  .kit-qty{display:inline-flex;align-items:center;gap:9px;margin-bottom:8px}
-  .kit-qty b{font-family:'Playfair Display',serif;font-size:24px;color:#fff;font-weight:800}
-  .kit-off{background:var(--ouro);color:#3b0764;font-weight:800;font-size:12px;padding:4px 9px;border-radius:8px}
-  .kit-total{font-family:'Playfair Display',serif;font-weight:800;font-size:34px;color:#fff;line-height:1.05}
-  .kit-per{font-size:13px;color:#d6c9ff;margin:5px 0 2px}
-  .kit-save{font-size:13px;color:#4ade80;font-weight:700;margin-bottom:16px}
-  .kit-save.none{color:#b7a9de;font-weight:600}
+  .kit{position:relative;background:linear-gradient(180deg,rgba(255,255,255,.08),rgba(255,255,255,.035));
+    border:1px solid rgba(255,255,255,.15);border-radius:22px;padding:26px 22px 24px;text-align:center;
+    transition:transform .2s ease,border-color .2s ease}
+  .kit:hover{transform:translateY(-3px);border-color:rgba(255,255,255,.3)}
+  .kit.best{border:1.5px solid var(--ouro);background:linear-gradient(180deg,rgba(251,191,36,.14),rgba(251,191,36,.045));
+    box-shadow:0 24px 60px -22px rgba(251,191,36,.6)}
+  @media(min-width:620px){.kit.best{transform:scale(1.04)}.kit.best:hover{transform:scale(1.04) translateY(-3px)}}
+  .kit-badge{position:absolute;top:-13px;left:50%;transform:translateX(-50%);background:linear-gradient(180deg,#fde68a,var(--ouro));
+    color:#3b0764;font-weight:800;font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;padding:6px 16px;border-radius:999px;
+    white-space:nowrap;box-shadow:0 8px 18px -4px rgba(251,191,36,.7)}
+  .kit-imgs{display:flex;justify-content:center;align-items:flex-end;height:90px;margin-bottom:12px}
+  .kit-imgs img{height:86px;width:auto;margin-left:-34px;filter:drop-shadow(0 10px 12px rgba(0,0,0,.6))}
+  .kit-imgs img:first-child{margin-left:0}
+  .kit-name{display:flex;align-items:center;justify-content:center;gap:9px;margin-bottom:6px}
+  .kit-name b{font-family:'Playfair Display',serif;font-size:23px;color:#fff;font-weight:700;letter-spacing:.01em}
+  .kit-off{background:linear-gradient(180deg,#fde68a,var(--ouro));color:#3b0764;font-weight:800;font-size:12px;padding:4px 10px;border-radius:8px}
+  .kit-old{font-size:13px;color:#a99fce;text-decoration:line-through;margin-bottom:1px}
+  .kit-total{font-family:'Playfair Display',serif;color:#fff;line-height:1;display:inline-flex;align-items:flex-start;justify-content:center;gap:3px}
+  .kit-total .cur{font-size:17px;font-weight:600;margin-top:7px;color:#e9d5ff}
+  .kit-total .int{font-size:46px;font-weight:800}
+  .kit-total .dec{font-size:20px;font-weight:700;margin-top:6px}
+  .kit-per{font-size:12.5px;color:#c9bbef;margin:8px 0 10px;letter-spacing:.02em}
+  .kit-save{display:inline-block;font-size:12.5px;font-weight:700;color:#a7f3d0;background:rgba(52,211,153,.14);
+    border:1px solid rgba(52,211,153,.34);padding:5px 13px;border-radius:999px;margin-bottom:18px}
   .kit .kit-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;width:100%;
-    background:linear-gradient(180deg,#fcd34d,var(--ouro));color:#3b0764;font-weight:800;font-size:15px;
-    padding:14px 18px;border-radius:999px;box-shadow:0 12px 26px -8px rgba(251,191,36,.5);transition:transform .15s ease}
-  .kit .kit-btn:hover{transform:translateY(-2px)}
-  .kit.plain .kit-btn{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.38);box-shadow:none}
+    background:linear-gradient(180deg,#fde68a,var(--ouro));color:#3b0764;font-weight:800;font-size:15px;letter-spacing:.01em;
+    padding:15px 18px;border-radius:999px;box-shadow:0 14px 30px -8px rgba(251,191,36,.55);transition:transform .15s ease,box-shadow .15s ease}
+  .kit .kit-btn:hover{transform:translateY(-2px);box-shadow:0 18px 38px -8px rgba(251,191,36,.7)}
+  .kit.plain .kit-btn{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.4);box-shadow:none}
+  .kit.plain .kit-btn:hover{background:rgba(255,255,255,.08);box-shadow:none}
 
   /* ============ CARDS / GLASS ============ */
   .glass{
@@ -637,49 +648,53 @@
 <section class="final">
   <div class="wrap">
     <div class="center reveal"><span class="eyebrow on-dark">Escolha seu kit</span></div>
-    <h2 class="reveal">Quanto mais sacos, <span>mais economia</span></h2>
-    <p class="reveal">Kits com desconto progressivo. Muitos clientes começam com 3 sacos para uma rotina completa, sem risco de faltar.</p>
+    <h2 class="reveal">Quanto mais leva, <span>mais você economiza</span></h2>
+    <p class="reveal">Kits com desconto progressivo. Muitos clientes começam com 3 unidades para uma rotina completa, sem risco de faltar.</p>
 
     <div class="kit-why reveal">
-      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg> Mais economia por saco</span>
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg> Mais economia por unidade</span>
       <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg> Rotina sem interrupção</span>
-      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg> Um frete só para vários sacos</span>
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg> Um frete só para todas as unidades</span>
     </div>
 
     <div class="kits reveal">
       <div class="kit plain">
         <div class="kit-imgs"><img src="img/packshot-cut.webp" alt="" aria-hidden="true"></div>
-        <div class="kit-qty"><b>1 saco</b></div>
-        <div class="kit-total">R$ 69,90</div>
-        <div class="kit-per">R$ 69,90 por saco</div>
-        <div class="kit-save none">Preço padrão</div>
-        <a class="kit-btn" href="https://www.levato.com.br/product-page/super-ch%C3%A1-monjaro-250g-blend-natural-para-sua-rotina" target="_blank" rel="noopener">Comprar 1 saco</a>
+        <div class="kit-name"><b>1 Unidade</b> <span class="kit-off">-18%</span></div>
+        <div class="kit-old">de R$ 85,00</div>
+        <div class="kit-total"><span class="cur">R$</span><span class="int">69</span><span class="dec">,90</span></div>
+        <div class="kit-per">R$ 69,90 por unidade</div>
+        <div class="kit-save">Economia de R$ 15,10</div>
+        <a class="kit-btn" href="https://www.levato.com.br/product-page/super-ch%C3%A1-monjaro-250g-blend-natural-para-sua-rotina" target="_blank" rel="noopener">Quero 1 unidade</a>
       </div>
       <div class="kit plain">
         <div class="kit-imgs"><img src="img/packshot-cut.webp" alt="" aria-hidden="true"><img src="img/packshot-cut.webp" alt="" aria-hidden="true"></div>
-        <div class="kit-qty"><b>2 sacos</b> <span class="kit-off">-7%</span></div>
-        <div class="kit-total">R$ 129,90</div>
-        <div class="kit-per">R$ 64,95 por saco</div>
-        <div class="kit-save">Você economiza R$ 9,90</div>
-        <a class="kit-btn" href="#LINK_KIT_2#" target="_blank" rel="noopener">Quero 2 sacos</a>
+        <div class="kit-name"><b>2 Unidades</b> <span class="kit-off">-24%</span></div>
+        <div class="kit-old">de R$ 170,00</div>
+        <div class="kit-total"><span class="cur">R$</span><span class="int">129</span><span class="dec">,90</span></div>
+        <div class="kit-per">R$ 64,95 por unidade</div>
+        <div class="kit-save">Economia de R$ 40,10</div>
+        <a class="kit-btn" href="#LINK_KIT_2#" target="_blank" rel="noopener">Quero 2 unidades</a>
       </div>
       <div class="kit best">
         <span class="kit-badge">Mais vendido</span>
         <div class="kit-imgs"><img src="img/packshot-cut.webp" alt="" aria-hidden="true"><img src="img/packshot-cut.webp" alt="" aria-hidden="true"><img src="img/packshot-cut.webp" alt="" aria-hidden="true"></div>
-        <div class="kit-qty"><b>3 sacos</b> <span class="kit-off">-14%</span></div>
-        <div class="kit-total">R$ 179,90</div>
-        <div class="kit-per">R$ 59,97 por saco</div>
-        <div class="kit-save">Você economiza R$ 29,80</div>
-        <a class="kit-btn" href="#LINK_KIT_3#" target="_blank" rel="noopener">Quero 3 sacos</a>
+        <div class="kit-name"><b>3 Unidades</b> <span class="kit-off">-29%</span></div>
+        <div class="kit-old">de R$ 255,00</div>
+        <div class="kit-total"><span class="cur">R$</span><span class="int">179</span><span class="dec">,90</span></div>
+        <div class="kit-per">R$ 59,97 por unidade</div>
+        <div class="kit-save">Economia de R$ 75,10</div>
+        <a class="kit-btn" href="#LINK_KIT_3#" target="_blank" rel="noopener">Quero 3 unidades</a>
       </div>
       <div class="kit">
         <span class="kit-badge">Melhor preço</span>
         <div class="kit-imgs"><img src="img/packshot-cut.webp" alt="" aria-hidden="true"><img src="img/packshot-cut.webp" alt="" aria-hidden="true"><img src="img/packshot-cut.webp" alt="" aria-hidden="true"><img src="img/packshot-cut.webp" alt="" aria-hidden="true"><img src="img/packshot-cut.webp" alt="" aria-hidden="true"></div>
-        <div class="kit-qty"><b>5 sacos</b> <span class="kit-off">-23%</span></div>
-        <div class="kit-total">R$ 269,90</div>
-        <div class="kit-per">R$ 53,98 por saco</div>
-        <div class="kit-save">Você economiza R$ 79,60</div>
-        <a class="kit-btn" href="#LINK_KIT_5#" target="_blank" rel="noopener">Quero 5 sacos</a>
+        <div class="kit-name"><b>5 Unidades</b> <span class="kit-off">-36%</span></div>
+        <div class="kit-old">de R$ 425,00</div>
+        <div class="kit-total"><span class="cur">R$</span><span class="int">269</span><span class="dec">,90</span></div>
+        <div class="kit-per">R$ 53,98 por unidade</div>
+        <div class="kit-save">Economia de R$ 155,10</div>
+        <a class="kit-btn" href="#LINK_KIT_5#" target="_blank" rel="noopener">Quero 5 unidades</a>
       </div>
     </div>
 
