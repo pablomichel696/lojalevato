@@ -174,6 +174,29 @@
   .trust-item{display:flex;align-items:center;gap:9px;font-size:12.5px;color:#e5d9ff}
   .trust-item svg{width:20px;height:20px;color:var(--ouro);flex-shrink:0}
 
+  /* ===== KITS ===== */
+  .kit-why{display:flex;flex-wrap:wrap;justify-content:center;gap:10px 18px;margin:18px auto 2px;max-width:540px}
+  .kit-why span{display:inline-flex;align-items:center;gap:7px;font-size:12.5px;font-weight:600;color:#e5d9ff}
+  .kit-why svg{width:16px;height:16px;color:var(--ouro);flex-shrink:0}
+  .kits{display:grid;gap:18px;max-width:460px;margin:26px auto 0}
+  @media(min-width:620px){.kits{grid-template-columns:1fr 1fr}}
+  .kit{position:relative;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.16);border-radius:20px;padding:24px 20px 22px;text-align:center}
+  .kit.best{border:1.5px solid var(--ouro);background:rgba(251,191,36,.09);box-shadow:0 22px 54px -22px rgba(251,191,36,.55)}
+  .kit-badge{position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:linear-gradient(180deg,#fcd34d,var(--ouro));
+    color:#3b0764;font-weight:800;font-size:12px;padding:5px 15px;border-radius:999px;white-space:nowrap;box-shadow:0 6px 16px -4px rgba(251,191,36,.6)}
+  .kit-qty{display:inline-flex;align-items:center;gap:9px;margin-bottom:8px}
+  .kit-qty b{font-family:'Playfair Display',serif;font-size:24px;color:#fff;font-weight:800}
+  .kit-off{background:var(--ouro);color:#3b0764;font-weight:800;font-size:12px;padding:4px 9px;border-radius:8px}
+  .kit-total{font-family:'Playfair Display',serif;font-weight:800;font-size:34px;color:#fff;line-height:1.05}
+  .kit-per{font-size:13px;color:#d6c9ff;margin:5px 0 2px}
+  .kit-save{font-size:13px;color:#4ade80;font-weight:700;margin-bottom:16px}
+  .kit-save.none{color:#b7a9de;font-weight:600}
+  .kit .kit-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;width:100%;
+    background:linear-gradient(180deg,#fcd34d,var(--ouro));color:#3b0764;font-weight:800;font-size:15px;
+    padding:14px 18px;border-radius:999px;box-shadow:0 12px 26px -8px rgba(251,191,36,.5);transition:transform .15s ease}
+  .kit .kit-btn:hover{transform:translateY(-2px)}
+  .kit.plain .kit-btn{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.38);box-shadow:none}
+
   /* ============ CARDS / GLASS ============ */
   .glass{
     background:rgba(255,255,255,.72); border:1px solid rgba(124,58,237,.12);
@@ -610,39 +633,56 @@
 <!-- ============================ CTA FINAL ============================ -->
 <section class="final">
   <div class="wrap">
-    <div class="center reveal"><span class="eyebrow on-dark">Oferta especial</span></div>
-    <h2 class="reveal">Comece hoje sua rotina de <span>leveza</span></h2>
-    <p class="reveal">Agora é a sua vez de sentir a diferença de um blend 100% natural, todos os dias.</p>
+    <div class="center reveal"><span class="eyebrow on-dark">Escolha seu kit</span></div>
+    <h2 class="reveal">Quanto mais potes, <span>mais economia</span></h2>
+    <p class="reveal">Kits com desconto progressivo. Muitos clientes começam com 3 potes para uma rotina completa, sem risco de faltar.</p>
 
-    <div class="offer reveal">
-      <div class="offer-head">
-        <img src="img/packshot-cut.webp" alt="Super Chá Mounjaro 100g">
-        <div>
-          <h3>Super Chá Mounjaro</h3>
-          <p>Blend de 11 ervas · 100g · 100% natural</p>
-        </div>
+    <div class="kit-why reveal">
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg> Mais economia por pote</span>
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg> Rotina sem interrupção</span>
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg> Um frete só para vários potes</span>
+    </div>
+
+    <div class="kits reveal">
+      <div class="kit plain">
+        <div class="kit-qty"><b>1 pote</b></div>
+        <div class="kit-total">R$ 69,90</div>
+        <div class="kit-per">R$ 69,90 por pote</div>
+        <div class="kit-save none">Preço padrão</div>
+        <a class="kit-btn" href="https://www.levato.com.br/product-page/super-ch%C3%A1-monjaro-250g-blend-natural-para-sua-rotina" target="_blank" rel="noopener">Comprar 1 pote</a>
       </div>
-      <ul class="offer-checks">
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg> Auxilia a eliminar o excesso de líquidos</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg> Ajuda a reduzir a sensação de inchaço</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg> Favorece o funcionamento intestinal</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg> Apoia a desintoxicação natural</li>
-      </ul>
-      <div class="offer-price">
-        <span class="off">-18%</span>
-        <div class="col"><span class="d">de R$ 85,00</span><br><span class="p">R$ 69,90</span></div>
+      <div class="kit plain">
+        <div class="kit-qty"><b>2 potes</b> <span class="kit-off">-7%</span></div>
+        <div class="kit-total">R$ 129,90</div>
+        <div class="kit-per">R$ 64,95 por pote</div>
+        <div class="kit-save">Você economiza R$ 9,90</div>
+        <a class="kit-btn" href="#LINK_KIT_2#" target="_blank" rel="noopener">Quero 2 potes</a>
       </div>
-      <div class="offer-pay">à vista no Pix ou no cartão</div>
-      <a class="btn pulse" href="https://www.levato.com.br/product-page/super-ch%C3%A1-monjaro-250g-blend-natural-para-sua-rotina" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
-        QUERO O MEU AGORA
-      </a>
-      <div class="trust-row">
-        <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> Compra 100% segura</div>
-        <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M13 2 4 14h6l-1 8 9-12h-6z"/></svg> Pix com aprovação imediata</div>
-        <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 3h15v13H1zM16 8h4l3 3v5h-7z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg> Envio para todo o Brasil</div>
-        <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 3C7 5 5 8 5 12a7 7 0 0 0 14 0c0-2-1-4-2-5 0 2-1 3-3 3 1-4-1-7-3-7Z"/></svg> Produto 100% natural</div>
+      <div class="kit best">
+        <span class="kit-badge">Mais vendido</span>
+        <div class="kit-qty"><b>3 potes</b> <span class="kit-off">-14%</span></div>
+        <div class="kit-total">R$ 179,90</div>
+        <div class="kit-per">R$ 59,97 por pote</div>
+        <div class="kit-save">Você economiza R$ 29,80</div>
+        <a class="kit-btn" href="#LINK_KIT_3#" target="_blank" rel="noopener">Quero 3 potes</a>
       </div>
+      <div class="kit">
+        <span class="kit-badge">Melhor preço</span>
+        <div class="kit-qty"><b>5 potes</b> <span class="kit-off">-23%</span></div>
+        <div class="kit-total">R$ 269,90</div>
+        <div class="kit-per">R$ 53,98 por pote</div>
+        <div class="kit-save">Você economiza R$ 79,60</div>
+        <a class="kit-btn" href="#LINK_KIT_5#" target="_blank" rel="noopener">Quero 5 potes</a>
+      </div>
+    </div>
+
+    <div class="offer-pay reveal" style="margin-top:20px">Pagamento à vista no Pix ou no cartão</div>
+
+    <div class="trust-row reveal" style="max-width:440px;margin:20px auto 0">
+      <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> Compra 100% segura</div>
+      <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M13 2 4 14h6l-1 8 9-12h-6z"/></svg> Pix com aprovação imediata</div>
+      <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 3h15v13H1zM16 8h4l3 3v5h-7z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg> Envio para todo o Brasil</div>
+      <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 3C7 5 5 8 5 12a7 7 0 0 0 14 0c0-2-1-4-2-5 0 2-1 3-3 3 1-4-1-7-3-7Z"/></svg> Produto 100% natural</div>
     </div>
   </div>
 </section>
